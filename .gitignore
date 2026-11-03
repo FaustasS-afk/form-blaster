@@ -1,0 +1,54 @@
+# ── data / runtime ──────────────────────────────────────────────
+data/
+!data/.gitkeep
+
+*.db
+*.db-shm
+*.db-wal
+*.sqlite3
+
+# ── lead outputs (large, regenerable) ───────────────────────────
+# keep leads_master.csv? it is ~1.7MB, useful to ship. Keep it.
+# ignore the intermediate scratch files
+leads.txt
+leads_all.csv
+leads_atlas.csv
+leads_atlas.txt
+leads_sites.csv
+test_leads.txt
+test_sites.csv
+test_urls.txt
+
+# ── run artefacts ───────────────────────────────────────────────
+*.txt
+!requirements.txt
+!leads_independent.txt
+!leads_master.txt
+!leads_chains.txt
+batch_report.csv
+results.csv
+bd_ok_*.html
+
+# ── python ──────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# ── scratch scripts (start with _) ──────────────────────────────
+_*.py
+
+# ── secrets ─────────────────────────────────────────────────────
+.env
+*.env
+!.env.example
+
+# ── editors / os ────────────────────────────────────────────────
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
