@@ -1,4 +1,8 @@
-﻿httpx>=0.27
+﻿# standalone CLI engine (form submission + lead harvest)
+httpx>=0.27
 beautifulsoup4>=4.12
 lxml>=5.0
 playwright>=1.42
+
+# the PyQt6 desktop app in /app adds PyQt6 - see app/requirements.txt
+# PyQt6>=6.6.0

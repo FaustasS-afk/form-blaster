@@ -1,0 +1,58 @@
+{
+  "_comment": "=== YOUR DETAILS — edit these before running ===",
+
+  "name": "Daniel",
+  "email": "info@easylistings.co.uk",
+  "phone": "+447399643492",
+  "company": "Easy Listings",
+  "website": "www.easylistings.co.uk",
+
+  "subject": "Getting your stock online",
+
+  "_message_notes": "Daniel's own copy. No spintax - he wants it to read as a fixed written message. Note: 'Hi [Name]' is literal brackets, the form has no per-site name substitution yet.",
+
+  "message": "Hi [Name],\n\nWe've built Easy Listings to take the work out of getting stock online. It's designed to help dealers list up to 10 times more stock in the same amount of time.\n\nYou can try it free, with no payment required, and watch the demo videos here: https://www.easylistings.co.uk\n\nI thought it might be useful for your business. If you have any questions, just let me know.\n\nBest,\nDaniel\nThe Easy Listings team",
+
+  "spintax": false,
+
+  "_short_message_notes": "For forms with a small textarea. Same psychology, half the length. Swap it into 'message' if you want it as the default.",
+  "short_message": "{Hi|Hello} - quick question, slightly awkward one.\n\nMost antique and jewellery dealers list by hand. The real cost isn't the time - it's the pieces that should have sold in a week and sat there for three months instead.\n\nWe fix that side of it. You keep sourcing, you keep selling.\n\nHow many things are on your shelf right now that should already be gone?\n\nDaniel - Easy Listings\nwww.easylistings.co.uk",
+
+  "_routing": "=== how forms are found ===",
+
+  "_contact_paths_notes": "CMS-specific paths matter. Shopify uses /pages/contact (and /contact 404s). WordPress uses /contact-us/ and /pages/. Squarespace uses /contact-1 or /contact. Try the platform paths, not just the generic ones.",
+
+  "contact_paths": [
+    "/contact", "/contact-us", "/pages/contact", "/pages/contact-us",
+    "/contactus", "/contacts", "/contact-1", "/contact-us-1",
+    "/get-in-touch", "/getintouch", "/reach-us", "/reach-out",
+    "/enquiry", "/enquiries", "/enquiry-form",
+    "/about", "/about-us", "/pages/about", "/support", "/help",
+    "/connect", "/say-hello", "/hello"
+  ],
+
+  "crawl_homepage": true,
+  "homepage_link_keywords": [
+    "contact", "get in touch", "enquir", "inquir", "reach us",
+    "reach out", "say hello", "talk to", "support", "about us"
+  ],
+
+  "_engine": "=== behaviour ===",
+
+  "concurrency": 8,
+  "request_timeout": 20,
+  "browser_timeout": 25000,
+  "delay_between_sites_min": 0.5,
+  "delay_between_sites_max": 2.5,
+
+  "use_browser_fallback": true,
+  "browser_only_if_http_fails": true,
+
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+
+  "_safety": "=== guardrails ===",
+
+  "skip_newsletter_only": true,
+  "max_form_fields": 12,
+  "dry_run": false
+}
