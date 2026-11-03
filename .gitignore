@@ -1,5 +1,9 @@
 # ── data / runtime ──────────────────────────────────────────────
-data/
+# NOTE: bare `data/` matches at ANY depth, so it used to swallow the app's own
+# source package `app/data/` (db.py + __init__.py) along with the runtime DB.
+# That is why app/data/db.py was missing from the repo and main.py died with
+# "No module named 'data'". Anchor the runtime dir to the repo root only.
+/data/
 !data/.gitkeep
 
 *.db
@@ -59,4 +63,15 @@ app/outreach/shots/
 app/outreach/__pycache__/
 app/**/__pycache__/
 app/_*.py
+
+# ── app/data is SOURCE, not runtime ─────────────────────────────
+# Must come LAST: the rules above (`data/`, `_*.py`, `*.db`) all match inside
+# app/data/ and gitignore is last-match-wins. Without these negations,
+# app/data/__init__.py is killed by `_*.py` and app/data/db.py by `data/`,
+# which is how the app shipped broken.
+!app/data/
+!app/data/*.py
+app/data/*.db
+app/data/*.db-shm
+app/data/*.db-wal
 
