@@ -90,8 +90,21 @@ def init_db():
 
 
 def load_config():
-    with open(CONFIG_PATH, "r", encoding="utf-8") as f:
+    """
+    Read the blaster config.
+
+    utf-8-sig, not utf-8: PowerShell's Set-Content writes a BOM by default and
+    json.load chokes on it with 'Unexpected UTF-8 BOM'. utf-8-sig strips it when
+    present and behaves identically when absent.
+    """
+    with open(CONFIG_PATH, "r", encoding="utf-8-sig") as f:
         return json.load(f)
+
+
+def save_config(cfg):
+    """Write the config back without a BOM."""
+    with open(CONFIG_PATH, "w", encoding="utf-8") as f:
+        json.dump(cfg, f, indent=2, ensure_ascii=False)
 
 
 def _now():

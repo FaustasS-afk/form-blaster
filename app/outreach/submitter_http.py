@@ -1,4 +1,4 @@
-﻿"""
+"""
 core/submitter_http.py ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Tier 1: fill and POST a form without a browser.
 
 Fast path. Works whenever the form is server-rendered and does not need JS.
@@ -186,7 +186,13 @@ def attempt(url, cfg, client):
 
     for cand in formdetect.candidate_urls(lambda u: fetch(u)[:2], url, cfg):
         tried_pages += 1
-        if tried_pages > 26:
+        # Lower cap: most real contact pages sit in the first handful of paths.
+        # 26 requests on a dead site was the main reason a run crawled.
+        if tried_pages > int(cfg.get("max_candidate_pages", 12)):
+            break
+        # Early exit: once we have a good form (score >= 8) and a few pages
+        # tried, stop looking. Keeps the common case fast.
+        if best_cand is not None and best_cand[0] >= 8 and tried_pages >= 5:
             break
         try:
             final_url, html, resp = fetch(cand)
