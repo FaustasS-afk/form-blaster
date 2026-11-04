@@ -12,6 +12,7 @@ import httpx
 from bs4 import BeautifulSoup
 
 from core import fieldmap, formdetect
+from core.soup import safe_parse as _safe_parse
 
 SUCCESS_WORDS = re.compile(
     r"(thank|thanks|cheers|success|sent|received|we'?ll be in touch|"
@@ -98,16 +99,43 @@ def _csrf_inputs(soup):
 
 
 def _client(cfg):
-    return httpx.Client(
-        follow_redirects=True,
-        timeout=cfg.get("request_timeout", 20),
-        headers={
-            "User-Agent": cfg.get("user_agent", "Mozilla/5.0"),
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-            "Accept-Language": "en-GB,en;q=0.9",
-        },
-        verify=False,
-    )
+    """
+    HTTP client for Tier 1.
+
+    Prefers curl_cffi, which impersonates Chrome's TLS/JA3 fingerprint. This
+    matters enormously: a large slice of small-dealer sites sit behind
+    Cloudflare's "Verifying your connection / Enable JavaScript" interstitial
+    and answered plain httpx with a 429/403 challenge page FOREVER. curl_cffi
+    returns the real 200 page at the same speed (~0.5s) with no browser.
+
+    Falls back to httpx if curl_cffi is unavailable.
+    """
+    headers = {
+        "User-Agent": cfg.get("user_agent", "Mozilla/5.0"),
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-GB,en;q=0.9",
+    }
+    timeout = cfg.get("request_timeout", 20)
+
+    try:
+        from curl_cffi import requests as _creq
+        return _creq.Session(
+            impersonate=cfg.get("impersonate", "chrome"),
+            headers=headers,
+            timeout=timeout,
+            verify=False,
+            allow_redirects=True,
+        )
+    except Exception:
+        return httpx.Client(
+            follow_redirects=True,
+            timeout=httpx.Timeout(timeout, connect=min(6, timeout)),
+            limits=httpx.Limits(max_connections=64,
+                                max_keepalive_connections=32,
+                                keepalive_expiry=30),
+            headers=headers,
+            verify=False,
+        )
 
 
 def detect_captcha(html):
@@ -161,17 +189,25 @@ def attempt(url, cfg, client):
     """
     from core import db
 
+    cache = {}   # per-site: the homepage was fetched twice (crawl + scan)
+
     def fetch(u):
+        if u in cache:
+            return cache[u]
         try:
             r = client.get(u)
             ct = r.headers.get("content-type", "")
             if "html" not in ct.lower():
-                return str(r.url), None, r
-            return str(r.url), r.text, r
+                out = (str(r.url), None, r)
+            else:
+                out = (str(r.url), r.text, r)
         except Exception:
-            return u, None, None
+            out = (u, None, None)
+        cache[u] = out
+        return out
 
     tried_pages = 0
+    dead_streak = 0
     best_attempt = None   # remember the most informative outcome
     forms_seen = 0
     last_err = ""
@@ -186,13 +222,23 @@ def attempt(url, cfg, client):
 
     for cand in formdetect.candidate_urls(lambda u: fetch(u)[:2], url, cfg):
         tried_pages += 1
-        if tried_pages > 26:
+        if tried_pages > cfg.get("max_candidate_pages", 12):
             break
         try:
             final_url, html, resp = fetch(cand)
         except Exception as e:
             last_err = f"{type(e).__name__}: {e}"
             continue
+        # Dead or hanging host: every further guess just waits out the full
+        # timeout (measured 144s/site). Stop if the homepage, or two pages in
+        # a row, got no response at all.
+        if resp is None:
+            dead_streak += 1
+            if tried_pages == 1 or dead_streak >= 2:
+                last_err = "site not responding"
+                break
+            continue
+        dead_streak = 0
         if not html:
             continue
         final_url = str(final_url)
@@ -215,7 +261,9 @@ def attempt(url, cfg, client):
                 continue
 
         try:
-            soup = BeautifulSoup(html, "lxml")
+            soup = _safe_parse(html)
+            if soup is None:
+                continue
             found = formdetect.find_best_form(soup, final_url, cfg)
         except Exception as e:
             last_err = f"scan: {type(e).__name__}: {e}"
@@ -236,7 +284,9 @@ def attempt(url, cfg, client):
                     if not fh:
                         continue
                     try:
-                        fsoup = BeautifulSoup(fh, "lxml")
+                        fsoup = _safe_parse(fh)
+                        if fsoup is None:
+                            continue
                         ffound = formdetect.find_best_form(fsoup, target, cfg)
                     except Exception:
                         continue
@@ -277,7 +327,19 @@ def attempt(url, cfg, client):
             best_cand = (rank, cand, final_url, form, inputs, soup, html,
                          mapping, resp)
 
+        # ── Early exit ──────────────────────────────────────────────────────
+        # Measured: a site cost 27 serial requests and 9.5s, and the form was
+        # usually found at request 6 — the other 21 were wasted 404-guessing.
+        # If we have a strong form on a live 200 page, no later candidate is
+        # realistically going to beat it. Stop.
+        if ok_page and rank >= cfg.get("scan_good_enough", 15):
+            break
+
     # â”€â”€ Phase 2: submit once to the best form found â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+    if best_cand is not None and cfg.get("scan_only"):
+        return dict(ok=True, status="form_found", tier="http",
+                    form_page=best_cand[2], detail=f"score={best_cand[0]}")
+
     if best_cand is not None:
         try:
             score, cand, final_url, form, inputs, soup, html, mapping, resp = best_cand

@@ -10,6 +10,8 @@ from urllib.parse import urljoin, urlparse
 
 from bs4 import BeautifulSoup
 
+from core.soup import parse as _parse, safe_parse as _safe_parse
+
 SKIP_HREF = re.compile(
     r"(\.pdf|\.jpg|\.png|\.zip|mailto:|tel:|javascript:|#|"
     r"facebook|instagram|twitter|linkedin|youtube|tiktok|pinterest)",
@@ -21,6 +23,12 @@ CONTACT_HINT = re.compile(
     r"support|help|connect|about)",
     re.I,
 )
+
+
+def _site_key(netloc):
+    """Hostname with a leading 'www.' removed, for tolerant same-site compares."""
+    n = (netloc or "").lower()
+    return n[4:] if n.startswith("www.") else n
 
 
 def _inputs_from_form(form, soup):
@@ -267,18 +275,16 @@ def candidate_urls(fetch, start_url, cfg):
         return None
 
     # The URL itself first — the user may have given the contact page directly
-    if CONTACT_HINT.search(parsed.path or "") or parsed.path in ("", "/"):
+    # Always first: a probed lead points straight at its form page, whatever
+    # that page's path is called.
+    if True:
         r = emit(start_url)
         if r:
             yield r
 
-    # Then common contact paths
-    for p in cfg.get("contact_paths", []):
-        r = emit(urljoin(root, p))
-        if r:
-            yield r
-
-    # Then homepage link crawl
+    # Then homepage link crawl. Done BEFORE guessing paths: the homepage is
+    # already fetched (cached by the caller), and its real contact links exist,
+    # whereas most guessed paths are 404 round-trips.
     if cfg.get("crawl_homepage"):
         home = root + "/"
         seeds = [start_url]
@@ -290,7 +296,12 @@ def candidate_urls(fetch, start_url, cfg):
             final, html = fetch(seed)
             if not html:
                 continue
-            soup = BeautifulSoup(html, "lxml")
+            # safe_parse: this generator is consumed by the caller's for-loop,
+            # so an exception here escapes their try/except and aborts the
+            # whole site. Never let a parse failure propagate.
+            soup = _safe_parse(html)
+            if soup is None:
+                continue
             kws = cfg.get("homepage_link_keywords", [])
 
             for a in soup.find_all("a", href=True):
@@ -299,7 +310,11 @@ def candidate_urls(fetch, start_url, cfg):
                     continue
                 text = a.get_text(" ", strip=True).lower()
                 full = urljoin(final or root, href)
-                if urlparse(full).netloc != parsed.netloc:
+                # Same-site check that tolerates a www/non-www mismatch.
+                # Sites link to `domain.com/pages/contact` from `www.domain.com`
+                # constantly; a strict netloc compare silently threw those away,
+                # which is exactly the page holding the real contact form.
+                if _site_key(urlparse(full).netloc) != _site_key(parsed.netloc):
                     continue
                 # Strong signal: the link text or href says contact/enquiry
                 if any(k in text for k in kws) or CONTACT_HINT.search(href):
@@ -314,6 +329,22 @@ def candidate_urls(fetch, start_url, cfg):
             r = emit(u)
             if r:
                 yield r
+
+    # Then common contact paths, most-likely-first (fallback when the
+    # homepage links did not lead to a form).
+    # Measured: the configured order made a typical Shopify site waste 4
+    # guaranteed 404s (/contact, /contact-us, /contactus, /contacts) before
+    # reaching the /pages/contact that actually works. Every 404 costs a
+    # round-trip. Reorder so the high-hit-rate platform paths come first.
+    paths = cfg.get("contact_paths", [])
+    priority = ["/pages/contact", "/pages/contact-us", "/contact",
+                "/contact-us", "/pages/contact-us-1", "/contact-1"]
+    ordered = [p for p in priority if p in paths]
+    ordered += [p for p in paths if p not in ordered]
+    for p in ordered:
+        r = emit(urljoin(root, p))
+        if r:
+            yield r
 
     # Finally: common second-level paths under a contact section
     for extra in ("/contact/contact-us", "/contact-us/form", "/contact/form",
