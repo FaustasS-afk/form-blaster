@@ -1,0 +1,11 @@
+======================================================================
+BLAST START — 4198 pending leads, 8 threads
+from: Daniel <info@easylistings.co.uk>
+db  : C:\Users\SellJ\Desktop\OUTREACH el\form-blaster\data\formblaster.db
+
+[    1/4198] BLK  blocked       www.tytongames.com                                   http429 block page (no form served)
+[    2/4198] BLK  blocked       www.twofairiesandadwarf.com                          http429 block page (no form served)
+[    3/4198] BLK  blocked       www.unpackedliving.com                               waf block page (no form served)
+[    4/4198] BLK  blocked       www.unitedstatesrarecoin.com                         waf block page (no form served)
+[    5/4198] BLK  blocked       www.thevaultcollective.com                           waf block page (no form served)
+[    6/4198] BLK  blocked       www.untdkicks.com                                    waf block page (no form served)

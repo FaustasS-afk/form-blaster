@@ -1,0 +1,673 @@
+country,domain,site,name,phone,category,city,postcode,street,source
+CH,martinkiener.ch,https://martinkiener.ch,Antiquitäten M. Kiener,+41 44 262 42 21,antiques,,,23 Neumarkt,osm_node/498462094
+CH,einzelstueck.ch,https://www.einzelstueck.ch,Einzelstück,,antiques,Zürich,8001,100 Limmatquai,osm_node/560519079
+CH,swarovski.com,https://www.swarovski.com/de-CH,Swarovski,,jewelry,Winterthur,8400,16 Untertor,osm_node/599556724
+CH,schafroth.ch,https://schafroth.ch,Schafroth,,jewelry,,,,osm_node/600906747
+CH,baernerbrocki.ch,https://www.baernerbrocki.ch,Bärner Brocki,+41 31 333 82 22,second_hand,,,,osm_node/608475656
+CH,hiob.ch,https://hiob.ch/brockenstuben/bern-breitenrain,Hiob,+41 31 3484975,second_hand,,,,osm_node/608475759
+CH,goldketteli.ch,http://www.goldketteli.ch,Goldschmiede Gabriela Angehrn,+4171 841 29 72,jewelry,Rorschach,9400,63 Hauptstrasse,osm_node/616251954
+CH,kroesus.ch,https://kroesus.ch,Krösus,,jewelry,,,,osm_node/639029689
+CH,oneway-brockenhaus.ch,https://www.oneway-brockenhaus.ch,OneWay Brockenhaus,,second_hand,Altdorf UR,6460,4 Hellgasse,osm_node/668977850
+CH,emmaus-zh.ch,https://www.emmaus-zh.ch,Emmaus Brockenhaus,+41 44 801 90 60,second_hand,Dübendorf,8600,17 Ringwiesenstrasse,osm_node/678309327
+CH,rhomberg.ch,https://www.rhomberg.ch/1150,Rhomberg,,jewelry,Winterthur,8400,89 Stadthausstrasse,osm_node/687625798
+CH,swatch.com,https://www.swatch.com/de_ch,Swatch,,watches,Zürich,8001,69 Bahnhofstrasse,osm_node/693318446
+CH,kurzschmuckuhren.ch,http://www.kurzschmuckuhren.ch,Kurz,,jewelry,Zürich,8001,80 Bahnhofstrasse,osm_node/693318485
+CH,lovisajewellery.ch,https://www.lovisajewellery.ch,Lovisa,,jewelry,Zürich,8001,87 Bahnhofstrasse,osm_node/693318596
+CH,tissotwatches.com,https://www.tissotwatches.com,Tissot,,watches,,,,osm_node/693318602
+CH,christ-swiss.ch,https://www.christ-swiss.ch,Christ,,jewelry,Zürich,8001,93 Bahnhofstrasse,osm_node/693318634
+CH,blaukreuz-brocki.ch,https://www.blaukreuz-brocki.ch/standorte/blaukreuz-brocki-bern,Blaukreuz Brocki,+41 31 382 62 63,second_hand,,,115 A Schwarztorstrasse,osm_node/699608582
+CH,aurum-uhren.ch,https://aurum-uhren.ch,Aurum Uhren und Schmuck,,jewelry,,,,osm_node/703431927
+CH,bijouteriemathys.ch,https://bijouteriemathys.ch,Bijouterie Mathys,,jewelry,,,,osm_node/869280589
+CH,bijouterie-maegli.ch,https://www.bijouterie-maegli.ch,Bijouterie Maegli,,jewelry,,,,osm_node/879548708
+CH,spitzbarth.com,https://spitzbarth.com,Spitzbarth,,jewelry,,,8 Neumarkt,osm_node/893293110
+CH,beatschwengeler.com,https://beatschwengeler.com,Beat Schwengeler,,jewelry,,,,osm_node/894921198
+CH,eigerplatzbrocki.ch,https://www.eigerplatzbrocki.ch,Brocki am Eigerplatz,+41 31 371 30 00,second_hand,,,,osm_node/895429250
+CH,philateliewalter.ch,http://www.philateliewalter.ch,Philatelie Walter AG,,collector,Zürich,8001,7 Rämistrasse,osm_node/916616115
+CH,finebooks.ch,https://finebooks.ch,Peter Bichsel Fine Books,,antiques,,,,osm_node/916945147
+CH,achatdor.ch,https://achatdor.ch,Achatdor.ch,,jewelry,,,,osm_node/1025291497
+CH,blancpain.com,https://www.blancpain.com,Blancpain SA,,watches,Genève,1204,40 Rue du Rhône,osm_node/1105370274
+CH,boucheron.com,https://www.boucheron.com,Bucheron,,jewelry,Zürich,8001,37 Bahnhofstrasse,osm_node/1110775198
+CH,meister-juwelier.ch,https://meister-juwelier.ch,Meister Juwelier,,jewelry,Zürich,8001,33 Bahnhofstrasse,osm_node/1110775290
+CH,hublot.com,https://www.hublot.com,Hublot,,watches,,,44 Bahnhofstrasse,osm_node/1110775292
+CH,gubelin.com,https://www.gubelin.com,Gübelin,,jewelry,Zürich,8001,36 Bahnhofstrasse,osm_node/1110775411
+CH,cartier.ch,https://www.cartier.ch,Cartier,,jewelry,Zürich,8001,47 Bahnhofstrasse,osm_node/1110775459
+CH,piaget.ch,https://www.piaget.ch,Piaget,,jewelry,Zürich,8001,38 Bahnhofstrasse,osm_node/1110775563
+CH,breguet.com,https://www.breguet.com,Breguet,,watches,Zürich,8001,31 Bahnhofstrasse,osm_node/1115159231
+CH,schatzinsle.ch,http://www.schatzinsle.ch,Schatzinsle Brocki,+41792944115,second_hand,,,176 Einsiedlerstrasse,osm_node/1126753065
+CH,fumagalli.ch,https://www.fumagalli.ch,A. Fumagalli,+41 55 210 13 24,jewelry,Rapperswil SG,8640,14 Fischmarktstrasse,osm_node/1355213488
+CH,mens-republic.ch,http://www.mens-republic.ch,Jenny Brun,,jewelry,,5000,4 Kronengasse,osm_node/1477605427
+CH,embassy.ch,https://www.embassy.ch,Embassy,,jewelry,Luzern,6004,12 Kapellplatz,osm_node/1573053740
+CH,huettig-schmuckatelier.ch,https://www.huettig-schmuckatelier.ch,Goldschmiedekunst Hüttig Maier,+41 52 741 35 55,jewelry,,,,osm_node/1579662252
+CH,gygax.com,https://gygax.com,Gygax Uhren Schmuck Erleben,+41 62 832 52 52,jewelry,Aarau,5000,31 Bahnhofstrasse,osm_node/1675745537
+CH,uhren-schmuck-online.ch,https://uhren-schmuck-online.ch,Linden Uhren-Bijuterie,+41 44 431 15 34,watches,Zürich,8048,150 Altstetterstrasse,osm_node/1701730774
+CH,schmuckzyt.ch,https://schmuckzyt.ch,SchmuckZyt Ruchti,+41 32 622 49 49,jewelry,,,2 Schmiedengasse,osm_node/1711923351
+CH,goldschmied-gamma.ch,http://www.goldschmied-gamma.ch,Martin Gamma,+41 32 623 47 01,jewelry,,,,osm_node/1720207170
+CH,domeisen.com,https://www.domeisen.com,Domeisen,,jewelry,Rapperswil SG,8640,9 Rathausstrasse,osm_node/1723313136
+CH,brocki-schumi.ch,http://brocki-schumi.ch,Brocki Schumi,,second_hand,,,,osm_node/1743382869
+CH,designkrieg.ch,https://www.designkrieg.ch,designkrieg,,jewelry,,8854,2 Merkurstrasse,osm_node/1777115450
+CH,goldhaus-schweiz.ch,http://www.goldhaus-schweiz.ch,Goldhaus,+41 32 622 71 81,jewelry,,,23 Hauptgasse,osm_node/1832908086
+CH,carat.ch,https://www.carat.ch,Carat,,jewelry,Basel,4052,397 St. Jakobs-Strasse,osm_node/2001262826
+CH,schnider-hammer.ch,http://www.schnider-hammer.ch,Schnider + Hammer,+41 32 621 57 51,jewelry,,,,osm_node/2011278173
+CH,laurieraccessoires.ch,http://www.laurieraccessoires.ch,Le Laurier,+41327304475,second_hand,Peseux,2034,11 Rue des Pralaz,osm_node/2038861342
+CH,wagner-uhren.ch,https://www.wagner-uhren.ch,Juwelen-Uhren Wagner,,jewelry,,,,osm_node/2088928261
+CH,goldschmitte-greminger.ch,https://www.goldschmitte-greminger.ch,Gold- und Silberschmitte Tobias Greminger,,jeweller,,,,osm_node/2093774452
+CH,bs.ch,https://www.bs.ch/verwaltung/praesidialdepartement/aemter-und-bereiche/aussenbeziehungen-und-standortmarketing/messen-und-maerkte/basler-maerkte/flohmarkt-petersplatz,Flohmarkt Petersplatz,+41 61 267 70 43,second_hand,,,,osm_node/2099470377
+CH,watchaser.com,https://www.watchaser.com,Watchaser,+41 76 233 16 60,jewelry,Carouge GE,,2 Rue Saint-Victor,osm_node/2120962526
+CH,pierresuisse.ch,https://www.pierresuisse.ch,Goldschmiede-Atelier Peter Hablützel,+41 33 823 88 80,jewelry,,,,osm_node/2122449502
+CH,brocki.ch,https://www.brocki.ch/de/filialen/altstatten,brocki.ch Altstätten,+41 71 722 35 90,second_hand,Altstätten SG,9450,23 Kriessernstrasse,osm_node/2122573097
+CH,fiechter.ch,https://fiechter.ch,Fiechter Uhren Bijouterie,,jewelry,Zürich,8050,14 Edisonstrasse,osm_node/2138752969
+CH,goldrichtig.ch,http://www.goldrichtig.ch,Goldschmiede Richterswil,+41 44 784 86 88,jewelry,,8805,44 Dorfstrasse,osm_node/2216029838
+CH,mama-mia.ch,http://www.mama-mia.ch,Mama Mia,+41 26 494 07 55,second_hand,Tafers,1712,29 Schwarzseestrasse,osm_node/2221406526
+CH,audemarspiguet.com,https://www.audemarspiguet.com,Audemars Piguet,,watches,Zürich,8001,32 Bahnhofstrasse,osm_node/2225207863
+CH,croix-rouge-ge.ch,https://www.croix-rouge-ge.ch/commerces/vetements-de-seconde-main,Vêt'Shop Leschot,+41 22 321 83 84,second_hand,Genève,1205,2 Rue Leschot,osm_node/2283383123
+CH,brockibuelach.ch,https://www.brockibuelach.ch,Brocki Bülach,+41 44 860 60 04,second_hand,Bülach,8180,46 Winterthurerstrasse,osm_node/2290342126
+CH,herzschmiede.ch,https://www.herzschmiede.ch,Herzschmiede Schmuck & Symbolik,+41 79 278 57 01,jewelry,Jona,8645,5 Molkereistrasse,osm_node/2352269913
+CH,schmuckform.ch,https://www.schmuckform.ch,Goldschmiede von Arx,+41 62 961 40 30,jewelry,Herzogenbuchsee,3360,9 Kirchgasse,osm_node/2403294340
+CH,maxundmoritzmeilen.ch,https://www.maxundmoritzmeilen.ch,Kinderbörse Max + Moritz,,second_hand,Meilen,8706,44 Stelzenweg,osm_node/2421232595
+CH,kindex.ch,https://www.kindex.ch/riggisberg/brockenstube#,Brocki,,second_hand,Riggisberg,3132,2 Vordere Gasse,osm_node/2582178971
+CH,brockenstube-winterthur.ch,https://www.brockenstube-winterthur.ch,Brocki Winterthur,+41 52 233 24 25,second_hand,Winterthur,8404,12 Fröschenweidstrasse,osm_node/2621328482
+CH,brocki-grueze.ch,https://www.brocki-grueze.ch,Brockenhaus Grüze,+41 52 238 05 50,second_hand,Winterthur,8404,39-41 Industriestrasse,osm_node/2621338819
+CH,lavieensuite.ch,https://lavieensuite.ch,La Vie en Suite,+41 32 323 74 74,second_hand,Neuchâtel,2000,14 Faubourg de l'Hôpital,osm_node/2627542058
+CH,uhren-shop.ch,https://www.uhren-shop.ch,UHREN-shop.ch,+41 61 2639208,jewelry,Basel,4001,3 Rüdengasse,osm_node/2633688581
+CH,blaueskreuz-sg-app.ch,https://www.blaueskreuz-sg-app.ch/brockenstuben/brockenstube_st_gallen,Blaukreuz Brockenstube,+41 71 222 22 77,second_hand,St.Gallen,9000,20 Turnerstrasse,osm_node/2645688611
+CH,wipf-goldschmied.ch,http://www.wipf-goldschmied.ch,Wipf Goldschmied,,jewelry,,,,osm_node/2647639697
+CH,schmuck.ch,https://www.schmuck.ch,Rhomberg,,jewelry,Wil SG,9500,49 Obere Bahnhofstrasse,osm_node/2647695754
+CH,lohri.com,https://www.lohri.com,Lohri Goldschmied,+41 41 710 26 13,jewelry,Zug,6300,9 Neugasse,osm_node/2778385382
+CH,fata-morgana.ch,https://www.fata-morgana.ch,Fata Morgana,,jewelry,Zürich,8001,38 Limmatquai,osm_node/2864633750
+CH,laperlabijouterie.ch,http://laperlabijouterie.ch,La Perla Bijouterie,+41 32 685 11 34,jewelry,,,,osm_node/2875217798
+CH,antik-online.ch,http://www.antik-online.ch,Antik Schatt,+41 55 412 12 51,antiques,Einsiedeln,8840,66 Zürichstrasse,osm_node/2934006678
+CH,claro-aarau.ch,https://claro-aarau.ch,Claro,+41 62 824 91 60,second_hand,,,20 Metzgergasse,osm_node/2947780133
+CH,kirchhofer.com,https://www.kirchhofer.com/en/stores/casinogallery,Casino Gallery,+41 33 828 88 80,jewelry,,,,osm_node/3069062845
+CH,jeisy.ch,https://www.jeisy.ch,Jeisy,,jewelry,Zürich,8037,72 Rotbuchstrasse,osm_node/3077278739
+CH,vicina.ch,http://www.vicina.ch,Goldschmiede Vicina,+41 71 971 20 00,jewelry,Bichelsee,8363,32 Hauptstrasse,osm_node/3099402993
+CH,swarovski.ch,http://www.swarovski.ch,Swarovski,+41 31 3117722,jewelry,,,,osm_node/3112846417
+CH,bijouoptik.ch,https://bijouoptik.ch,Messer,+41 32 392 15 77,jewelry,,,19 Stadtplatz,osm_node/3114421071
+CH,orlandi-uhren.ch,https://www.orlandi-uhren.ch,Orlandi Uhren+Schmuck,+41 52 625 28 48,jewelry,,,,osm_node/3122101766
+CH,schmuck-oase.digitalone.site,https://schmuck-oase.digitalone.site,Schmuck Oase,,jewelry,Winterthur,8400,16 Obertor,osm_node/3124969724
+CH,sgf-rj.ch,https://www.sgf-rj.ch/brockenstube,Brockenstube des Gemeinnützigen Frauenvereins Rapperswil-Jona,+41 79 225 75 81,second_hand,Rapperswil SG,8640,3 Schönbodenstrasse,osm_node/3125982018
+CH,johannes-mueller.ch,https://johannes-mueller.ch,Johannes Müller & Söhne AG,+41 31 311 70 24,collector,,,,osm_node/3137249045
+CH,hurtado.ch,https://www.hurtado.ch,Hurtado,+41 71 622 10 55,watches,Weinfelden,8570,37 Rathausstrasse,osm_node/3150326950
+CH,lendenmann-raeume.ch,https://www.lendenmann-raeume.ch,Lendenmann Wohnraum Gestaltung,,antiques,,,,osm_node/3187348606
+CH,ruethy.ch,https://www.ruethy.ch,Ruethy,+41 31 3114535,jewelry,,,,osm_node/3191404555
+CH,brockishop-aarau.ch,http://www.brockishop-aarau.ch,BrockiShop,+41 62 724 95 05,second_hand,Oberentfelden,5036,1 Ausserfeldstrasse,osm_node/3195173036
+CH,goldschmiede-emmenegger.ch,https://www.goldschmiede-emmenegger.ch,Goldschmid Emmenegger,,jewelry,Sempach,6204,44 Stadtstrasse,osm_node/3203620136
+CH,staehli-goldschmied.ch,https://www.staehli-goldschmied.ch,Stähli,+41 31 3119545,jewelry,,,,osm_node/3205705107
+CH,chemiserieplus.ch,https://chemiserieplus.ch,Chemiserie,,second_hand,Basel,4057,58 Klybeckstrasse,osm_node/3208777710
+CH,fasnachtskischte.ch,https://www.fasnachtskischte.ch,Jap's Fasnachtskischte,,second_hand,Basel,4058,39 Mattenstrasse,osm_node/3220375668
+CH,bucherer.com,https://bucherer.com,Bucherer,,jewelry,Locarno,6600,2 Via alla Ramogna,osm_node/3239053567
+CH,tettamanti-arteor.ch,https://www.tettamanti-arteor.ch,Tettamanti ARTEOR,,jewelry,Locarno,6600,Piazza Grande,osm_node/3239053593
+CH,trudi-chevre.ch,http://www.trudi-chevre.ch,Trudi Chèvre,+41 31 3112008,jewelry,,,,osm_node/3250824788
+CH,zigerli-iff.ch,https://www.zigerli-iff.ch,Zigerli+Iff,+41 31 3112367,jewelry,,,,osm_node/3250824789
+CH,goldschmied-karlen.ch,https://www.goldschmied-karlen.ch,Karlen,+41 31 3128210,jewelry,,,,osm_node/3252472768
+CH,goldschmiedestefanpauli.ch,http://www.goldschmiedestefanpauli.ch,Stefan Pauli,+41 31 3111344,jewelry,,,,osm_node/3252492977
+CH,metalo-bern.ch,https://www.metalo-bern.ch,Metalo,,watches,,,,osm_node/3252514324
+CH,punctum-aureum.ch,https://www.punctum-aureum.ch,Punctum Aureum,+41 31 3111137,jewelry,,,,osm_node/3252622350
+CH,uhrsachen.ch,https://www.uhrsachen.ch,Uhrsachen,+41 31 3180118,watches,,,,osm_node/3252667987
+CH,brockihumanus.com,https://www.brockihumanus.com,Humanus Brocki,,second_hand,,,,osm_node/3257887667
+CH,brockiflawil.ch,https://www.brockiflawil.ch,Brockenhaus Flawil,+41 71 393 60 07,second_hand,Flawil,9230,1 Waldau,osm_node/3265514284
+CH,goldschmied-hofer.ch,https://www.goldschmied-hofer.ch,Hofer,+41 32 622 24 56,jewelry,,,,osm_node/3294253562
+CH,maiocchi.ch,http://www.maiocchi.ch,Maiocchi,,watches,,,Corso San Gottardo,osm_node/3309646667
+CH,seidenhof-brocki.ch,https://www.seidenhof-brocki.ch,Seidenhof-Brocki,+41 44 796 43 44,second_hand,Stäfa,8712,7c Häldelistrasse,osm_node/3315173880
+CH,ds-schmuckkultur.com,https://ds-schmuckkultur.com,DS Schmuckkultur,+41 31 318 17 67,jewelry,,,,osm_node/3327557989
+CH,antiquitaeten-ritschard.ch,https://www.antiquitaeten-ritschard.ch,U.+M. Ritschard,+41 31 3118660,antiques,,,,osm_node/3327611436
+CH,thomassabo.ch,https://www.thomassabo.ch,Thomas Sabo,+41 31 3113246,jewelry,,,,osm_node/3342846096
+CH,federerbijou.ch,https://www.federerbijou.ch,Federer,+4171 841 26 06,jewelry,,,,osm_node/3347953322
+CH,crocerossaticino.ch,https://www.crocerossaticino.ch,Croce Rossa Svizzera,,second_hand,Mendrisio,6850,1 Largo Mario Soldini,osm_node/3348615984
+CH,atelier-orologio.ch,https://www.atelier-orologio.ch,L'Atelier Dell'Orologio,,watchmaker,,,,osm_node/3348615986
+CH,orafo.ch,http://orafo.ch,La Bottega Dell'orafo,,jewelry,Mendrisio,6850,3 Via Nobili Bosia,osm_node/3348616997
+CH,raffaellagioielli.com,https://www.raffaellagioielli.com,Raffaella,,jewelry,,,,osm_node/3348691355
+CH,brocki-rorschach.ch,https://www.brocki-rorschach.ch,ALMO Brockenstube,+41718418182,second_hand,Rorschach,9400,7 Säntisstrasse,osm_node/3357702348
+CH,lauenerag.ch,https://www.lauenerag.ch,Lauener,,watches,Rapperswil SG,8640,27 Rathausstrasse,osm_node/3364778116
+CH,bijouxstadelmann.ch,https://www.bijouxstadelmann.ch,Stadelmann,+41 31 3112457,jewelry,,,,osm_node/3381755393
+CH,brockiland.ch,http://www.brockiland.ch,Brocki-Land,,second_hand,Fahrweid,8951,126 Ueberlandstrasse,osm_node/3386075728
+CH,terrespoir.com,http://www.terrespoir.com,Fondation TerrEspoir,+41 21 703 00 42,second_hand,Bussigny,1030,10 Chemin du Vallon,osm_node/3395155423
+CH,bijouxguggisberg.ch,http://www.bijouxguggisberg.ch,Guggisberg,+41 31 3122522,jewelry,,,,osm_node/3419135595
+CH,venturini-wil.com,https://www.venturini-wil.com,Venturini,,jewelry,,,,osm_node/3480820010
+CH,safmorges.ch,https://www.safmorges.ch/saf/la-trouvaille,La Trouvaille,+41 21 804 98 22,second_hand,Lonay,1027,4 Chemin du Bief,osm_node/3516611055
+CH,beads.ch,http://www.beads.ch,House of Beads,+41 44 262 07 17,jewelry,Zürich,8001,4 Weinbergfussweg,osm_node/3537752739
+CH,brockipfyn.ch,https://brockipfyn.ch,Brocki Pfyn,+41 52 770 17 00,second_hand,Pfyn,8505,23 Fabrikstrasse,osm_node/3540015043
+CH,villigerag.ch,https://www.villigerag.ch,R. Villiger AG,+4132 322 31 81,jewelry,Biel/Bienne,2502,21 Bahnhofstrasse,osm_node/3602055089
+CH,suenos.ch,https://www.suenos.ch,sueños,,jewelry,,,,osm_node/3645707798
+CH,marfurt.com,https://www.marfurt.com,Franz Marfurt,,jewelry,,,,osm_node/3645708305
+CH,d-dm.ch,https://d-dm.ch,dina moutragi,,jewelry,,,,osm_node/3645808581
+CH,leboudoir.ch,https://www.leboudoir.ch,Le Boudoir,,second_hand,,,,osm_node/3645808585
+CH,uhrenschmuck24.ch,https://www.uhrenschmuck24.ch/bahnhofplatz,Christian,+41 44 521 23 23,jewelry,,,,osm_node/3645923202
+CH,peclard.com,https://www.peclard.com,Péclard Juwelier,,jewelry,Zürich,8001,33 Strehlgasse,osm_node/3645952043
+CH,harrywinston.com,http://www.harrywinston.com,Harry Winston,,jewelry,Zürich,8001,28 Bahnhofstrasse,osm_node/3646121893
+CH,remidatornaghi.com,https://www.remidatornaghi.com,Remida Tornaghi,+41 44 211 20 00,jewelry,Zürich,8001,4 Poststrasse,osm_node/3646122394
+CH,panerai.com,https://www.panerai.com/ch/de,Panerai,,watches,,,,osm_node/3646149907
+CH,jaeger-lecoultre.com,https://www.jaeger-lecoultre.com/ch-en/boutiques/europa/switzerland/zurich/jaeger-lecoultre-boutique-zurich-1163,Jaeger-LeCoultre,,watches,,,,osm_node/3646149912
+CH,thomassabo.com,https://www.thomassabo.com/CH,Thomas Sabo,,jewelry,Zürich,8001,2 Kuttelgasse,osm_node/3647701421
+CH,zuercher-brockenhaus.ch,https://www.zuercher-brockenhaus.ch,Zürcher Brockenhaus,,second_hand,,,11 Neugasse,osm_node/3657239918
+CH,atelier-horloger.ch,https://atelier-horloger.ch,Atelier Horloger,+41 32 841 38 38,watchmaker,Colombier NE,2013,3 Rue Haute,osm_node/3713834876
+CH,123gold.ch,https://www.123gold.ch/trauringe-waedenswil.html,"acredo Trauringlounge Wädenswil, 123gold.ch",+41 44 321 00 13,jewelry,Wädenswil,8820,1 Muslistrasse,osm_node/3724670280
+CH,doernberger.ch,https://doernberger.ch,Dörnberger Bijouterie,,jewelry,Zürich,,541 Wehntalerstrasse,osm_node/3726038459
+CH,bijouterierhyhof.ch,https://bijouterierhyhof.ch,Bijouterie Rhyhof,,jewelry,,,,osm_node/3729062628
+CH,goldschmiede-holdertor.ch,https://goldschmiede-holdertor.ch,Goldschmiede am Holdertor,,jewelry,,,,osm_node/3729063025
+CH,brocki-provenzano.ch,https://www.brocki-provenzano.ch,Brocki Provenzano,,second_hand,Schlieren,8952,1 Schulstrasse,osm_node/3729238827
+CH,teenservices.ch,https://www.teenservices.ch/brocante,Teen Services,+41 32 740 15 17,second_hand,Neuchâtel,2000,51 Rue des Draizes,osm_node/3740369936
+CH,rent-a-box.ch,https://rent-a-box.ch/baden,Rent a Box,,jewelry,Baden,5400,33 Badstrasse,osm_node/3743824379
+CH,brockiwerdenberg.ch,https://www.brockiwerdenberg.ch,Bockenhaus Werdenberg,+41 81 740 16 19,second_hand,Buchs SG,9470,11 Moosweg,osm_node/3794290268
+CH,goldschmitte-dielsdorf.ch,https://goldschmitte-dielsdorf.ch,Goldschmitte Dielsdorf,+41 44 853 24 44,jewelry,,,40a Wehntalerstrasse,osm_node/3843294277
+CH,beim-kramer.ch,https://www.beim-kramer.ch/brockikramer-aarau,Kramer,,second_hand,Aarau,5000,34 Graben,osm_node/3870656342
+CH,jean-studer-ag.ch,https://www.jean-studer-ag.ch,Jean Studer AG,,jewelry,Unterägeri,6314,17 Zugerstrasse,osm_node/3901646012
+CH,schmuckhuhn.ch,https://www.schmuckhuhn.ch,Schmuckhuhn,,jewelry,,,,osm_node/3901646018
+CH,laebesruum.ch,https://www.laebesruum.ch/spielundsportboerse,Spiel & Sport Börse,+41 52 232 95 93,second_hand,Winterthur,8400,8 Pflanzschulstrasse,osm_node/3902747160
+CH,stand132.ch,https://www.stand132.ch,Stand 132,+41 44 251 22 02,antiques,Zürich,8001,30 Rämistrasse,osm_node/3955178736
+CH,romano.swiss,https://romano.swiss,Romano,+41 71 841 21 63,antiques,Rorschach,9400,20 Hauptstrasse,osm_node/3973979285
+CH,brockishop.com,https://www.brockishop.com/de/thusis/brockishop_thusis,BrockiShop Thusis,,antiques,,,,osm_node/3986841026
+CH,goldschmiedeatelier-chur.ch,https://www.goldschmiedeatelier-chur.ch,Goldschmiedeatelier Phasouk Xayaboun,+41 81 252 35 39,jewelry,,,,osm_node/3991004795
+CH,zoppijuwelier.ch,https://zoppijuwelier.ch,Zoppi Juwelier,,jewelry,Chur,7000,1 St. Martinsplatz,osm_node/3993618447
+CH,kaufengold.ch,https://kaufengold.ch,Kaufengold.ch,,pawnbroker,,,,osm_node/4081015776
+CH,charmebijoux.ch,https://charmebijoux.ch,Charme Bijoux,+41 62 751 12 22,jewelry,Zofingen,4800,25 Vordere Hauptgasse,osm_node/4105363371
+CH,zh.blaueskreuz.ch,https://zh.blaueskreuz.ch/brockenstube-duebendorf,Brocki Dübendorf,+41 44 820 31 88,second_hand,Dübendorf,8600,88 Neugutstrasse,osm_node/4155993034
+CH,caritas-jura.ch,https://www.caritas-jura.ch/p121001738.html,Caritas,+41 32 421 35 70,second_hand,Delémont,2800,20 Route du Vorbourg,osm_node/4195581792
+CH,aisso.ch,http://www.aisso.ch,Aisso,+41763925557,jewelry,,,,osm_node/4197306589
+CH,chrosihus.jimdo.com,https://chrosihus.jimdo.com,Brockenstube Chrosihus,+41 62 771 62 26,second_hand,Beinwil am See,5712,23 Hombergstrasse,osm_node/4212661291
+CH,vancleefarpels.com,https://www.vancleefarpels.com,Van Cleef & Arpels,,jewelry,,,11 Bahnhofstrasse,osm_node/4237346695
+CH,graff.com,https://www.graff.com,Graff,,jewelry,,,,osm_node/4237346697
+CH,christophegraber.com,https://christophegraber.com,Christophe Graber,,jewelry,,,,osm_node/4237468717
+CH,fundsachenverkauf.ch,https://fundsachenverkauf.ch,fundsachenverkauf.ch,+41 43 817 05 46,second_hand,Zürich,8038,54 Albisstrasse,osm_node/4237507891
+CH,luxurypick.ch,https://luxurypick.ch,Luxury Pick,+41 41 417 12 22,second_hand,Luzern,6004,15 Rössligasse,osm_node/4281977797
+CH,frauenvereinsteinamrhein.jimdo.com,https://frauenvereinsteinamrhein.jimdo.com/brockenstube,Brockenstube des gemeinnützigen Frauenvereins,,second_hand,Stein am Rhein,8260,6 Mühlenstrasse,osm_node/4294491469
+CH,zeit-meister.ch,https://zeit-meister.ch,Zeit Meister,,jewelry,,,,osm_node/4337211402
+CH,chronoart.ch,https://www.chronoart.ch,Chronoart,,watches,St. Gallen,9000,2 Schmiedgasse,osm_node/4348353706
+CH,antike-uhren.ch,https://www.antike-uhren.ch,Atelier für Uhren,+41 31 3714787,clockmaker,Wichtrach,3114,6 Bernstrasse,osm_node/4350102766
+CH,goldschmied-strebel.ch,http://www.goldschmied-strebel.ch,Hansruedi Strebel,+41 41 440 05 05,jewelry,,,,osm_node/4359099900
+CH,martin-kurt.ch,https://www.martin-kurt.ch,Goldschmiede Martin Kurt,,jeweller,,,,osm_node/4363632409
+CH,zoppi-flims.ch,https://www.zoppi-flims.ch,Juwelen Zoppi,,watches,,,,osm_node/4365195925
+CH,grindelwald-shopping.com,https://www.grindelwald-shopping.com,Vogts Corner,+41 33 853 40 14,jewelry,,,,osm_node/4379401089
+CH,frauenverein-erlenbach.ch,http://www.frauenverein-erlenbach.ch/brockenstube,Brockenstube,+41 44 912 27 60,second_hand,Erlenbach (ZH),8703,18 Bahnhofstrasse,osm_node/4421205784
+CH,balu-koeniz.com,https://www.balu-koeniz.com,Balu Kinderkleiderbörse,+41 31 972 26 11,second_hand,Köniz,3098,6 Gartenstadtstrasse,osm_node/4421694752
+CH,sidang.ch,https://sidang.ch,Pandora,,jewelry,,,,osm_node/4424654363
+CH,antikuhrenatelier.ch,https://www.antikuhrenatelier.ch,Uhrenatelier Wenger,,watches,,,,osm_node/4436369216
+CH,tempusboutique.ch,https://www.tempusboutique.ch,Tempus Boutique,,watches,Biel/Bienne,2502,22 Rue de la Gare / Bahnhofstrasse,osm_node/4444061593
+CH,aoz-brockito.ch,https://www.aoz-brockito.ch,AOZ Brockito,,second_hand,Zürich,8050,14 Robert-Maillart-Strasse,osm_node/4445429235
+CH,tigel.ch,https://www.tigel.ch/brockenhalle.html,Brockenhalle Tigel,,second_hand,Zürich,8008,62 Hornbachstrasse,osm_node/4448549635
+CH,mojo-design.ch,https://mojo-design.ch,Atelier Mojo Design,+41 52 202 32 52,jewelry,Winterthur,8400,5 Neugutstrasse,osm_node/4484407391
+CH,laressourcerie.ch,https://laressourcerie.ch,La Ressourcerie,+41 24 425 44 49,second_hand,,,,osm_node/4513834834
+CH,galleria13.ch,https://galleria13.ch,galleria13 Brokenstube,,second_hand,,,92 Zollstrasse,osm_node/4573702577
+CH,lejardindesperles.ch,https://www.lejardindesperles.ch,Le Jardin des Perles,,goldsmith,,,,osm_node/4652505666
+CH,aucoeurdemonatelier.com,https://www.aucoeurdemonatelier.com,Au Coeur de mon Atelier,,jewelry,,,,osm_node/4667922337
+CH,jacques-tissot.ch,https://www.jacques-tissot.ch,Jacques Tissot,+41 32 322 47 27,watches,,,,osm_node/4669769976
+CH,frauenverein-maennedorf.ch,https://www.frauenverein-maennedorf.ch/brocki.html,Brockenstube,,second_hand,,,6 Saurenbachstrasse,osm_node/4687822395
+CH,goldschmiedebloechliger.ch,https://www.goldschmiedebloechliger.ch,Blöchliger,+41 55 412 18 66,jewelry,Einsiedeln,8840,34 Hauptstrasse,osm_node/4693696428
+CH,prolabore.ch,https://www.prolabore.ch,BrockenHalle Telli,+41 44 555 25 35,second_hand,Aarau,5000,118 Tellistrasse,osm_node/4705737393
+CH,somazziorologeria.com,https://www.somazziorologeria.com,Somazzi,,jewelry,,,,osm_node/4741662714
+CH,marmet.biz,http://www.marmet.biz,Antikschreinerei Marmet,+4179 236 80 01,antiques,Igis,7206,10 Untergasse,osm_node/4792210810
+CH,fenetresurcour.business.site,https://fenetresurcour.business.site,Fenêtre sur cour,+41 79 269 67 61,second_hand,Morges,1110,9 Rue de la Gare,osm_node/4801802343
+CH,goldigschmuck.ch,https://www.goldigschmuck.ch,Goldig Schmuck,,jewelry,,,,osm_node/4832070932
+CH,candyjewels.ch,https://www.candyjewels.ch,Candy Jewels,,jewelry,Zürich,8050,,osm_node/4838591620
+CH,pandora.net,https://www.pandora.net/de-ch,Pandora,,jewelry,Wallisellen,8304,99 Neue Winterthurerstrasse,osm_node/4841546232
+CH,lionel-meylan.ch,https://lionel-meylan.ch,Lionel Meylan,,jewelry,,,,osm_node/4845201168
+CH,centralwatch.ch,https://www.centralwatch.ch,Central Jewellery,,jewelry,Zürich,8001,140 Limmatquai,osm_node/4847919188
+CH,numismatik.ch,https://www.numismatik.ch,Münzenhandlung Erwin Dietrich AG,,collector,Zürich,8001,4 Werdmühleplatz,osm_node/4857867454
+CH,meister-uhren.ch,https://www.meister-uhren.ch,Meister Uhren,,watches,Zürich,8001,33 Bahnhofstrasse,osm_node/4857867466
+CH,meister-silber.ch,https://meister-silber.ch,Meister Silber,,jewelry,Zürich,8001,17 Augustinergasse,osm_node/4857867467
+CH,vacheron-constantin.com,https://www.vacheron-constantin.com,Vacheron Constantin,,watches,Zürich,8001,38 Bahnhofstrasse,osm_node/4857867468
+CH,galli.ch,https://galli.ch,Galli Uhren Bijouterie,+41 44 262 04 10,jewelry,Zürich,8001,16 Theaterstrasse,osm_node/4860115717
+CH,celinni.com,https://celinni.com,Celinni,+41 21 601 37 11,jewelry,,,,osm_node/4861646679
+CH,flohmani.ch,https://www.flohmani.ch,Brocki Flohmani,,second_hand,,,,osm_node/4861893203
+CH,hblb.ch,https://hblb.ch,Horlogerie Bijouterie de La Broye,,jewelry,,,,osm_node/4868490833
+CH,operawatches.ch,https://operawatches.ch,Opera Watches,,jewelry,Zürich,8008,7 Seefeldstrasse,osm_node/4880906381
+CH,chopard.com,https://www.chopard.com,Chopard Boutique,,jewelry,,,,osm_node/4881182023
+CH,stores.cartier.com,https://stores.cartier.com/switzerland/geneve/rue-du-rhone-35,Cartier,,jewelry,,,,osm_node/4881185824
+CH,omegawatches.com,https://www.omegawatches.com,Omega,,watches,,,,osm_node/4881190824
+CH,piaget.com,https://www.piaget.com,Piaget,,jewelry,,,,osm_node/4881194721
+CH,croix-bleue.ch,https://croix-bleue.ch/magasin/le-magasin-le-point-bleu,Le Point Bleu,+41 21 671 22 44,second_hand,Renens,1022,31 Avenue de la Gare,osm_node/4908695777
+CH,heinicke-uhren.ch,https://www.heinicke-uhren.ch,Heinicke,,watches,,,,osm_node/4908903051
+CH,friedmannschmuck.ch,https://friedmannschmuck.ch,Friedmann Schmuck,,jewelry,,,3 Rindermarkt,osm_node/4908992179
+CH,massimobiondi.ch,https://massimobiondi.ch,Massimo Biondi Antike Möbel,+41 44 261 02 03,antiques,,,,osm_node/4909002561
+CH,byolgaribler.com,https://www.byolgaribler.com,By Olga Ribler,,jewelry,,,,osm_node/4909082742
+CH,gavivi.com,https://www.gavivi.com,Gavivi,,jewelry,Zürich,8001,3 Froschaugasse,osm_node/4909122242
+CH,alive-style.ch,https://alive-style.ch,Alive-Style GmbH,+41 33 356 02 25,jewelry,,,,osm_node/4935155061
+CH,uhrenhostettler.ch,https://uhrenhostettler.ch,Uhren Bijouterie K.Hostettler,+41 33 356 24 60,watches,,,,osm_node/4935192930
+CH,perez-goldschmied.ch,https://www.perez-goldschmied.ch,Pérez Goldschmied,,jewelry,Zürich,8001,17 Usteristrasse,osm_node/4935627399
+CH,allerart-badragaz.ch,https://www.allerart-badragaz.ch,Aller Art,+41 81 302 34 54,jewelry,Bad Ragaz,7310,3,osm_node/4941870494
+CH,e-f-y.ch,https://www.e-f-y.ch,Entraide Familiale Yverdonnoise,+41 24 426 16 00,second_hand,Yverdon-les-Bains,1400,48 Avenue des Sports,osm_node/4962396203
+CH,rigigoldschmiede.ch,https://rigigoldschmiede.ch/weggis,Rigi Goldschmiede,+41 41 390 18 05,jewelry,Weggis,6353,16 Seestrasse,osm_node/4976761343
+CH,theswisscollector.com,https://theswisscollector.com,The Swiss Collector,,jewelry,,,,osm_node/4992787043
+CH,cervellini.ch,https://cervellini.ch,Orfèvrerie Cervellini,+41 32 325 88 25,jewelry,Biel/Bienne,2502,19 Rue du Canal / Kanalgasse,osm_node/5073880189
+CH,elite-swiss-diamond.ch,http://www.elite-swiss-diamond.ch,Eliteswiss Diamond,,jewelry,,,,osm_node/5077724334
+CH,emmaus-be.ch,https://www.emmaus-be.ch,Emmaus Bern Brockenhaus & Communauté,+41 31 382 66 68,second_hand,Bern,3018,101 Statthalterstrasse,osm_node/5079656650
+CH,goldschmiede-obsession.ch,https://www.goldschmiede-obsession.ch,Obsession Goldschmiede,,jewelry,,,55 Bahnhofstrasse,osm_node/5103568792
+CH,scholl-uhren.ch,https://www.scholl-uhren.ch,Scholl,+41 44 930 03 88,jewelry,Wetzikon,8620,99c Bahnhofstrasse,osm_node/5107537663
+CH,vary-valentina.ch,https://www.vary-valentina.ch/de/valentina,Valentina,,jewelry,Winterthur,8400,1 Kirchplatz,osm_node/5109346565
+CH,fredycousin.ch,https://www.fredycousin.ch,Fredy Cousin Goldschmiedatelier,,jeweller,,,,osm_node/5113067727
+CH,see-brocki.ch,https://www.see-brocki.ch,See-Brocki,+41 79 533 77 33,second_hand,Meilen,8706,153 Alte Landstrasse,osm_node/5125932112
+CH,locodoro.ch,https://locodoro.ch,Loco d'oro,,jewelry,Zürich,8001,13 Münstergasse,osm_node/5155531294
+CH,blaeuerag.ch,https://www.blaeuerag.ch,Bläuer,+41 33 223 21 66,jewelry,,,,osm_node/5167607490
+CH,peteruhren24.com,https://peteruhren24.com,Peter Uhren,+41 41 970 17 80,watches,,,,osm_node/5173415121
+CH,tgf-frauenverein.ch,https://www.tgf-frauenverein.ch/D/sektionen.php?Sektion=frau,Brockenstube,,second_hand,,,,osm_node/5214723652
+CH,schmuck-werkstatt.ch,https://www.schmuck-werkstatt.ch,Schmuck-Werkstatt,,jewelry,Winterthur,8400,4 Steiggasse,osm_node/5313864429
+CH,seventyseven.ch,http://seventyseven.ch,SeventySeven Vintage,+41 78 906 97 93,second_hand,Biel/Bienne,2502,24 Obergasse,osm_node/5321658582
+CH,antikpalast.ch,http://www.antikpalast.ch,Antikpalast,,antiques,Egnach,9322,31 Buch,osm_node/5335798799
+CH,offcut.ch,https://www.offcut.ch,OFFCUT Zürich,,second_hand,Zürich,8048,757 Badenerstrasse,osm_node/5403214521
+CH,max-und-moritz.ch,https://www.max-und-moritz.ch,Kinderartikelbörse Max + Moritz,,second_hand,,,,osm_node/5414779004
+CH,w3.brand-uhren.ch,https://w3.brand-uhren.ch,Brand Uhren & Bijouterie,+41 33 822 22 34,watches,Interlaken,3800,23C Bahnhofstrasse,osm_node/5439720389
+CH,haenyuhren.ch,https://www.haenyuhren.ch,Häny,+41629221358,jewelry,,,24 Farbgasse,osm_node/5444913519
+CH,ch.pandora.net,https://ch.pandora.net,Pandora,,jewelry,Spreitenbach,8957,,osm_node/5456723594
+CH,roman-mayer.ch,https://www.roman-mayer.ch,Roman Mayer,,watches,Montreux,1820,39 Avenue du Casino,osm_node/5457011605
+CH,assos-bijouterie.ch,https://www.assos-bijouterie.ch,Assos,,jewelry,,,,osm_node/5458914505
+CH,staeuble1898.com,https://www.staeuble1898.com,Stäuble Chronometrie,,watches,,,,osm_node/5475862558
+CH,rebecca-ardessi.ch,https://www.rebecca-ardessi.ch,Rebecca Ardessi,,jewelry,,,,osm_node/5533201667
+CH,boerse4.ch,https://boerse4.ch,Börse 4,,jewelry,Zürich,8001,14 Augustinergasse,osm_node/5543625347
+CH,ikonengalerie.ch,https://www.ikonengalerie.ch,Galerie Ypsilon,+41 44 211 65 01,antiques,,,,osm_node/5543650652
+CH,glycinewatches.com,https://www.glycinewatches.com,Glycine,+41 32 341 22 13,watchmaker,,,18 Ring,osm_node/5730065038
+CH,secondhand-scenario.ch,https://www.secondhand-scenario.ch,Scenario,+41 797753528,second_hand,,,,osm_node/5781438084
+CH,kbunt.ch,https://kbunt.ch,kunterbunt,,second_hand,Winterthur,8406,15 Strittackerstrasse,osm_node/5789158359
+CH,kohinor.ch,https://kohinor.ch,Kohinor,+41 78 664 81 85,jewelry,,,17 Dorfstrasse,osm_node/5791885820
+CH,retinadesign.com,https://retinadesign.com,Retina,+41 78 891 79 89,jeweller,,4051,10 Rheinsprung,osm_node/5820379680
+CH,sammlerladen.ch,https://sammlerladen.ch,Briefmarken und Münzen,,collector,St.Gallen,9000,22 Gallusstrasse,osm_node/5829906524
+CH,die-goldschmiedin.ch,https://die-goldschmiedin.ch,Die Goldschmiedin Nadine Rüegg,+41 55 211 01 01,jewelry,Rapperswil SG,8640,25 Rathausstrasse,osm_node/5838535719
+CH,chronometrie.ch,https://www.chronometrie.ch,LABHART Chronometrie & Goldschmiede,,watches,St. Gallen,9000,48 Neugasse,osm_node/5839480825
+CH,eluda.ch,https://www.eluda.ch,E Luda,+41 31 3012511,jewelry,,,,osm_node/5845821610
+CH,brockenreich.ch,http://www.brockenreich.ch,BrockenReich,+41 31 974 14 40,second_hand,,,,osm_node/5856597703
+CH,lesambassadeurs.ch,https://www.lesambassadeurs.ch,Les Ambassadeurs,,jewelry,Luzern,6004,1 Kapellgasse,osm_node/5858975687
+CH,altertum.ch,https://www.altertum.ch,Alte Möbel Markt,,antiques,Bütschwil,9606,50 Landstrasse,osm_node/5865860025
+CH,flaviatschanz.ch,https://www.flaviatschanz.ch,Flavia Tschanz,,jewelry,,,,osm_node/5893045414
+CH,essor32.com,https://www.essor32.com,essor,+41 32 325 5252,jewelry,Biel/Bienne,2502,32a Rue Centrale / Zentralstrasse,osm_node/5962504101
+CH,cash-bienne-biel.ch,https://cash-bienne-biel.ch,Cash Converters,+41 32 323 59 59,pawnbroker,Biel/Bienne,2502,14 Rue de la Gare / Bahnhofstrasse,osm_node/6028965862
+CH,cemin-uhren-schmuck.ch,https://www.cemin-uhren-schmuck.ch,Cemin Uhren Schmuck,,jewelry,,,,osm_node/6074657388
+CH,seiler-juwelier.ch,https://seiler-juwelier.ch,Seiler Juwelier,,jewelry,Basel,4051,89 Gerbergasse,osm_node/6111524731
+CH,charme.ch,https://charme.ch,Charme,,jewelry,,,,osm_node/6113089157
+CH,p7antiquitaeten.ch,https://www.p7antiquitaeten.ch,P7 Antiquitäten,+41 79 406 79 48,antiques,Klosters Dorf,7252,1 Bahnhofstrasse,osm_node/6184757463
+CH,chronometrie-staeuble.ch,http://chronometrie-staeuble.ch,Chronometrie Stäuble,,watches,,,,osm_node/6184860858
+CH,marialutz.ch,https://www.marialutz.ch,Maria Lutz,+41 31 311 17 05,jewelry,Bern,3011,44 Brunngasse,osm_node/6207862494
+CH,gewoelbegalerie.ch,https://www.gewoelbegalerie.ch,Gewölbe Galerie Restauration & Antiquitäten,+41 32 323 49 58,antiques,,,4 Obergasse,osm_node/6220775222
+CH,moerbitz-webauktionen.ch,https://moerbitz-webauktionen.ch,Moerbitz Webauktionen,,second_hand,,,,osm_node/6221382728
+CH,brockart.ch,https://www.brockart.ch,Brock & Art,+41 31 971 46 69,second_hand,Liebefeld,3097,11 Stationsstrasse,osm_node/6229281738
+CH,bijouterie-sonderegger.ch,https://www.bijouterie-sonderegger.ch/standorte/bern.html,Sonderegger,+41 31 3117038,watches,,,,osm_node/6232764578
+CH,marinebrunner.ch,https://marinebrunner.ch,Marine Brunner bijouterie-joaillerie,+41 21 881 15 80,jewelry,Echallens,1040,5 Grand'Rue,osm_node/6265306480
+CH,japanhaus.ch,https://www.japanhaus.ch,Japanhaus,+41 31 311 47 70,jewelry,,,,osm_node/6268079534
+CH,agedor.ch,https://www.agedor.ch,L'Age d'Or,+41 21 921 18 13,jewelry,Vevey,1800,58 Rue d'Italie,osm_node/6288364591
+CH,teenchallenge.ch,https://www.teenchallenge.ch/arbeit/secondhand-shop-rapperswil,Secondhand-Shop Rapperswil,+41 55 536 10 80,second_hand,Rapperswil SG,8640,19 Untere Bahnhofstrasse,osm_node/6293163264
+CH,artisanchronometrie.ch,https://www.artisanchronometrie.ch,Atelier Schmid,,clockmaker,,,,osm_node/6300573239
+CH,brokisidewaeg.com,https://www.brokisidewaeg.com,Broki Sidewäg,+41 797089377,second_hand,,,,osm_node/6324266131
+CH,hammerbrocki.ch,https://hammerbrocki.ch,Hammer Brocki,+4162 212 09 56,antiques,Olten,4600,45 Ringstrasse,osm_node/6357732234
+CH,brocki-jsw.ch,https://www.brocki-jsw.ch/brockenhallen/basel,Blaukreuz Brockenhalle,+41 61 461 2011,second_hand,Basel,4053,9 Leimgrubenweg,osm_node/6372752714
+CH,brockitwixbiel.digitalone.site,https://brockitwixbiel.digitalone.site,Brocki Twix,+41 32 322 30 91,second_hand,,,,osm_node/6398039667
+CH,rentsch-ag.ch,https://www.rentsch-ag.ch,Rentsch,+41 33 336 31 15,jewelry,,,,osm_node/6447354885
+CH,blitz-sauber.ch,https://blitz-sauber.ch/service-item/brockenhaus,Brockenhaus Blitz Sauber,,second_hand,,,15 Hellbuckstrasse,osm_node/6513795910
+CH,second-love.ch,https://second-love.ch,Second Love,,second_hand,Altdorf UR,6460,13 Lehnplatz,osm_node/6567119187
+CH,laglaneuse.ch,https://www.laglaneuse.ch,La Glaneuse Brockenhaus,,second_hand,,,,osm_node/6591900475
+CH,tarastyle.ch,https://www.tarastyle.ch,Tara Style,,jewelry,Zürich,8004,30 Europaallee,osm_node/6661934663
+CH,b-schmuck.ch,https://b-schmuck.ch,Beat Egli und B-Schmuck,,jewelry,,,50 Forchstrasse,osm_node/6728719036
+CH,au13or.ch,https://www.au13or.ch,Au13or,,jewelry,,,,osm_node/6759238186
+CH,votre-cercledevie.ch,https://votre-cercledevie.ch/espace-durable,Espace Durable,+41 78 612 58 08,second_hand,Château-d'Oex,1660,102 Grand Rue,osm_node/6773958112
+CH,steinparadieslaufen.ch,https://steinparadieslaufen.ch,Steinparadies,+41 61 761 75 55,collector,Laufen,4242,4 Hauptstrasse,osm_node/6868160634
+CH,perlewält.ch,http://www.perlewält.ch,Perlewält,,jewelry,,,,osm_node/6868160643
+CH,bicobello.com,https://bicobello.com,Bicobello,+41 81 422 32 22,second_hand,Klosters,7250,215 Landstrasse,osm_node/6872099616
+CH,sanibel-watch.ch,http://www.sanibel-watch.ch,Sanibel Vintage Watch,+41 44 400 99 81,watches,,,,osm_node/6897877817
+CH,gloriastar.ch,https://www.gloriastar.ch,Gloria Star,,jewelry,,,,osm_node/6898642405
+CH,evelinefrischknecht.ch,https://www.evelinefrischknecht.ch,eveline frischknecht fine jewellery,+41 71 220 83 00,jewelry,,,,osm_node/6898648387
+CH,fatamorgana-nottwil.ch,https://www.fatamorgana-nottwil.ch,Fata Morgana,,second_hand,Nottwil,6207,13 Kantonsstrasse,osm_node/6900254081
+CH,wondewa.ch,http://www.wondewa.ch/index.html,Wondewa Züüg&Sache,,second_hand,Nottwil,6207,39 a Kantonsstrasse,osm_node/6900272910
+CH,bijou-schloss.ch,https://bijou-schloss.ch,Schönli,+41 78 261 61 16,jewelry,,,,osm_node/6927616329
+CH,effi-bijoux-goldschmiede.com,http://effi-bijoux-goldschmiede.com,Limmat Gold,+41 523 438 775,jewelry,Effretikon,8307,5 Märtplatz,osm_node/6983436179
+CH,plattformglattal.ch,https://www.plattformglattal.ch/pischte,Sammelsurium,+41 76 399 07 67,second_hand,,,53 Rohrholzstrasse,osm_node/7014315196
+CH,goldschmiede-banz.ch,https://www.goldschmiede-banz.ch,Goldschmiede Margrith Banz,,jewelry,,,,osm_node/7093000055
+CH,brockiwaengi.ch,http://www.brockiwaengi.ch,Brocki Wängi,,second_hand,Wängi,9545,7 Wilerstrasse,osm_node/7143280203
+CH,papagayo.ch,https://papagayo.ch,Papagayo,+41 43 477 93 92,jewelry,,,25 Gotthardstrasse,osm_node/7158712550
+CH,fleurdepierre.ch,https://www.fleurdepierre.ch,Fleur de Pierre,,jewelry,,,,osm_node/7197045636
+CH,rosabrockenhaus.ch,https://www.rosabrockenhaus.ch,Rosa,+41 31 9917700,second_hand,,,,osm_node/7247692065
+CH,denise-boutellier.ch,https://www.denise-boutellier.ch,Denise Boutellier,+41 31 3115340,jewelry,,,,osm_node/7392487754
+CH,thiemard.info,https://www.thiemard.info/horlogerie,Thiémard Atelier Horloger,,clockmaker,,,,osm_node/7413954636
+CH,ch-goldschmiede.ch,https://www.ch-goldschmiede.ch,Goldschmiede Christa Portmann,,jewelry,,,,osm_node/7419176953
+CH,amenes.ch,https://amenes.ch,Amenes,,jewelry,,,,osm_node/7434462392
+CH,goldhaus-tivoli.ch,https://goldhaus-tivoli.ch,Goldhaus,,jewelry,,,,osm_node/7449564884
+CH,artbiz.ch,https://artbiz.ch,Stéphane Galitch Antiques,+41 79 213 84 02,antiques,Vevey,1800,2 Rue de l'hôtel de Ville,osm_node/7461728901
+CH,digital-foto-express.ch,https://digital-foto-express.ch,Uhren & Foto Express,,watches,,,,osm_node/7465153317
+CH,goldlaedeli.ch,https://goldlaedeli.ch,Goldlädeli,,jewelry,,,,osm_node/7465426706
+CH,greenwich.ch,https://www.greenwich.ch,Greenwich MT.,,watches,Zürich,8001,2 Rämistrasse,osm_node/7479335213
+CH,ghg-brockenhaus.ch,https://ghg-brockenhaus.ch,St.Galler Brockenhaus,,second_hand,,,,osm_node/7503482899
+CH,mythen-time.ch,https://www.mythen-time.ch,Mythen Time,,jewelry,Ibach,6438,,osm_node/7532759556
+CH,devine.ch,https://www.devine.ch,Devine,,jewelry,Zürich,8001,1 Steinmühleplatz,osm_node/7546245978
+CH,brockiwolf.ch,https://brockiwolf.ch,Bröcki auf dem wolf,+41613110101,second_hand,,,30 Auf dem Wolf,osm_node/7548770910
+CH,rugabibrocante.ch,https://www.rugabibrocante.ch,Rugabi,,antiques,,,Via Emilio Bossi,osm_node/7551174357
+CH,galschmuck.ch,https://www.galschmuck.ch,GÅL Schmuck,,jewelry,,,,osm_node/7665552985
+CH,frauenverein-duebendorf.ch,https://www.frauenverein-duebendorf.ch/6215/index.html,Fundligrübli,,second_hand,,,,osm_node/7682637654
+CH,galerie-lephemere-second-hand.business.site,https://galerie-lephemere-second-hand.business.site,Galerie l'éphémère,+41 79 227 03 46,second_hand,,,66A Rue Centrale / Zentralstrasse,osm_node/7730317694
+CH,dodos-boutique.ch,https://www.dodos-boutique.ch,Dodo's Boutique,+41 32 501 17 00,second_hand,,,,osm_node/7730373820
+CH,battenberg.ch,https://www.battenberg.ch/de/upcycling-und-secondhand-laden-loop,Loop Secondhand,+41 32 365 11 50,second_hand,,,,osm_node/7741256276
+CH,norquain.com,https://www.norquain.com,Norqain,+41 32 505 31 55,watchmaker,,,,osm_node/7741330783
+CH,bluemoon-secondhand.ch,http://bluemoon-secondhand.ch,Bluemoon,,second_hand,Ipsach,2563,14 Hauptstrasse,osm_node/7741393379
+CH,marilynandhim.ch,https://marilynandhim.ch,Marylin & Him,,second_hand,Biel/Bienne,2502,23 Rue du Canal / Kanalgasse,osm_node/7744647554
+CH,brockehus-sarganserland.ch,https://www.brockehus-sarganserland.ch,Brockehus Sarganserland,+41 81 723 80 40,second_hand,Sargans,7320,4a Langgrabenstrasse,osm_node/7746144669
+CH,frauenverein-rheinfelden.ch,https://frauenverein-rheinfelden.ch/index.cfm?content=Brockenstube,Brockenstube,,second_hand,,,,osm_node/7762518591
+CH,cashngo.ch,https://www.cashngo.ch,Cash'n Go,+41 21 311 66 33,second_hand,,,30 Rue de l'Ale,osm_node/7769014027
+CH,kiloboutique.ch,https://www.kiloboutique.ch,Kilo Boutique,+41 77 411 00 18,second_hand,,,55 Rue de la Borde,osm_node/7769049144
+CH,frauenverein-nidau.ch,https://frauenverein-nidau.ch/angebote/#brokenstube,Brockenstube,+41 79 321 83 60,second_hand,Nidau,2560,70 Hauptstrasse,osm_node/7777358453
+CH,zenubia.ch,https://www.zenubia.ch,Zenubia Schmuck,,jewelry,Winterthur,8406,60 Zürcherstrasse,osm_node/7845978715
+CH,brocki-emmanuel.ch,https://www.brocki-emmanuel.ch,Brockenhaus Emmanuel,+41 52 222 94 11,second_hand,Winterthur,8404,24 Industriestrasse,osm_node/7899412949
+CH,interbroc.ch,https://interbroc.ch,Interbroc,,second_hand,Lanzenhäusern,3148,2 Albligenstrasse,osm_node/7937151088
+CH,stoffwechsel-laden.ch,https://www.stoffwechsel-laden.ch,stoffwechsel,,second_hand,St.Gallen,9000,42 Teufener Strasse,osm_node/7995713585
+CH,mdwatch.ch,https://mdwatch.ch,Duplain Horlogerie Sàrl,+41 32 968 65 44,watches,La Chaux-de-Fonds,2300,5 Rue du Nord,osm_node/8016664547
+CH,feist.ch,https://feist.ch,Daniel Feist - Uhren & Schmuck,+41442525314,watches,Zürich,8008,45 Seefeldstrasse,osm_node/8066317403
+CH,glueckssteine.ch,https://glueckssteine.ch,Glückssteine,,jewelry,,,,osm_node/8090508185
+CH,beceren.ch,https://www.beceren.ch,Beceren,,antiques,,,16 Stauffacherstrasse,osm_node/8116668928
+CH,meisterschmuck.ch,https://www.meisterschmuck.ch,Meister,,jewelry,Zürich,8001,16 Limmatquai,osm_node/8239688491
+CH,cosmolapis.ch,https://www.cosmolapis.ch,Cosmolapis,+41 56 610 58 31,jewelry,Lenzburg,5600,10 Aavorstadt,osm_node/8294828600
+CH,boutellier.ch,https://www.boutellier.ch,Boutellier,,jewelry,Brugg AG,5200,2,osm_node/8306161813
+CH,traumschmuck.ch,https://traumschmuck.ch,Pierre Niederer Goldschmied GmbH,+41 44 750 05 50,jewelry,Weiningen (ZH),8104,9 Friedhofstrasse,osm_node/8321201663
+CH,asten-montre.ch,https://www.asten-montre.ch,Tardy,,watches,,,,osm_node/8324514691
+CH,antikchic.ch,https://antikchic.ch,AntikChic,+41 79 301 66 60,antiques,,,,osm_node/8371750665
+CH,butia.ch,https://www.butia.ch,Butia d'or,+41 81 852 52 50,jewelry,,,,osm_node/8491910029
+CH,brockenstube.ch,https://www.brockenstube.ch,Brockenstube Au-Wädenswil GmbH,+41 44 781 40 20,second_hand,Au,8804,319c Seestrasse,osm_node/8507944718
+CH,goldschmied-mueller.ch,https://goldschmied-mueller.ch,Goldschmied Dieter Müller,+41 522 423 736,jewelry,Winterthur,8404,233 Römerstrasse,osm_node/8538026774
+CH,brockenstubebrienz.ch,https://www.brockenstubebrienz.ch,Brockenstube Brienz,,second_hand,,,,osm_node/8548346084
+CH,goldschmied-stutz.ch,https://www.goldschmied-stutz.ch,Goldschmied Stutz,,jewelry,,,,osm_node/8588875197
+CH,elizza.ch,https://www.elizza.ch,Elizza,+41 313113111,jewelry,Bern,3011,1 Neuengasse,osm_node/8599982188
+CH,boerse-waedenswil.ch,http://www.boerse-waedenswil.ch,Börse Wädenswil,+41434778057,second_hand,,8820,,osm_node/8614878605
+CH,rolex.com,https://www.rolex.com,Rolex,+41 44 800 85 40,watches,,,,osm_node/8621092980
+CH,bulgari.com,https://www.bulgari.com,Bulgari,+41 79 409 80 97,jewelry,,,,osm_node/8621271740
+CH,islergoldschmied.ch,https://www.islergoldschmied.ch,Isler Gold- & Silberschmied,+41 61 261 16 97,jewelry,,4001,6 Pfluggässlein,osm_node/8625525118
+CH,hourpassion.com,https://www.hourpassion.com/en/boutiques/zurich-airport-level-1,Hour Passion,+41 43 816 66 48,watches,,,,osm_node/8628210242
+CH,wehntalerbrocki.ch,http://wehntalerbrocki.ch,Wehntalerbrocki,+41 43 535 65 74,second_hand,Zürich,8046,397 Wehntalerstrasse,osm_node/8687946388
+CH,eggimann-goldschmied.ch,https://www.eggimann-goldschmied.ch,"Jörg Eggimann, Goldschmied",+41 313327029,goldsmith,Bern,3005,5 Helvetiastrasse,osm_node/8699102718
+CH,annisbrocki.ch,https://annisbrocki.ch,,,second_hand,,,,osm_node/8714406939
+CH,sovogue.ch,https://www.sovogue.ch,Sovogue,+41 32 322 22 86,watches,Biel/Bienne,2503,48 Rue du Marché-Neuf / Neumarktstrasse,osm_node/8725865011
+CH,speedy-cash.ch,https://www.speedy-cash.ch,Speedy Cash,+41 32 345 27 20,second_hand,Biel/Bienne,2502,5 Rue du Manège / Reitschulstrasse,osm_node/8851956022
+CH,sfa-info.ch,https://www.sfa-info.ch/grossbrocki,Gross Brocki Chur,+41712722020,second_hand,,,,osm_node/8860097994
+CH,brocanthaus.com,https://www.brocanthaus.com,Brocanthaus Bollig,+41 61 303 11 80,second_hand,Basel,4057,20 Klybeckstrasse,osm_node/8909393067
+CH,enjoy-bern.ch,https://www.enjoy-bern.ch,Enjoy,,jewelry,,,,osm_node/8920628489
+CH,ateliersonjat.ch,https://www.ateliersonjat.ch,Atelier Sonja T.,+41 21 601 48 85,second_hand,Lausanne,1006,9 Rue du Simplon,osm_node/8927061551
+CH,simirieser.ch,https://www.simirieser.ch,Goldschmiede Simi Rieser,,jewelry,,,,osm_node/8935498121
+CH,aguadeoro.ch,https://aguadeoro.ch,Agua de Oro,,jewelry,Zürich,8001,7 Wohllebgasse,osm_node/8938913394
+CH,brokids.ch,https://www.brokids.ch,BROKIDS Förderangebot,,second_hand,,,35 Stationsstrasse,osm_node/8971836747
+CH,glubos.ch,https://www.glubos.ch,Brockenbude Glubos,+41 61 681 81 04,second_hand,Basel,4057,12 Rappoltshof,osm_node/9006499387
+CH,flohmarkt-walensee.ch,https://www.flohmarkt-walensee.ch,Flohmarkt Walensee,,second_hand,,,,osm_node/9020084469
+CH,thevintagestore.ch,https://www.thevintagestore.ch,The Vintage Store,,antiques,,,,osm_node/9026268170
+CH,terre-sacree.ch,https://www.terre-sacree.ch,Terre Sacrée,+41273221052,jewelry,Sion,1950,2a Chemin du Vieux-Canal,osm_node/9048503770
+CH,aupetitparadisindien.com,https://aupetitparadisindien.com,Au petit paradis indien,,jewelry,,1304,,osm_node/9058722974
+CH,aurubis.ch,https://www.aurubis.ch,Au Rubis,+41 27 346 51 16,jeweller,Conthey,1964,15 Route des Rottes,osm_node/9103286104
+CH,coupdpouce.ch,https://coupdpouce.ch/index.php/magasins/chatel-st-denis,Coup d'Pouce,+41 21 948 02 30,second_hand,Châtel-Saint-Denis,1618,51 Route de la Coula,osm_node/9197170797
+CH,nortonpeak.com,https://www.nortonpeak.com,Norton Peak,+41 79 566 89 46,watches,Sion,1950,16 Rue Ste-Marguerite,osm_node/9205493810
+CH,osterlohs-raeumungen.ch,https://www.osterlohs-raeumungen.ch,Brocki Oberaach,,second_hand,,,,osm_node/9205575901
+CH,caritas-regio.ch,https://caritas-regio.ch/fr/a-propos-de-caritas/jura,Comm9,+41 32 466 65 46,second_hand,Porrentruy,2900,18 Grand-Rue,osm_node/9213688477
+CH,atelier-zeitglas.ch,https://atelier-zeitglas.ch,Zeitglas,,watches,Schaffhausen,8200,15a,osm_node/9232654598
+CH,juvels.ch,https://www.juvels.ch,juvels,+41 44 557 12 11,jewelry,,,,osm_node/9291427954
+CH,brocki-grischun.ch,https://www.brocki-grischun.ch,BrockiGrischun,,second_hand,Davos Dorf,7260,6 Bahnhofstrasse,osm_node/9356719951
+CH,ledepot.shop,https://ledepot.shop,Le Dépôt,+41 79 402 82 91,second_hand,,,,osm_node/9392965319
+CH,gil-bonnet.ch,https://gil-bonnet.ch,Bonnet Gil & Fils SA,+41 27 455 28 70,jewelry,Sierre,3960,11 Avenue Général-Guisan,osm_node/9430250101
+CH,chloerose.ch,https://chloerose.ch,Chloe Rose,,jewelry,,,,osm_node/9483113219
+CH,schauerte.ch,https://www.schauerte.ch,Claude Schauerte AG,,watches,,,,osm_node/9484335841
+CH,petershof.ch,https://www.petershof.ch,Petershof,,antiques,Basel,4051,19 Petersgraben,osm_node/9507207597
+CH,preiss-uhren.ch,https://www.preiss-uhren.ch/home.html,Preiss Uhren & Schmuck,+41 62 922 05 30,jewelry,,,,osm_node/9545114835
+CH,luxoia.com,https://luxoia.com,Luxoia,+41 31 311 46 84,jewelry,,,,osm_node/9558301067
+CH,arti-puces.ch,https://arti-puces.ch,Arti-Puces,+41 79 660 92 77,second_hand,St-Cergue,1264,8 Rue de la Gare,osm_node/9681012575
+CH,bazaradeux.ch,https://www.bazaradeux.ch,Bazar à Deux,+41 79 301 86 20,second_hand,Préverenges,1028,1A Route d'Yverdon,osm_node/9681026582
+CH,eliasetlara.ch,https://www.eliasetlara.ch,Chez Elias et Lara,+41 21 525 54 60,second_hand,Lausanne,1004,22 Chemin de Pierrefleur,osm_node/9681030472
+CH,dad-services.ch,https://www.dad-services.ch,Brocante Chez Dad,+41 79 323 20 00,second_hand,Boudevilliers,2043,4 Centre du Village,osm_node/9681111648
+CH,ecobroc.ch,https://ecobroc.ch,Eco Broc,+41 79 586 93 79,second_hand,Martigny,1920,14 Pré-de-Foire,osm_node/9681146404
+CH,sunnyhouse.ch,https://sunnyhouse.ch,Sunny House,+41 78 708 29 30,second_hand,Noville,1845,28 Route d'Evian,osm_node/9683768243
+CH,troc-store.ch,http://troc-store.ch,Troc store,+41 32 968 55 41,second_hand,La Chaux-de-Fonds,2300,7 Rue Fritz-Courvoisier,osm_node/9695666576
+CH,csp.ch,https://csp.ch/neuchatel/boutiques,La Joliette,+41 32 886 91 53,second_hand,Boudevilliers,2043,40 Route de la Jonchère,osm_node/9696183427
+CH,brocki-peter.ch,https://brocki-peter.ch,Brocki Peter,+41 78 626 40 66,second_hand,,,,osm_node/9705578081
+CH,troller.ch,https://troller.ch,Troller,+41 44 725 08 06,jewelry,,,,osm_node/9733475796
+CH,brockilandag.ch,https://www.brockilandag.ch,Brocki-Land,,second_hand,,,,osm_node/9763547414
+CH,brockisiril.ch,https://www.brockisiril.ch,Brocki Siril,,second_hand,Zürich,8048,405 Hohlstrasse,osm_node/9847607235
+CH,armyliqshop.ch,https://www.armyliqshop.ch,Army Liq Shop,,second_hand,St. Gallen,9000,50 Burgstrasse,osm_node/9901277983
+CH,les-alliances.ch,https://les-alliances.ch,Bijouterie Grand St-Jean,+41 21 323 71 58,jewelry,,,,osm_node/9918778454
+CH,watchshop-calan.ch,https://watchshop-calan.ch,Watch Shop Calan,,watches,St.Gallen,9000,15 Frongartenstrasse,osm_node/9965942489
+CH,baiushki.com,https://baiushki.com,Baiushki,,jewelry,,,,osm_node/10031838952
+CH,laboutiquedesophie.ch,http://www.laboutiquedesophie.ch,La boutique de Sophie,+41 79 523 11 71,second_hand,Semsales,1623,80 Grand-Rue,osm_node/10065332699
+CH,brocante-la-vie.ch,https://www.brocante-la-vie.ch,Brocante La Vie,+41 24 466 71 24,second_hand,Yvorne,1853,Pré de l'Oie,osm_node/10065382840
+CH,chind-und-chegel.ch,https://www.chind-und-chegel.ch,Chind & Kegel,+41 44 557 44 51,second_hand,Zürich,,216 Regensbergstrasse,osm_node/10083257302
+CH,zweimalchic.ch,https://www.zweimalchic.ch,ZweimalChic,,second_hand,,,,osm_node/10100509939
+CH,brocki21.ch,https://www.brocki21.ch,Brocki21,,second_hand,Pfäffikon (SZ),8808,21 Churerstrasse,osm_node/10105954616
+CH,islikonbrocki.ch,https://www.islikonbrocki.ch,Brockenhaus Islikon,,second_hand,,,,osm_node/10109949226
+CH,gässli-zyt.ch,https://www.gässli-zyt.ch,Gässli-Zyt,+41 44 559 49 15,watches,,,,osm_node/10117336130
+CH,kauri-watches.ch,https://kauri-watches.ch,KAURI Watches,+41 787048025,watchmaker,Plan-les-Ouates,1228,36 Chemin du Champ-des-Filles,osm_node/10147460409
+CH,rueggsa.ch,https://www.rueggsa.ch,Ruegg SA,,clockmaker,,,,osm_node/10180452388
+CH,eigen-sinn.ch,https://eigen-sinn.ch,EigenSinn,+41 78 606 70 65,jewelry,,,,osm_node/10199006339
+CH,fellowgoldschmiede.com,https://www.fellowgoldschmiede.com,Fellow Jewels,+41 61 261 70 88,jewelry,,,,osm_node/10223921341
+CH,historianlugano.com,https://historianlugano.com,Historian Lugano,+41763022043,antiques,Lugano,6900,10 Via al Forte,osm_node/10241198962
+CH,frantastic-schmuck.com,https://www.frantastic-schmuck.com,Frantastic Schmuck,,jewelry,,,,osm_node/10253042478
+CH,goldschmiede-eichendorff.com,https://www.goldschmiede-eichendorff.com,Goldschmiede von Eichendorff,+41 81 252 62 12,jewelry,,,,osm_node/10275946034
+CH,sonnenbrocki.ch,https://sonnenbrocki.ch,Sonnenbrocki,+41 71 993 91 03,second_hand,,,,osm_node/10285950962
+CH,thurbrocki.ch,https://www.thurbrocki.ch,Thur-Brocki,+41 76 615 60 65,second_hand,,,,osm_node/10285950963
+CH,masalamurten.ch,https://masalamurten.ch,Masala,+41 26 672 03 03,second_hand,,3280,,osm_node/10296799348
+CH,schmuck-froesch.ch,https://www.schmuck-froesch.ch,Frösch,+41 61 261 22 88,jewelry,,,,osm_node/10598818052
+CH,zenith-watches.com,https://www.zenith-watches.com,Zenith SA,,watchmaker,Le Locle,2400,30 Rue des Billodes,osm_node/10601257987
+CH,sellita.ch,https://www.sellita.ch,Sellita Watch Co. SA,,watchmaker,,,,osm_node/10605190554
+CH,casagrande.digitalone.site,https://casagrande.digitalone.site,Casagrande Sàrl,+41 32 931 86 43,watchmaker,Le Locle,2400,60 Rue Girardet,osm_node/10606035617
+CH,comadur.ch,https://www.comadur.ch,Comadur SA,,watchmaker,,,,osm_node/10606696741
+CH,colorwave.ch,https://colorwave.ch,colorwave,+41 32 931 12 14,jeweller,,,,osm_node/10607055479
+CH,brocki-volltreffer.ch,https://www.brocki-volltreffer.ch,Brocki Volltreffer,+41 71 556 85 00,second_hand,,,,osm_node/10676191496
+CH,juwelierfrech.com,https://juwelierfrech.com,Juwelier Frech,,jewelry,Zürich,8001,56 Bahnhofstrasse,osm_node/10717072975
+CH,oscar-stahel-ag.ch,https://oscar-stahel-ag.ch,Stahel,,watches,Zürich,8001,5 Gerbergasse,osm_node/10736629490
+CH,trendme.ch,https://www.trendme.ch,Trendme,,jewelry,Rapperswil SG,8640,7 Tiefenaustrasse,osm_node/10760680101
+CH,stadt-brocki.business.site,https://stadt-brocki.business.site,Stadt Brocki,,second_hand,Winterthur,8400,23 Obergasse,osm_node/10773272406
+CH,gabys-secondhand-shop.ch,https://www.gabys-secondhand-shop.ch,Gaby's Second-Hand Shop,,second_hand,,,,osm_node/10801861613
+CH,stalderschmuck.ch,https://stalderschmuck.ch,Patrick Stalder Schmuck,+41 44 362 15 15,jewelry,,,,osm_node/10832154712
+CH,uhrenatelier.ch,https://uhrenatelier.ch,Uhrenatelier Rindermarkt 21,,watches,,,21 Rindermarkt,osm_node/10832154718
+CH,foc.ch,https://foc.ch,Friends of Carlotta,,jewelry,,,,osm_node/10832155259
+CH,escapement.ch,https://www.escapement.ch,Porte-Echappements SA,+41 32 924 00 80,watchmaker,La Chaux-de-Fonds,2300,5 Rue du Président-Wilson,osm_node/10835629023
+CH,elfix-production.ch,http://www.elfix-production.ch,Elfix Production SA,,watchmaker,,,,osm_node/10835629049
+CH,conceptcncdesign.ch,http://www.conceptcncdesign.ch,Concept CNC Design,,watchmaker,,,,osm_node/10835629050
+CH,oliviaschaffner.ch,https://www.oliviaschaffner.ch,Olivia Schaffner,+41 56 222 58 61,jewelry,,,,osm_node/10868980825
+CH,brockähuis.ch,https://www.brockähuis.ch,Brockähuis Nidwalden,+41416183525,second_hand,,,,osm_node/10910789864
+CH,grainedeshopping.com,https://www.grainedeshopping.com,Graine de shopping,,jewelry,,,11 Rue de Romont,osm_node/10911501142
+CH,diebrocki.ch,https://diebrocki.ch,die brocki,,second_hand,Pfungen,8422,5 Dättlikonerstrasse,osm_node/10941361289
+CH,stallwerke.ch,https://www.stallwerke.ch,Verein StallWerke,,second_hand,Nuglar,4412,2 Hofackerstrasse,osm_node/10946915506
+CH,remar.ch,https://remar.ch/wetzikon,REMAR,,second_hand,Wetzikon,8620,2 Bertschikerstrasse,osm_node/10947470201
+CH,brockisearch.ch,https://www.brockisearch.ch/brockenhaeuser/zuerich/occasioni-mini-brocki,Occasioni Mini Brocki,,second_hand,Zürich,8003,97 Birmensdorferstrasse,osm_node/10947529389
+CH,salio.ch,https://salio.ch/brocki,Brockenstube Frosch,,second_hand,Zürich,8001,4 Froschaugasse,osm_node/10947626861
+CH,stoeckenweid.ch,https://stoeckenweid.ch/arbeiten/fachbereiche/brocki-beiz,BrockiBeiz,,second_hand,Meilen,8706,1037 Seestrasse,osm_node/10947645183
+CH,seglerbrocki.ch,https://www.seglerbrocki.ch,Seglerbrocki,,second_hand,,,219 Hochstrasse,osm_node/10947650086
+CH,frauenverein-pfaeffikonzh.ch,https://www.frauenverein-pfaeffikonzh.ch/brocki.html,Brocki im Dorf,,second_hand,,,17 Bahnhofstrasse,osm_node/10947651285
+CH,niederglatt-zh.ch,https://www.niederglatt-zh.ch/vereinsliste/22801,Brockenstubenverein Niederglatt,,second_hand,Niederglatt ZH,8172,5 Sägereistrasse,osm_node/10947652212
+CH,sglattibrocki.ch,https://www.sglattibrocki.ch,S’glatti Brocki,,second_hand,Oberhasli,8156,2 Watterstrasse,osm_node/10947652213
+CH,roellin.ch,https://roellin.ch/retromarkt-shop,RetroMarkt Dielsdorf,,second_hand,,,3 Gumpenwiesenstrasse,osm_node/10947660601
+CH,brocki-8174.ch,https://brocki-8174.ch,Brocki 8174,,second_hand,,,25 Zürcherstrasse,osm_node/10947662387
+CH,brocki-saland.ch,http://www.brocki-saland.ch,Brocki-Saland,,second_hand,Saland,8493,8 Juckerenstrasse,osm_node/10947668046
+CH,brockenhaus-turbenthal.ch,https://www.brockenhaus-turbenthal.ch,Brockenhaus Turbenthal,,second_hand,,,13 Tösstalstrasse,osm_node/10947711369
+CH,frauenverein-uetikon.ch,https://www.frauenverein-uetikon.ch/index.php/angebot/brockenstube,Brockenstube Frauenverein Uetikon am See,,second_hand,,,60 Dollikerstrasse,osm_node/10947761140
+CH,brockiwald.ch,http://brockiwald.ch,Brocki Wald & Kunsthandwerk,,second_hand,,,9 Tösstalstrasse,osm_node/10947764170
+CH,canbrocki.ch,https://canbrocki.ch,Can Brocki,,second_hand,,,55 Dorfstrasse,osm_node/10947776198
+CH,fundus64.ch,https://www.fundus64.ch,Fundus 64,,second_hand,,,12 Käppeliweg,osm_node/10947776199
+CH,antik-brocki.ch,https://antik-brocki.ch,Antik-Brocki Uetikon,,second_hand,,,144 Alte Landstrasse,osm_node/10947778152
+CH,sammler-brocki.ch,http://www.sammler-brocki.ch/index.htm,Sammler Brocki,,second_hand,,,38 Zürichstrasse,osm_node/10947821438
+CH,brocki-naehatelier.ch,http://www.brocki-naehatelier.ch/Brocki-Maert.htm,Brocki-Märt Fischenthal,,second_hand,,,426 Tösstalstrasse,osm_node/10947837616
+CH,wettsteinhaus.ch,https://wettsteinhaus.ch/schatzchammer.shtml,,,second_hand,,,34a Bundtstrasse,osm_node/10947880830
+CH,brockiza.ch,https://www.brockiza.ch,BrockiZa,,second_hand,,,129 Gattikonerstrasse,osm_node/10947900895
+CH,antikbrockihagenstal.business.site,https://antikbrockihagenstal.business.site,Antik-Brocki und Bistro Hagenstal,,second_hand,Hagenbuch ZH,8523,9,osm_node/10947956763
+CH,fvk.ch,https://www.fvk.ch/Brocki.htm,Brockenstube Frauenverein Küsnacht,,second_hand,,,20 Freihofstrasse,osm_node/10947970912
+CH,frauenvereinkilchberg.ch,https://frauenvereinkilchberg.ch,Brocki Frauenverein Kilchberg,,second_hand,,,153 Stockenstrasse,osm_node/10947979970
+CH,veso.ch,https://www.veso.ch/auftrage/gartenbrockenhaus.html,VESO Gartenbrockenhaus,,second_hand,,,17 Römerweg,osm_node/10949066975
+CH,zum-uhrmacher.ch,https://zum-uhrmacher.ch,Zum Uhrmacher,+41 77 493 78 34,watches,,,164 Weinbergstrasse,osm_node/10949082339
+CH,einzigartigkreativ.ch,https://einzigartigkreativ.ch,Einzigartig kreativ,,goldsmith,,,,osm_node/10949082350
+CH,caroline-ronzani.com,https://caroline-ronzani.com,Caroline Ronzani,+41 78 888 31 91,jewelry,,,,osm_node/10951893273
+CH,chindersache.ch,http://www.chindersache.ch,KinderKleiderBörse Friesenberg,+41 76 288 76 15,second_hand,Zürich,8045,195 Schweighofstrasse,osm_node/10955929784
+CH,glanzvoll.ch,https://www.glanzvoll.ch,Goldschmiede Glanzvoll,,jewelry,,,7 Unterstadt,osm_node/10962216594
+CH,samcaverne.ch,https://samcaverne.ch,Sam Caverne,,antiques,,,,osm_node/10967959145
+CH,affolterwillisau.ch,https://affolterwillisau.ch,Affolter,+41 41 970 12 38,jewelry,,,,osm_node/10977310902
+CH,chronolounge.ch,https://www.chronolounge.ch,Chrono Lounge,,watches,St.Gallen,9016,6 Ulmenstrasse,osm_node/10982365527
+CH,maruskariva.ch,https://maruskariva.ch,Maruska Riva gioielli,,jewelry,Lugano,6900,13 Cattedrale,osm_node/10982829402
+CH,babich.ch,https://babich.ch,Babich Horlogerie Bijouterie,+41 22 731 57 47,watchmaker,Genève,1201,10 Rue de-Grenus,osm_node/11057285243
+CH,quiksilber.ch,https://www.quiksilber.ch,QuikSilber,,jewelry,Rapperswil SG,8640,27 Halsgasse,osm_node/11074905965
+CH,lauener-altdorf.ch,https://www.lauener-altdorf.ch,Lauener Uhren und Schmuck,,jewelry,Altdorf UR,6460,4,osm_node/11210437969
+CH,akor.ch,https://akor.ch,Akor SA,,watchmaker,Le Locle,2400,6a Rue de la Jambe-Ducommun,osm_node/11248295595
+CH,j2tech.ch,https://www.j2tech.ch,J2 Tech Sàrl,+41 32 910 90 60,watchmaker,Le Locle,2400,6a Rue de la Jambe-Ducommun,osm_node/11248295597
+CH,cordoba-polissage.ch,https://www.cordoba-polissage.ch,Cordoba Polissage,+41 32 931 92 40,watchmaker,Le Locle,2400,6b Rue de la Jambe-Ducommun,osm_node/11248295599
+CH,emissa.com,https://www.emissa.com,Emissa SA,+41 32 933 06 66,watchmaker,Le Locle,2400,6b Rue de la Jambe-Ducommun,osm_node/11248295600
+CH,imi-swiss.ch,https://www.imi-swiss.ch,IMI Swiss,+41 32 925 70 10,watchmaker,Le Locle,2400,6b Rue de la Jambe-Ducommun,osm_node/11248295601
+CH,wetterbaum.ch,https://wetterbaum.ch,Brocki Frauenfeld,,second_hand,Frauenfeld,8500,2c Breitenstrasse,osm_node/11266728189
+CH,duetto-secondhand.digitalone.site,https://duetto-secondhand.digitalone.site,Duetto Second Hand,,second_hand,,,,osm_node/11281065869
+CH,räume99.ch,https://räume99.ch,Räume 99,+41794835475,antiques,Buchs SG,9470,1 Groffeldstrasse,osm_node/11301552263
+CH,emesshop.ch,https://emesshop.ch,EMEsSHOP,,jewelry,,,5 Albisstrasse,osm_node/11350470577
+CH,mcschmuck.ch,https://www.mcschmuck.ch,Sunne Uhren - Schmuck,,jewelry,,,,osm_node/11350470578
+CH,koenigjewellery.com,https://www.koenigjewellery.com/kontakt,König,,jewelry,,,,osm_node/11363636519
+CH,sarahartdesign.ch,https://www.sarahartdesign.ch,Bijouterie Sarah Art'Design,+41798714180,jewelry,Thierrens,1410,4 Chemin de la Bataille,osm_node/11375855322
+CH,cliniquehorlogere.ch,https://www.cliniquehorlogere.ch,À La Clinique Horlogère,+41 32 466 14 86,watchmaker,Porrentruy,2900,29 Rue du Creugenat,osm_node/11406404597
+CH,local.ch,https://www.local.ch/fr/d/lausanne/1003/bijouterie/l-or-et-la-pierre-OtS1kkrQtr8a0M9Tpe2DZQ,L'Or et la Pierre,+41213117409,jewelry,Lausanne,1003,Rue du Petit-Chêne,osm_node/11415483537
+CH,encore-kinderkleiderboerse.com,https://www.encore-kinderkleiderboerse.com,Encore Kinderbörse,+41 22 559 87 87,second_hand,,,5 Aarbergergasse,osm_node/11462739217
+CH,julianajewelry.ch,https://www.julianajewelry.ch,Juliana Jewelry,+41 91 922 82 22,jewelry,Lugano,6900,64 Via Nassa,osm_node/11522524481
+CH,blaueskreuz-tgsh.ch,https://www.blaueskreuz-tgsh.ch/blaukreuz-brocki/brocki-weinfelden,Blaukreuz-Brocki,+41 71 620 26 66,second_hand,,,,osm_node/11534019773
+CH,cestcommode.ch,https://www.cestcommode.ch,C'est commode la brocante,+41 21 922 52 52,second_hand,Corsier-sur-Vevey,1804,42 Avenue Reller,osm_node/11534066264
+CH,tiffany.com,https://www.tiffany.com/jewelry-stores/geneva,Tiffany & Company,,jewelry,,,,osm_node/11554430218
+CH,ulysse-nardin.com,https://www.ulysse-nardin.com,Ulysse Nardin Le Locle SA,,watchmaker,,,,osm_node/11557906781
+CH,souslespaves.ch,https://www.souslespaves.ch,Sous les Pavés,+41 22 700 18 16,jewelry,Genève,1204,14 Rue du Perron,osm_node/11581876553
+CH,standout-watch.com,https://www.standout-watch.com,FT Swiss Creations SA,+41 32 933 97 66,watchmaker,,,,osm_node/11603338117
+CH,ceram-istrate.ch,https://ceram-istrate.ch,CERAM Istrate,+41 32 920 30 87,watchmaker,Le Locle,2400,25 Rue Jean-Jacques-Huguenin,osm_node/11603654043
+CH,goldig.ch,https://www.goldig.ch,Goldschmiede Brigitte Truttmann,+41 79 567 89 99,jewelry,,,,osm_node/11663522234
+CH,bijoux-a-la-carte.ch,https://www.bijoux-a-la-carte.ch,Bijoux à la Carte,+41313121458,jewelry,,,52 Postgasse,osm_node/11665656104
+CH,evelyne-m.ch,https://evelyne-m.ch,Evelyne-M,,jewelry,,,,osm_node/11685184271
+CH,engiadina-antik.ch,https://engiadina-antik.ch,Engiadina Antik,+41 79 336 34 52,antiques,,,,osm_node/11716629918
+CH,brockigarage.ch,https://brockigarage.ch,Brocki Garage,,second_hand,,,28 Feldblumenstrasse,osm_node/11771015651
+CH,benevolenti.com,https://benevolenti.com,bene volenti,,jewelry,,,,osm_node/11794075369
+CH,xn--elliezri-c6a.ch,https://xn--elliezri-c6a.ch,Ellie,,jewelry,,,,osm_node/11806027242
+CH,sens-egaux.ch,https://sens-egaux.ch/services/brocrecup,Broc'Recup,,antiques,,,,osm_node/11960943269
+CH,elwin.ch,https://www.elwin.ch,Elwin,,watchmaker,,,,osm_node/12005629304
+CH,michel-antiquites.digitalone.site,https://michel-antiquites.digitalone.site,Michel Antiquités Meubles Rustiques,+41 76 243 00 42,antiques,,1205,4 Rue Leschot,osm_node/12033297950
+CH,blingbox.ch,https://www.blingbox.ch,Blingbox,,jewelry,,,,osm_node/12037088078
+CH,hauri-schmuck.ch,https://www.hauri-schmuck.ch,Schmuckmanufaktur Mirjam Hauri,,jewelry,,,15 Unterer Winkel,osm_node/12040576358
+CH,alliances-kechichian.ch,https://alliances-kechichian.ch,Alliances Kechichian,+41 22 320 66 86,jewelry,,1205,71 Rue de Carouge,osm_node/12071027569
+CH,green-up.ch,https://green-up.ch/de/project/green-hub-davos,Green Hub,,second_hand,Davos Platz,7270,87 Promenade,osm_node/12075455760
+CH,goldschmiede-sturzenegger.ch,https://www.goldschmiede-sturzenegger.ch,Sturzenegger Goldschmiede,+41 81 723 2715,jewelry,Sargans,7320,6 Zürcherstrasse,osm_node/12106429269
+CH,gfv-schoeftland.ch,https://gfv-schoeftland.ch/brocki,Brocki Schöftland,,second_hand,,,,osm_node/12110211797
+CH,neustadt-brocki.ch,https://neustadt-brocki.ch,Neustadt Brockenhaus,,second_hand,Winterthur,8400,7a Tösstalstrasse,osm_node/12143509332
+CH,mawidor.ch,https://www.mawidor.ch,Mawidor,+41 55 640 39 36,jewelry,Glarus,8750,10 Zaunstrasse,osm_node/12180176274
+CH,breitling.com,https://www.breitling.com,Breitling,,watches,,,,osm_node/12205560072
+CH,antiquariat-libelle.ch,https://www.antiquariat-libelle.ch,Libelle mit H&B,,antiques,,,6 Schnabelgasse,osm_node/12227833182
+CH,stichkabinett.ch,https://www.stichkabinett.ch,Kunstantiquariat Stichkabinett,+41 61 261 58 31,antiques,Basel,4051,29 Spalenberg,osm_node/12230410072
+CH,goldschmiede-basel.ch,http://www.goldschmiede-basel.ch,Goldschmiede Atelier Christin Weber,+4161 261 13 49,jewelry,Basel,4051,49 Spalenberg,osm_node/12230410085
+CH,exgold.ch,https://www.exgold.ch,Exgold Antik Waren,+41 61 681 75 75,gold_buyer,Basel,4051,11 Stadthausgasse,osm_node/12230466541
+CH,swissgoldshop.ch,https://www.swissgoldshop.ch,SwissGoldShop AG,+41 55 210 99 90,collector,Uznach,8730,19 Grynaustrasse,osm_node/12277423441
+CH,admin.luganoeventi.ch,https://admin.luganoeventi.ch/api/files/rich_text_files/6700665a41de0.pdf,Atelier Di Mano In Mano,,second_hand,Massagno,6900,,osm_node/12329269424
+CH,artdutemps.ch,https://www.artdutemps.ch,Art du Temps,+41 32 322 77 99,watches,Biel/Bienne,2502,9 Rue de l'Union / Unionsgasse,osm_node/12346136596
+CH,dinhvan.com,https://www.dinhvan.com/en_int/boutiques/boutique-geneve,Dinh Van,,jewelry,,,,osm_node/12355993497
+CH,iskenderian.ch,https://iskenderian.ch,Iskenderian,,jewelry,,,,osm_node/12356003979
+CH,nicolegrob.ch,http://www.nicolegrob.ch,"Nicole Grob, die Goldgiesserin",,jewelry,Rapperswil SG,8640,13 Seestrasse,osm_node/12441252869
+CH,brandschatz.ch,https://brandschatz.ch,Brandschatz,,second_hand,,,,osm_node/12520351101
+CH,goldschmiede-ambrosi.ch,https://goldschmiede-ambrosi.ch,Goldschmiede Ambrosi,+41 31 721 31 24,goldsmith,,,,osm_node/12615891947
+CH,pris-k.ch,https://www.pris-k.ch,Pris K.,,goldsmith,Winterthur,8400,5 Kirchplatz,osm_node/12647629318
+CH,frauenverein-kerzers.ch,https://www.frauenverein-kerzers.ch/brocki,Brocki,+41 79 282 57 64,second_hand,,,1b Bahnhofplatz,osm_node/12666504805
+CH,schmiede.gold,https://www.schmiede.gold,Goldschmiede,,goldsmith,,,,osm_node/12702369537
+CH,brockinell.ch,https://brockinell.ch,Brockinell,,second_hand,,,,osm_node/12744694764
+CH,brocki-welt.ch,https://brocki-welt.ch,brocki welt,,second_hand,,8050,80 Leutschenbachstrasse,osm_node/12800643502
+CH,brockireimalstiftung.ch,https://brockireimalstiftung.ch,Brockenhaus Reimal Stiftung,,second_hand,,,,osm_node/12804018364
+CH,aladin-antik.ch,https://www.aladin-antik.ch,Aladin Antik,,antiques,,,,osm_node/12806110696
+CH,zubi.swiss,https://zubi.swiss/info/ueber-zubi/standorte/outlet-stgallen,Zubi Outlet St.Gallen,+41 71 280 01 01,second_hand,,9000,9 Büchelstrasse,osm_node/12860562301
+CH,lafreeperie.ch,https://lafreeperie.ch,La Freeperie,+41 78 311 65 78,second_hand,,,"1, Garage n°3 Rue des Côtes-de-Montbenon1",osm_node/12992761510
+CH,greenworlddiamonds.ch,https://greenworlddiamonds.ch,Green World Diamonds,+41 76 360 88 88,jewelry,,,,osm_node/12999927512
+CH,unterstadt-uhrmacher.ch,https://www.unterstadt-uhrmacher.ch,A. K. Spühler,+41 52 625 03 28,watchmaker,Schaffhausen,8200,37 Unterstadt,osm_node/13026232513
+CH,gecko-boerse.ch,https://www.gecko-boerse.ch,Gecko Kinderkleider- und Spielbörse,,second_hand,,,,osm_node/13036958952
+CH,schmuckwerk26.ch,https://www.schmuckwerk26.ch,Schmuckwerk 26,+41 32 622 30 26,jewelry,,,5 Schmiedengasse,osm_node/13047996428
+CH,brocki-buempliz.ch,https://brocki-buempliz.ch,Brocki Bümpliz,+41 78 312 30 20,second_hand,,,10 Lagerhausweg,osm_node/13058310802
+CH,anna-schmid-schmuck.ch,https://www.anna-schmid-schmuck.ch,Anna Schmid Schmuck,+41 61 261 66 70,jewelry,Basel,4001,14 Schneidergasse,osm_node/13059861257
+CH,goldschmiedscherrerch.wordpress.com,https://goldschmiedscherrerch.wordpress.com,Goldschmied Scherrer,+41 79 442 75 56,jewelry,Basel,4051,21 Hutgasse,osm_node/13069640925
+CH,aemme-brocki.ch,https://www.aemme-brocki.ch,Aemme Brocki,+41 76 706 87 25,second_hand,,3322,22 Solothurnstrasse,osm_node/13073871101
+CH,brocki-traeff.ch,https://www.brocki-traeff.ch,Brocki-Träff,+41 79 638 62 16,second_hand,,3322,22 Solothurnstrasse,osm_node/13073874401
+CH,frauenverein-wilderswil.ch,https://frauenverein-wilderswil.ch,Brockenstube,,second_hand,,,,osm_node/13074309795
+CH,reichlin-schmuck.ch,https://www.reichlin-schmuck.ch,Reichlin Schmuck,+41 76 525 49 94,jewelry,,,,osm_node/13083938742
+CH,goldboerse.ch,https://www.goldboerse.ch,Goldboerse,+41 61 262 37 38,gold_buyer,Basel,4051,3 Marktgasse,osm_node/13110725929
+CH,atelier-maithe.com,https://atelier-maithe.com,Atelier Maïthé,+41 61 272 08 66,jewelry,Basel,4051,6 Eisengasse,osm_node/13116852111
+CH,srk-bern.ch,https://www.srk-bern.ch/de/unterstuetzung-im-alltag/bei-finanzieller-not/secondhand-shops,La Trouvaille,,second_hand,,,,osm_node/13134399186
+CH,lauener-zug.ch,https://www.lauener-zug.ch,Lauener Uhren,,watches,,,,osm_node/13135676493
+CH,frauenverein-muttenz.ch,https://www.frauenverein-muttenz.ch/brockenstube.html,Brockenstube Frauenverein Muttenz,+41 79 931 01 91,second_hand,Muttenz,4132,3 Brühlweg,osm_node/13149011671
+CH,exelwatches.com,https://exelwatches.com,Exel Watches Lugano,+41 79 243 98 87,watches,Lugano,6900,1a Via Cantonale,osm_node/13230010391
+CH,donze-cadrans.com,https://donze-cadrans.com,Donzé Cadrans,+41 32 931 61 42,watchmaker,,,,osm_node/13257879614
+CH,felixdoll.com,https://felixdoll.com,Studio Felix Doll,,jewelry,Zürich,8004,4 Zeughaus,osm_node/13337022513
+CH,cashfive.ch,https://cashfive.ch,Cashfive,+41 22 555 32 34,pawnbroker,,,,osm_node/13340616443
+CH,cooperativa-area.ch,https://www.cooperativa-area.ch/Arsenale,Arsenale,+41918250427,second_hand,,6500,,osm_node/13355971149
+CH,perlenunikate.com,https://www.perlenunikate.com,Perlenunikate,,jewelry,,,,osm_node/13384128323
+CH,caritas-secondchance.ch,http://www.caritas-secondchance.ch,Second Chance,+41 41 368 51 50,second_hand,,6020,42 Gerliswilstrasse,osm_node/13437892901
+CH,goldschmiede-roduner.ch,https://www.goldschmiede-roduner.ch,Goldschmiede Jürg Roduner,,jewelry,St.Gallen,9000,6 Metzgergasse,osm_node/13470162822
+CH,alunir.ch,https://www.alunir.ch,Alunir,,jewelry,St.Gallen,9000,40 Neugasse,osm_node/13477700011
+CH,altingold.ch,https://altingold.ch,Altin Gold,,gold_buyer,St.Gallen,9000,2 Bahnhofstrasse,osm_node/13477700086
+CH,luxtech.ch,https://luxtech.ch,Luxtech,+41 32 954 10 30,watchmaker,,,,osm_node/13484834961
+CH,danieldeguy.com,https://www.danieldeguy.com,Daniel Guy,+41213128091,jewelry,,1003,5 Rue Centrale,osm_node/13507544501
+CH,werthanor.ch,https://www.werthanor.ch,Werthanor,,watchmaker,,,,osm_node/13512078395
+CH,kinderboerse-manja.ch,https://www.kinderboerse-manja.ch,Manja Kinderartikel Secondhand,,second_hand,St.Gallen,9000,12 Lustgartenstrasse,osm_node/13585031671
+CH,talismania.ch,https://www.talismania.ch,talismania,,jewelry,,,,osm_node/13622819249
+CH,gloryland.ch,https://www.gloryland.ch,Gloryland,+41 21 691 41 50,second_hand,,1022,8 Rue de la Mouline,osm_node/13629547102
+CH,carmencalabrese.com,https://carmencalabrese.com,Carmen Calabrese,,jewelry,St.Gallen,9000,19 Linsebühlstrasse,osm_node/13651393456
+CH,godotetfils.com,https://godotetfils.com/lausanne,Godot & Fils,+41 21 512 44 68,gold_buyer,Lausanne,1003,5 Rue Caroline,osm_node/13674832601
+CH,ostwindkinder.ch,https://www.ostwindkinder.ch,Ostwindkinder,,second_hand,,,,osm_node/13760713959
+CH,jojoo.ch,https://www.jojoo.ch,Kinderkleiderbörse jo-joo,+41 76 712 55 88,second_hand,Kloten,8302,42 Lindenstrasse,osm_node/13770295360
+CH,gelatine-boutique.ch,https://www.gelatine-boutique.ch,Boutique Gélatine,+41 61 263 15 55,jewelry,Basel,4051,40a Spalenberg,osm_node/13789547058
+CH,hehegalerie.ch,https://hehegalerie.ch,Hehe Galerie,,antiques,,,,osm_node/13800495183
+CH,graeppi-goldschmiede.ch,https://graeppi-goldschmiede.ch,Gräppi Goldschmiede,+41 71 385 15 50,jewelry,Degersheim,9113,16 Zeisigstrasse,osm_node/13817216850
+CH,archipelsion.ch,https://archipelsion.ch/ressourcerie,Ressourcerie L'archipel,+41 27 565 57 57,second_hand,,1950,30 Rue de l'Industrie,osm_node/13840976102
+CH,emmaus-ti.ch,https://www.emmaus-ti.ch,Comunità Emmaus Ticino,,second_hand,,,,osm_node/13846882213
+CH,seconda.ch,https://seconda.ch,seconda.ch,,second_hand,Lichtensteig,9620,3 Stadtbrücke,osm_node/13858950095
+CH,romobern.ch,https://www.romobern.ch,Romo,,jewelry,,,,osm_node/13891030990
+CH,beat-lehmann.ch,https://www.beat-lehmann.ch,Beat Lehmann,+41 61 261 96 14,jewelry,Basel,4051,32 Spalenberg,osm_node/13910435240
+CH,dominiquehaefeli.ch,https://www.dominiquehaefeli.ch,Dominique H.,+41 61 321 92 00,jewelry,Basel,4051,28 Spalenberg,osm_node/13910521081
+CH,scandella-sa.ch,https://www.scandella-sa.ch,Scandella,+41 61 263 16 03,watches,Basel,4051,23 Spalenberg,osm_node/13910521082
+CH,lheliotrope.ch,https://www.lheliotrope.ch,,+41 22 361 62 62,jewelry,Nyon,1260,3 Grand Rue,osm_node/13951871103
+CH,frauenverein-langnau.ch,https://frauenverein-langnau.ch,Brockenstube Gemeinnütziger Frauenverein Langnau,,second_hand,,3550,24 Schlossstrasse,osm_node/14017000001
+CH,aemmitaler-brocki.ch,https://aemmitaler-brocki.ch,Ämmitaler Brocki GmbH,,second_hand,,3552,809a Schärischachen,osm_node/14017000401
+CH,annacoudray.ch,https://www.annacoudray.ch,Goldschmiede Anna,,jewelry,Düdingen,3186,8 Duensstrasse,osm_node/14064286936
+CH,arrigoni-laufer.com,https://www.arrigoni-laufer.com,Arrigoni-Laufer,+41 32 968 51 33,watchmaker,,,,osm_node/14089455517
+CH,codecouleurs.ch,https://www.codecouleurs.ch,Code Couleurs,+41 58 300 21 70,second_hand,,,,osm_node/14092932901
+CH,stadt-zuerich.ch,https://www.stadt-zuerich.ch/artikel/de/josy-kreislaufwirtschaft.html,Josy,,second_hand,,8005,10 Neue Hard,osm_node/14107616201
+CH,sunchild.ch,https://sunchild.ch,Sunchild,,jewelry,,,,osm_node/14110256543
+CH,velion-clock.ch,http://www.velion-clock.ch,Velion Uhrenatelier,,watchmaker,,,,osm_node/14120563301
+CH,fabianblaser.ch,http://www.fabianblaser.ch,Fabian Blaser,+41 32 323 70 43,jewelry,,,,osm_node/14132694859
+CH,das-leseglueck.ch,https://www.das-leseglueck.ch,Das Leseglück,,second_hand,,,,osm_node/14140073751
+CH,yuthog-mineralien.ch,https://www.yuthog-mineralien.ch,Yuthog,+41 41 410 40 55,jewelry,,,,osm_node/14155998584
+CH,annacastiello.com,https://www.annacastiello.com,Anna Castiello,+41 61 261 11 73,jewelry,Basel,4051,11 Rosshofgasse,osm_node/14158229180
+CH,skandalpreis.ch,http://skandalpreis.ch,Skandalpreis Lagerverkauf,+41 79 308 82 12,second_hand,,3800,2 Därligenstrasse,osm_node/14159171101
+CH,atelier-solstice.ch,https://atelier-solstice.ch,Solstice,,jewelry,,,,osm_node/14174791682
+CH,perlelaedeli.ch,https://perlelaedeli.ch,Perlelädeli,,jewelry,,,,osm_node/14203469043
+CH,corum.ch,https://www.corum.ch,Corum,+41 32 967 06 70,watchmaker,,,,osm_node/14206151760
+CH,montremo.ch,https://www.montremo.ch/index.php,Montremo,+41 32 967 90 80,watchmaker,,,,osm_node/14206489047
+CH,bitbullion.ch,https://bitbullion.ch,Gold Point,+41 41 558 45 54,gold_buyer,Zug,6300,20 Zeughausgasse,osm_node/14240956762
+CH,nika-store.ch,https://nika-store.ch,nika,+41 79 334 75 59,jewelry,,,,osm_node/14245110358
+CH,brockenshop.ch,http://brockenshop.ch,Brockenshop - Vintage Store,,second_hand,,,27 Sägestrasse,osm_node/14254317301
+CH,dein-uhrmacher.ch,https://dein-uhrmacher.ch,Atelier Hellmüller,+41797834786,clockmaker,Eglisau,8193,43 Rheinsfelderstrasse,osm_node/14279291410
+CH,brocantedelauvent.com,https://www.brocantedelauvent.com,Brocante de l'Auvent,,second_hand,Boudevilliers,2043,17 Rue du Collège,osm_node/14335688301
+CH,brocki-pfannenstil.ch,https://www.brocki-pfannenstil.ch,Brocki Pfannenstil,+41 44 926 50 60,second_hand,,,19 Industriestrasse,osm_way/29076618
+CH,frauenverein-uster.ch,https://www.frauenverein-uster.ch/brocki,Brockenstube Frauenverein,,second_hand,Uster,8610,12 Asylstrasse,osm_way/30071276
+CH,ledressing-depot-vente-luxe.ch,https://ledressing-depot-vente-luxe.ch,Le Dressing,+41 21 311 16 08,second_hand,Lausanne,1006,3 Avenue des Alpes,osm_way/53284078
+CH,archezuerich.ch,https://www.archezuerich.ch/brockenhaus,Arche Brockenhaus,+41 43 336 30 00,second_hand,Zürich,8048,489 Hohlstrasse,osm_way/53560044
+CH,gubser-walenstadt.ch,https://www.gubser-walenstadt.ch/index.html,"Gubser Optik, Uhren & Bijouterie",+41 81 735 11 51,jewelry,Walenstadt,8880,12 Bahnhofstrasse,osm_way/70295691
+CH,recyclerie.ch,https://recyclerie.ch/magasins,Caritas Brocante La Recyclerie,+41 22 884 99 94,second_hand,Plan-les-Ouates,1228,19 Chemin de la Milice,osm_way/85474878
+CH,emmaus-ge.ch,https://emmaus-ge.ch,Emmaüs,+41 22 301 57 57,second_hand,Carouge GE,,5 Route de Drize,osm_way/88803227
+CH,einzigartiges.ch,https://www.einzigartiges.ch/anlikerei,Anlikerei,,antiques,Gümmenen,3205,70 Murtenstrasse,osm_way/93946337
+CH,chramschopf.ch,https://www.chramschopf.ch,Chramschopf,,second_hand,Zollikerberg,8125,10 Binzstrasse,osm_way/129205175
+CH,emmaus-jura.ch,https://emmaus-jura.ch,Emmaüs Jura,+41 32 475 54 55,second_hand,Bonciourt,2926,11 Chemin du Crêt des Pierres,osm_way/163271543
+CH,svm-micromecanique.ch,https://svm-micromecanique.ch,SVM Micromécanique,+41 32 944 20 40,watchmaker,Villeret,2613,1 Les Champs du Clos,osm_way/193807854
+CH,gartenbijoux.ch,https://www.gartenbijoux.ch,Gartenbijoux,+41 31 809 40 80,antiques,Rüeggisberg,3088,22 Dorfstrasse,osm_way/197435825
+CH,rado.com,https://www.rado.com,RADO,,watchmaker,Lengnau BE,2543,45 Bielstrasse,osm_way/212877706
+CH,gfhombi.ch,https://www.gfhombi.ch,Brockenhaus,,second_hand,Hombrechtikon,8634,8 Uerikerstrasse,osm_way/226338293
+CH,bijoutil.ch,https://www.bijoutil.ch,Bijoutil AG,,jewelry,,,,osm_way/231126486
+CH,emmaus-fribourg.ch,https://www.emmaus-fribourg.ch,Emmaüs,,second_hand,Fribourg,1700,6e Route de la Pisciculture,osm_way/235577657
+CH,brockenhausbuchs.ch,http://brockenhausbuchs.ch,Brockenhaus Buchs,+41 81 756 24 00,second_hand,Buchs SG,9470,12b Altendorferstrasse,osm_way/238118009
+CH,frauenverein-heimberg.ch,https://www.frauenverein-heimberg.ch/aktivitaeten/brockenstube.html,Brockenstube Frauenverein Heimberg,,second_hand,,,1 Stockhornstrasse,osm_way/247184921
+CH,brocki-rueti.ch,http://www.brocki-rueti.ch,Brocki Rüti,,second_hand,,,9 Werner-Weber-Strasse,osm_way/262259352
+CH,hde.ch,https://www.hde.ch,Haus der Edelsteine,+41 55 285 90 98,jewelry,Uznach,8730,6 Etzelstrasse,osm_way/273812135
+CH,vock10.ch,https://vock10.ch,Vock 10,,antiques,Zürich,8001,10 Schipfe,osm_way/288152474
+CH,antik-line.ch,http://www.antik-line.ch,Antik «zum Anker»,,antiques,Uttwil,8592,14 Romanshornerstrasse,osm_way/289364612
+CH,au-ptit-galopin.sitew.com,http://www.au-ptit-galopin.sitew.com,Au P'tit Galopin,,second_hand,Diesse,2517,2 Chemin Neuf,osm_way/327096887
+CH,frauenverein-schwarzenburg.ch,https://www.frauenverein-schwarzenburg.ch/tätigkeiten/brockenstube,Brockenstube Frauenverein,,second_hand,Schwarzenburg,3150,4 Güterstrasse,osm_way/412339220
+CH,brocki-shop.ch,https://www.brocki-shop.ch/https://www.brocki-shop.ch,Brocki-Shop,+41 79 366 44 93,second_hand,Sirnach,8370,23 b Büfelderstrasse,osm_way/452949227
+CH,licalzi.ch,https://www.licalzi.ch,Li Calzi Technofrap,,watchmaker,Le Crêt-du-Locle,2322,10 Allée du Tourbillon,osm_way/481094878
+CH,shg-sertissage.ch,http://www.shg-sertissage.ch,"SHS Sertissage, groupe Patek Philippe",,watchmaker,Le Crêt-du-Locle,2322,15 Allée du Tourbillon,osm_way/481094880
+CH,troll-shop.ch,https://www.troll-shop.ch,Erni-Lädeli,+41 61 411 58 68,collector,Münchenstein,4142,24 Heidenstrasse,osm_way/612013552
+CH,brockiedelwiss.ch,https://www.brockiedelwiss.ch,Brocki Edelwiss,,second_hand,Regensdorf,8105,17 Mühleweg,osm_way/679269087
+CH,ornera.swiss,https://ornera.swiss,Ornera SA,,watchmaker,Le Crêt-du-Locle,2322,10b,osm_way/1137720840
+CH,antik-blaser.ch,https://www.antik-blaser.ch,Antikschreinerei Bruno Blaser,+41 31 3319777,furniture,,,,osm_node/583655445
+CH,coiffurebijou.ch,https://www.coiffurebijou.ch,Bijou,+41 31 371 99 37,hairdresser,,,,osm_node/667410630
+CH,melanies-haarbijou.ch,http://www.melanies-haarbijou.ch,Melanie's Haar Bijou,+41264182858,hairdresser,,,2,osm_node/851535088
+CH,baeckerei-frei.ch,https://www.baeckerei-frei.ch,Frei's Bijou,,bakery,Wettingen,5430,76 Landstrasse,osm_node/1464055006
+CH,blumenbijou.ch,https://www.blumenbijou.ch,Blumen Bijou,+41 319012041,florist,,,,osm_node/2222472583
+CH,bijoulesboutiques.ch,https://bijoulesboutiques.ch,Bijou,+41 31 3123609,clothes,,,,osm_node/2584065266
+CH,aubijoubasel.ch,https://www.aubijoubasel.ch,Au Bijou Uhren + Schmuck GmbH,+41 61 2620242,jewelry;watches,Basel,4001,3 Rüdengasse,osm_node/2633421309
+CH,aloee.ch,http://www.aloee.ch,aloee Creativer Blumenschmuck,+4171 845 10 55,florist,,,,osm_node/3354217999
+CH,bijou.ch,https://bijou.ch/pages/solothurn,Bijou,+41 32 621 73 17,boutique,,,54 Hauptgasse,osm_node/4147259817
+CH,pferdemetzgerei-schmucki.ch,https://www.pferdemetzgerei-schmucki.ch,Schmuckis Pferdefleischspezialitäten,+41 44 311 62 48,butcher,Zürich,8050,21 Schwamendingenstrasse,osm_node/4225071397
+CH,bijou-kloten.ch,https://www.bijou-kloten.ch,Bijou,,hairdresser,,,,osm_node/5064244708
+CH,bijou-floral.ch,https://www.bijou-floral.ch,Bijou Floral,+41523450434,florist,Tagelswangen,8317,46 Zürcherstrasse,osm_node/5161675391
+CH,lyse-bijoux.ch,http://lyse-bijoux.ch,Lyse Bijoux,,clothes,,,,osm_node/7087883869
+CH,ambra-bijoux.ch,https://www.ambra-bijoux.ch,Ambra Bijoux,+41 79 297 00 75,boutique,Bonstetten,8906,39 Dorfstrasse,osm_node/8071023808
+CH,bijoux-io.ch,https://www.bijoux-io.ch,Bijoux Io,+41919220360,fashion_accessories,Lugano,6900,7 Via Pretorio,osm_node/10133982510
+CH,glatthard-sport.ch,https://www.glatthard-sport.ch/bijou,Bijou,+41 33 971 21 27,clothes,Meiringen,3860,23 Rudenz,osm_node/13078357498
+CH,uhrenreparaturen-muccia.ch,https://www.uhrenreparaturen-muccia.ch,Uhrenreparatur Muccia,,repair,,,27 Hauptstrasse,osm_node/13343197494
+CH,camlessbijouxetsoinsdenergie.com,https://www.camlessbijouxetsoinsdenergie.com,Boutique l'Atelier des âmes & Cam'less soins énergétiques et bijoux thérapeuthiques,+41 78 945 30 70,psychic,Broc,1636,5 Rue de Montsalvens,osm_node/13673176373
+CH,blueten-bijou.ch,https://blueten-bijou.ch,Blüten Bijou,,florist,,,,osm_node/14115957252
+CH,antik-schreiner.com,http://www.antik-schreiner.com,Antikschreinerei Hans Tinner,,doityourself,Sta. Maria Val Müstair,7536,4 Via Plattamala,osm_way/237899314
+CH,coiffure-bijou-m.ch,https://www.coiffure-bijou-m.ch/index.php,Coiffure Bijou,,hairdresser,Amriswil,8580,77 Kreuzlingerstrasse,osm_way/320001256
