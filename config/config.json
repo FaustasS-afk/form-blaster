@@ -2,7 +2,7 @@
   "_comment": "=== YOUR DETAILS \u2014 edit these before running ===",
   "name": "Bonnie Scarlett",
   "email": "info@easylistings.co.uk",
-  "phone": "+447399643492",
+  "phone": "+1 203 555 0142",
   "company": "Easy Listings",
   "website": "www.easylistings.co.uk",
   "subject": "Getting your stock online",
@@ -67,5 +67,7 @@
   "skip_newsletter_only": true,
   "max_form_fields": 12,
   "dry_run": false,
-  "_browser_note": "ON as of 2026-11-04. Proven 39/40=97.5% confirmed on hard captchas vs 11.4% HTTP. Runs ONLY for sites HTTP could not confirm."
+  "_browser_note": "ON as of 2026-11-04. Proven 39/40=97.5% confirmed on hard captchas vs 11.4% HTTP. Runs ONLY for sites HTTP could not confirm.",
+  "phone_alt": "+1 860 555 0173",
+  "_phone_notes": "US format. UK +44 was rejected by US/CA/NZ forms with \"Please match the requested format\". phone_alt is used on retry if the first is still rejected."
 }

@@ -1,0 +1,407 @@
+country,domain,site,name,phone,category,city,postcode,street,source
+DE,uhrenbenesch.de,https://uhrenbenesch.de,Uhren Benesch,,jewelry,Karlsruhe,76227,40 Pfinztalstraße,osm_node/406509733
+DE,goldschmiede-oelmuehle.de,http://www.goldschmiede-oelmuehle.de,Goldschmiede in der Oelmühle,,jewelry,,,,osm_node/703143544
+DE,goldschmiede-im-schwabentor.de,https://www.goldschmiede-im-schwabentor.de,Goldschmiede im Schwabentor,+49 761 32557,jewelry,,,,osm_node/1307438253
+DE,griesshaber-uhren.de,https://www.griesshaber-uhren.de,Grießhaber Uhren & Technik,+49 7721 55561,watchmaker,,,6 Münsterplatz,osm_node/1558177538
+DE,uhrmacheratelier-mannheim.de,https://uhrmacheratelier-mannheim.de,Uhrmacheratelier,+49 621 12284475,watchmaker,,,,osm_node/1559597916
+DE,goldschmiede-schuetze.de,https://www.goldschmiede-schuetze.de,Goldschmiede Schütze,+49 621 23716,jewelry,,,,osm_node/1574478827
+DE,chuma.de,https://www.chuma.de,Churpfälzische UhrenManufactur GmbH,,clockmaker,,,,osm_node/1624925084
+DE,arte-aurari.de,http://www.arte-aurari.de,Antje Roeben Schmuck,,jeweller,,,,osm_node/1633673001
+DE,gygax.com,https://gygax.com,Gygax Uhren Schmuck Erleben,+41 62 832 52 52,jewelry,Aarau,5000,31 Bahnhofstrasse,osm_node/1675745537
+DE,schnider-hammer.ch,http://www.schnider-hammer.ch,Schnider + Hammer,+41 32 621 57 51,jewelry,,,,osm_node/2011278173
+DE,sabaz.de,https://www.sabaz.de,CONTACT Andreas Zidek,+49 160 94770082,jeweller,,,,osm_node/2037827640
+DE,nittel.de,https://www.nittel.de,Nittel Juwelier,,jewelry,,79098,,osm_node/2512660309
+DE,uhren-seilnacht.de,https://www.uhren-seilnacht.de,Seilnacht Juwelier & Feinuhrmacher,+49 761 36490,jewelry,,79098,,osm_node/2512676580
+DE,goldschmiede-katja-loehr.de,https://www.goldschmiede-katja-loehr.de,Katja Löhr Goldschmiede,+49 761 2020200,jewelry,,79098,,osm_node/2581344970
+DE,goldschmiede-von-gruenberg.de,https://www.goldschmiede-von-gruenberg.de,Goldschmiede Brigitta von Grünberg,+49 6231 5816,jeweller,,,,osm_node/2639364249
+DE,lottermannundsoehne.de,http://www.lottermannundsoehne.de,Lottermann & Söhne,+49 621 473010,clockmaker,,,,osm_node/2839027923
+DE,rahmendesign.de,https://www.rahmendesign.de,Vergolderei von Wedel,+49 7633 9234020,jeweller,,,,osm_node/3006992837
+DE,solitaire-lechler.de,https://www.solitaire-lechler.de,Solitaire,,jewelry,,,,osm_node/3089854257
+DE,goldschmiede-cifci.de,https://www.goldschmiede-cifci.de,Goldschmiede Cifci,,jeweller,Karlsruhe,76133,35 Waldstraße,osm_node/3609171296
+DE,uhrenatelier-rust.de,http://www.uhrenatelier-rust.de,Uhrenatelier Hübner,+49 7822 8610866,clockmaker,,,,osm_node/3668730219
+DE,labo-horloger.fr,https://labo-horloger.fr,Le Labo de l'Horloger,+33 3 72 39 64 13,clockmaker,,,,osm_node/3712079796
+DE,schmuck-concepte.de,https://www.schmuck-concepte.de,Heinz Laible,+49 721 848242,goldsmith,Karlsruhe,76135,136 Sophienstraße,osm_node/3748617231
+DE,juwelier-kuehn.de,https://www.juwelier-kuehn.de,Juwelier Kühn,,jewelry,,,,osm_node/3913756076
+DE,lechlers.de,https://www.lechlers.de,Lechlers Goldschmiede,,jewelry,,,,osm_node/3923654642
+DE,merian23.de,https://merian23.de,Merian 23,,jewelry,Freiburg im Breisgau,79104,23 Merianstraße,osm_node/3979040124
+DE,zeit-meister.ch,https://zeit-meister.ch,Zeit Meister,,jewelry,,,,osm_node/4337211402
+DE,martin-kurt.ch,https://www.martin-kurt.ch,Goldschmiede Martin Kurt,,jeweller,,,,osm_node/4363632409
+DE,mirjamkortsch.de,https://mirjamkortsch.de,Mirjam Kortsch,+49 6232 8731637,jewelry,Speyer,67346,30 Korngasse,osm_node/4393077411
+DE,schmuck-lorenz.com,https://www.schmuck-lorenz.com,der Goldschmied,,jewelry,Heidelberg,69117,46 Plöck,osm_node/4753342900
+DE,goldschmiede-arnd.de,https://www.goldschmiede-arnd.de,Goldschmiede Bettina Arnd,+49 6221 700586,jewelry,,,,osm_node/5034269422
+DE,fredycousin.ch,https://www.fredycousin.ch,Fredy Cousin Goldschmiedatelier,,jeweller,,,,osm_node/5113067727
+DE,lhorlogiste.com,http://lhorlogiste.com,L'Horlogiste,+33 3 90 23 27 19,watchmaker,,,,osm_node/5320794113
+DE,retinadesign.com,https://retinadesign.com,Retina,+41 78 891 79 89,jeweller,,4051,10 Rheinsprung,osm_node/5820379680
+DE,goldschmiede-smola.de,https://goldschmiede-smola.de,Goldschmiede Smola,,jewelry,Speyer,67346,3 Sonnengasse,osm_node/6069540526
+DE,artisanchronometrie.ch,https://www.artisanchronometrie.ch,Atelier Schmid,,clockmaker,,,,osm_node/6300573239
+DE,horlogerdebattant.fr,https://horlogerdebattant.fr,L'Horloger de Battant,+33 3 81 53 17 67;+33 6 40 78 81 43,watchmaker,Besançon,25000,28 Rue Battant,osm_node/7119056008
+DE,utinam.fr,http://www.utinam.fr,Utinam,+33381613925,watches,Besançon,25000,117-119 Grande Rue,osm_node/7193105890
+DE,crotalia.com,https://www.crotalia.com,Crotalia,,jeweller,,,,osm_node/7270724640
+DE,bijouterieclor.fr,https://www.bijouterieclor.fr,C‘lor,+33 3 87 21 06 08,jeweller,,,,osm_node/7868015785
+DE,glueckssteine.ch,https://glueckssteine.ch,Glückssteine,,jewelry,,,,osm_node/8090508185
+DE,hoenes-uhren.de,https://www.hoenes-uhren.de,Hönes Kuckuchsuhren,+49 7651 936570,clockmaker,Titisee-Neustadt,79822,12 Gutachstraße,osm_node/8467763037
+DE,juwelier-grace.com,https://www.juwelier-grace.com,Juwelier Grace,+49 7221 7028998,jewelry,Baden-Baden,76530,1a Luisenstraße,osm_node/8952004954
+DE,goldschmiede-am-hirschenbuckel.de,http://www.goldschmiede-am-hirschenbuckel.de,Die Goldschmiede am Hirschenbuckel,+49 7651 935992,jewelry,Titisee-Neustadt,79822,2 Hirschenbuckel,osm_node/9309768375
+DE,sperljuwel.de,http://www.sperljuwel.de,Sperl Juwel,+4977512231,jeweller,,,,osm_node/9843800838
+DE,meike-stange-goldschmiede.de,https://www.meike-stange-goldschmiede.de,Meike Stange,,goldsmith,,,,osm_node/10308649378
+DE,kuckucksuhr.com,https://kuckucksuhr.com,Robert Herr Kuckucksuhren Unikate,+49 7722 5274,clockmaker,,,40 Tribergerstraße,osm_node/10686631127
+DE,schmukkes.de,https://www.schmukkes.de,schmukkes - Goldschmiedemeisterin Christine Mittrücker,,jewelry,,,,osm_node/10697730215
+DE,oliviaschaffner.ch,https://www.oliviaschaffner.ch,Olivia Schaffner,+41 56 222 58 61,jewelry,,,,osm_node/10868980825
+DE,einzigartigkreativ.ch,https://einzigartigkreativ.ch,Einzigartig kreativ,,goldsmith,,,,osm_node/10949082350
+DE,metauer.fr,https://www.metauer.fr,Metauer - Joaillerie,+33 6 49 49 06 03,jewelry,,,En Chaplerue,osm_node/10992305560
+DE,natur-im-design.com,https://www.natur-im-design.com,Goldschmiede Günster,+49 171 2861326,goldsmith,Speyer,67346,20 Otterstadter Weg,osm_node/11092524170
+DE,metz.curieux.net,https://metz.curieux.net/agenda/evenement/jema-bernard-pouillon-maitre-horloger-et-restaurateur-d-objets,B. Pouillon,+33 3 87 78 22 35,clockmaker,,,,osm_node/11115816629
+DE,clomi.fr,https://www.clomi.fr,Clomi,,watchmaker,,,,osm_node/11353600162
+DE,cliniquehorlogere.ch,https://www.cliniquehorlogere.ch,À La Clinique Horlogère,+41 32 466 14 86,watchmaker,Porrentruy,2900,29 Rue du Creugenat,osm_node/11406404597
+DE,john-zerano.com,https://www.john-zerano.com,Juwelier & Goldschmiede John Zerano,,jewelry,Frankenthal (Pfalz),67227,6 August-Bebel-Straße,osm_node/11586079745
+DE,flutproduction.com,https://flutproduction.com,Flut.production,,jeweller,,,,osm_node/11691474368
+DE,elwin.ch,https://www.elwin.ch,Elwin,,watchmaker,,,,osm_node/12005629304
+DE,goldschmiede.eshop.t-online.de,https://www.goldschmiede.eshop.t-online.de,Goldschmiede Müller-Gawenat,,goldsmith,,,,osm_node/12015064062
+DE,pris-k.ch,https://www.pris-k.ch,Pris K.,,goldsmith,Winterthur,8400,5 Kirchplatz,osm_node/12647629318
+DE,makoujewelry.de,https://makoujewelry.de,makou JEWELRY,,jeweller,,,,osm_node/12725152711
+DE,metall-und-form.de,https://www.metall-und-form.de,Metall & Form,,jewelry,,,,osm_node/12760291573
+DE,unterstadt-uhrmacher.ch,https://www.unterstadt-uhrmacher.ch,A. K. Spühler,+41 52 625 03 28,watchmaker,Schaffhausen,8200,37 Unterstadt,osm_node/13026232513
+DE,latelierdanaelle.com,https://www.latelierdanaelle.com,L'atelier d'Anaëlle,+33 6 17 21 57 98,jewelry,Besançon,25000,23 Rue des Granges,osm_node/13121425667
+DE,uhrenklinik-ka.de,https://uhrenklinik-ka.de,Uhrenklinik,+49 721 9613817,watchmaker,Karlsruhe,76131,32 Georg-Friedrich-Straße,osm_node/13322921251
+DE,le-cercle-horloger.com,https://www.le-cercle-horloger.com,Le Cercle Horloger,+33 3 65 67 66 52,watches,,,,osm_node/13352920779
+DE,luxtech.ch,https://luxtech.ch,Luxtech,+41 32 954 10 30,watchmaker,,,,osm_node/13484834961
+DE,velion-clock.ch,http://www.velion-clock.ch,Velion Uhrenatelier,,watchmaker,,,,osm_node/14120563301
+DE,dein-uhrmacher.ch,https://dein-uhrmacher.ch,Atelier Hellmüller,+41797834786,clockmaker,Eglisau,8193,43 Rheinsfelderstrasse,osm_node/14279291410
+DE,bijou.lu,https://www.bijou.lu,Goedert,+352 26262123,jewelry,Luxembourg,1333,4 Rue Chimay,osm_way/170976866
+DE,juwelier-stronczek.de,http://www.juwelier-stronczek.de,Juwelier Dieter Stronczek,+49 7641 3174,jewelry,Emmendingen,79312,10 Marktplatz,osm_way/227380489
+DE,goldwerk-atelier.de,https://www.goldwerk-atelier.de,GoldWerk Atelier,+49 89 288 03 558,jewelry,München,80538,9 Paradiesstraße,osm_node/291898759
+DE,atelierholder.de,http://atelierholder.de,Goldschmiede im Lehel,+49 89 299738,jewelry,München,80538,10 Liebherrstraße,osm_node/309255608
+DE,appelundwichelhaus.de,http://www.appelundwichelhaus.de,Goldschmiede Appel & Wichelhaus,,jewelry,Kempten (Allgäu),87435,22 Bäckerstraße,osm_node/671492059
+DE,peter-erker.de,https://www.peter-erker.de,Schwer/Peter Erker,,jeweller,,,,osm_node/677539587
+DE,goldschmiedezell.de,https://www.goldschmiedezell.de,Martin Zell Goldschmiede,+49 711 429571,jeweller,Stuttgart,70329,42 Rohrackerstraße,osm_node/767252734
+DE,uhrmacher-prinz.de,http://www.uhrmacher-prinz.de,Uhrmacher Laden Prinz,,clockmaker,Ismaning,85737,12 Korbinianstraße,osm_node/933729931
+DE,uhren-schuran.de,https://www.uhren-schuran.de,Uhren & Schmuck Schuran,,jewelry,Mittenwald,82481,6 Matthias-Klotz-Straße,osm_node/1105880089
+DE,schmuck-kraftwerk.de,https://schmuck-kraftwerk.de,Ulrich Buhmann,+49 8331 48747,jewelry,Memmingen,87700,7 Zwinggasse,osm_node/1243877429
+DE,uhrenreparatur-muenchen.de,https://www.uhrenreparatur-muenchen.de,Uhrenreparaturwerkstatt Schmittbiel,+49 89 8631407,watchmaker,München,81245,8 Schönbrunner Straße,osm_node/1252224686
+DE,maier-uhren-schmuck.de,https://www.maier-uhren-schmuck.de,Maier Uhren und Schmuck,,clockmaker,,,,osm_node/1588966937
+DE,chic-saal.com,https://www.chic-saal.com,Chicsaal - schmücken & schenken,+49 89 545 7 4140,gift,Haar,85540,4f Bahnhofplatz,osm_node/1821602998
+DE,joaillerie-stuttgart.de,http://joaillerie-stuttgart.de,Joaillerie Stuttgart,,jeweller,,,,osm_node/1842870015
+DE,jf-dasatelier.de,https://www.jf-dasatelier.de,JF Das Atelier,+49 89 2601 8418,goldsmith,München,80469,4 Fraunhoferstraße,osm_node/1871331483
+DE,goldschmitte-greminger.ch,https://www.goldschmitte-greminger.ch,Gold- und Silberschmitte Tobias Greminger,,jeweller,,,,osm_node/2093774452
+DE,margaritifera.de,https://margaritifera.de,Margaritifera,+49 89 76754565,jewelry,München,81373,4 Meindlstraße,osm_node/2335054768
+DE,juwelierthein.de,https://www.juwelierthein.de,Goldschmiede Thein,+49 931 16330,jewelry,Würzburg,97082,3 Weißenburgstraße,osm_node/2658145671
+DE,juwelier-schott.de,https://www.juwelier-schott.de,Schott,+49 7071 22137,jewelry;watches,Tübingen,72070,36 Lange Gasse,osm_node/2961323734
+DE,holdermann-uhren.de,http://www.holdermann-uhren.de,Holdermann's Uhrenkabinett,+49 7071 51425,watches,Tübingen,72070,12 Lange Gasse,osm_node/2961324433
+DE,kunsthandwerkvorarlberg.at,https://www.kunsthandwerkvorarlberg.at/kunsthandwerkerinnen/elke-capelli-l%C3%A4sser,Elke Capelli Goldschmied,+436764108691,jeweller,Dornbirn,6850,57 Marktstraße,osm_node/2965609633
+DE,vicina.ch,http://www.vicina.ch,Goldschmiede Vicina,+41 71 971 20 00,jewelry,Bichelsee,8363,32 Hauptstrasse,osm_node/3099402993
+DE,gerdweickmann.de,https://gerdweickmann.de,Gerd Weickmann,+49 89 2017 002,jewelry,München,80634,9 Frundsbergstraße,osm_node/3142114736
+DE,anna-eichlinger.de,https://www.anna-eichlinger.de,Anna Eichlinger,+49 173 5926015,jeweller,München,80339,28 Bergmannstraße,osm_node/3675265089
+DE,triangleshop.de,https://www.triangleshop.de,Triangleshop,,jeweller,,,,osm_node/3838021630
+DE,goldschmiedeatelier-stuttgart.de,https://goldschmiedeatelier-stuttgart.de,Marion Schäfer,,jewelry,Stuttgart,70182,35 Olgastraße,osm_node/3895839064
+DE,runde-ringe.de,https://runde-ringe.de,Goldschmied Runde Ringe,+49 89 23887375,jewelry,München,80337,14 Thalkirchner Straße,osm_node/4005036901
+DE,goldschmiede-fassold.de,https://www.goldschmiede-fassold.de,Goldschmiede Kristine Faßold,+49 931 16027,goldsmith,Würzburg,97070,6 Katharinengasse,osm_node/4222548802
+DE,uhrenhaus-bauer.de,https://www.uhrenhaus-bauer.de,Uhrenhaus Bauer,+49 7191 69303,jewelry;watches,,,,osm_node/4374454658
+DE,goldschmiede-henzler.de,https://goldschmiede-henzler.de,Goldschmiede Atelier Stephanie Henzler,+49 7022 9790 94,jewelry,Nürtingen,72622,29 Alleenstraße,osm_node/4467359919
+DE,cornehl-watches.com,https://cornehl-watches.com,Cornehl Watches,+49 176 23253183,watchmaker,Stuttgart,70188,62 Hornbergstraße,osm_node/4507790636
+DE,schmuck-max-weber.de,https://schmuck-max-weber.de,Max Weber Gold- und Silberschmiede,,jeweller,München,81737,146 Ottobrunner Straße,osm_node/4593422387
+DE,uhrmacher-bohnenviertel.de,https://www.uhrmacher-bohnenviertel.de,Uhrmacher im Bohnenviertel,+49 711 55322450,clockmaker,,,,osm_node/4822303315
+DE,leipert-anja.de,http://leipert-anja.de,LA Kreativschmiede,+49 7172 183487,jeweller,,,,osm_node/4839597288
+DE,silberschmiede.de,https://www.silberschmiede.de/oeffnungszeiten-filialen/uhren-durnberger-augsburg-oberhausen,Uhren Durnberger,,jewelry,Augsburg,86154,41 Ulmer Straße,osm_node/4868073095
+DE,dieschmuckmacher.at,https://dieschmuckmacher.at,Die Schmuckmacher,,jewelry,,,,osm_node/4904318154
+DE,sebastian-derksen.de,https://www.sebastian-derksen.de,Schlossatelier Schweizerhaus,+49 177 8507550,jeweller,,,,osm_node/4959895039
+DE,goldschmiede-andre.com,http://www.goldschmiede-andre.com,Goldschmiede André,+43 512 584728,jeweller,Innsbruck,6020,1 Pechestraße,osm_node/5024796684
+DE,biancakazor.de,https://www.biancakazor.de,Goldschmiede bior,+49 8191 9855185,jewelry,Landsberg am Lech,86899,403 Alte Bergstraße,osm_node/5111214276
+DE,werkstatt-galerie-schiele.de,https://www.werkstatt-galerie-schiele.de,Werkstatt Galerie Schiele,,jewelry,,,,osm_node/5330980281
+DE,helleis.de,https://helleis.de,Werkstatt Barbara Helleis,+49 8191 921875,jewelry,Landsberg am Lech,86899,307 Hinterer Anger,osm_node/5365682826
+DE,uhrenservice-prinz.de,https://www.uhrenservice-prinz.de,Uhren-Service Prinz,,watchmaker,Füssen,87629,3 Von-Freyberg-Straße,osm_node/5695809422
+DE,goldschmiede-h-j-baier.de,https://goldschmiede-h-j-baier.de,Goldschmied,+49 753 12 40 24,jeweller,Konstanz,78462,20a Wessenbergstraße,osm_node/5869213619
+DE,if-goldschmiede.de,https://if-goldschmiede.de,if.Goldschmiede und Schmuckgalerie,,jeweller,,,,osm_node/6443670425
+DE,steinhartwatches.de,https://www.steinhartwatches.de,Steinhart Watches GmbH,+49 821 5433800,watchmaker,Stadtbergen,86391,6 Boschstraße,osm_node/7099752737
+DE,bau-und-roth.de,https://www.bau-und-roth.de,Bau & Roth,+49 89 269 494 49,jeweller,München,80469,5 Pestalozzistraße,osm_node/7158181925
+DE,schmuckatelier-hubrig.de,http://www.schmuckatelier-hubrig.de,Schmuckatelier Hubrig,+49 8092 232635,jewelry,Grafing bei München,85567,3 Gartenstraße,osm_node/7177422103
+DE,elmar-hermanutz.de,http://www.elmar-hermanutz.de,Werkstatt für Schmuck,+49 7562 972686,jewelry,,,,osm_node/7279226202
+DE,blattgold-dettelbach.de,https://blattgold-dettelbach.de,blattgold,+49171 182 30 15,jeweller,Dettelbach,97337,9 Markt,osm_node/7501769906
+DE,schmuck-riedlundmunzig.de,https://www.schmuck-riedlundmunzig.de,Riedl Munzig,+49 89 120 032 84,jeweller,München,80634,25 Schulstraße,osm_node/7745128121
+DE,juwelier-druckenmueller.de,https://juwelier-druckenmueller.de,Juwelier Druckenmüller,+49 7951 961032,watchmaker,Crailsheim,74564,2 Kapellengasse,osm_node/7810033048
+DE,deruhrmacher-ts.de,https://www.deruhrmacher-ts.de,Der Uhrmacher,+49 8282 9293022,watches,Krumbach (Schwaben),86381,10 Marktplatz,osm_node/7837011435
+DE,minne-ringe.de,https://www.minne-ringe.de,Jo Marei Ladstätter,+49 7151 906385,jeweller,Weinstadt,71384,2 Am Hüttenbach,osm_node/7837882389
+DE,wempe.com,https://www.wempe.com/de-de/ueber-wempe/wempe-atelier-l-c-koehler,Atelier L.C. Köhler,,goldsmith,Schwäbisch Gmünd,73525,7 Fischergasse,osm_node/8168276187
+DE,goldschmiede-lorch.de,http://goldschmiede-lorch.de,Goldschmiede Lorch,+49 7133 7077,jeweller,Talheim,74388,12 Bahnhofstraße,osm_node/8386644793
+DE,goldschmiede-weinl.de,https://www.goldschmiede-weinl.de,Goldschmiede Weinl,+49 7371 9297066,jewelry,Ertingen,,14 Michel-Buck-Straße,osm_node/8535947103
+DE,wir-in-goeggingen.de,https://www.wir-in-goeggingen.de/hefele.htm,Goldschmiede Hefele,,jeweller,Augsburg,86199,1 Erlkönigweg,osm_node/9357936685
+DE,goldschmiede-haas.de,https://www.goldschmiede-haas.de,Goldschmiede Haas,+49 7321 24598,jewelry,Heidenheim an der Brenz,89522,2 Hauptstraße,osm_node/9596720141
+DE,marwitz-muc.de,https://marwitz-muc.de,Katharina von der Marwitz,+49 89 4488499,jeweller,,,,osm_node/9656810829
+DE,atelier-schroeder.de,http://www.atelier-schroeder.de,Atelier Schroeder,+49 89 6780 4742,goldsmith,München,81673,61 Sankt-Veit-Straße,osm_node/9741635409
+DE,motiv-juwelier.de,https://www.motiv-juwelier.de,Motiv Juwelier,,jewelry,München,81541,21 Tegernseer Landstraße,osm_node/10189282835
+DE,uhrmacher-lennerz.de,http://www.uhrmacher-lennerz.de,Uhrmacher Lennerz,,watchmaker,Fichtenberg,74427,49 Hauptstraße,osm_node/10694424807
+DE,sarah-bayha.de,https://sarah-bayha.de,Sarah Bayha Goldschmiedin,+49 176 23644490,jeweller,Esslingen am Neckar,73728,19 Webergasse,osm_node/10739889666
+DE,ottoufer.de,https://ottoufer.de,Otto Ufer,,goldsmith,,,,osm_node/10922684370
+DE,abtei-muensterschwarzach.de,https://www.abtei-muensterschwarzach.de/arbeiten/goldschmiede,Klostergoldschmiede,,jeweller,,,,osm_node/10951985301
+DE,annevonwaechter.de,https://www.annevonwaechter.de,Anne von Waechter,+49 89 4891999,jeweller,,,,osm_node/11146177955
+DE,gallenmuellers-goldschmiede.de,https://gallenmuellers-goldschmiede.de,Gallenmüllers Goldschmiede,+49 176 38214608,jeweller,Waldenbuch,71111,12 Auf dem Graben,osm_node/11407301944
+DE,angelika-brinkmann-schmuck.de,https://www.angelika-brinkmann-schmuck.de,Schmuck Angelika Brinkmann,+49 89 55064798,jeweller,,,,osm_node/11428816684
+DE,juwelier-tautermann.at,https://www.juwelier-tautermann.at,Juwelier Rudolf Tautermann,+43512304532,jeweller,,,,osm_node/11549365900
+DE,maurer-salem.de,https://www.maurer-salem.de,"Maurer Augenoptik, Uhren, Schmuck",,watchmaker,Salem,88682,4 Bodenseestraße,osm_node/11701318637
+DE,goldmond-stuttgart.de,https://www.goldmond-stuttgart.de,Goldmund,+49 711 41465761,jewelry,,,,osm_node/11848282448
+DE,schmuckwerkstatt-muenchen.de,https://www.schmuckwerkstatt-muenchen.de,gold schmiede,,goldsmith,,,,osm_node/11882279187
+DE,dorotheaschippel.de,https://dorotheaschippel.de,Dorothea Schippel,,jewelry,München,81371,4 Daiserstraße,osm_node/12432748210
+DE,fraeuleintapir.de,https://www.fraeuleintapir.de,Fräulein Tapir,,jeweller,,,26 Bertastraße,osm_node/12451481126
+DE,uhrenwuensche.de,https://www.uhrenwuensche.de,Uhrenwünsche,,clockmaker,,90403,7 Geiersberg,osm_node/12607120667
+DE,mm-uhrenatelier.de,https://mm-uhrenatelier.de,Uhrmachermeister & Restaurator,+4990729911811,watchmaker,Lauingen (Donau),89415,9b Herrgottsruhweg,osm_node/12647630921
+DE,florentinmack.de,https://www.florentinmack.de,Florentin Mack,,clockmaker,Ulm,89073,13 Griesbadgasse,osm_node/13275972960
+DE,anzivino.de,https://www.anzivino.de,Anzivino,,goldsmith,,,,osm_node/13341384460
+DE,goldschmiede-reimold.de,http://goldschmiede-reimold.de,Goldschmiede Team Reimold,,goldsmith,Starnberg,82319,14 Hauptstraße,osm_node/13730107311
+DE,werkstatt-im-steckfeld.de,https://www.werkstatt-im-steckfeld.de,WERKSTATT im Steckfeld,+497114560691,goldsmith,,,,osm_node/14158180148
+DE,nepomuk-lauf.de,https://www.nepomuk-lauf.de,Nepomuk Trauringe,,jewelry,Lauf an der Pegnitz,91207,23 Sichartstraße,osm_way/45639141
+DE,diegoldschmiede.gd,https://www.diegoldschmiede.gd,Die Goldschmiede,+497171 9058916,jewelry,Schwäbisch Gmünd,73525,6 Vordere Schmiedgasse,osm_way/94231758
+DE,rosendorn-goldschmiede.de,https://www.rosendorn-goldschmiede.de,Rosendorn Gold- und Silberschmiede,+49 7534 364,jeweller,Reichenau,78479,123 Pirminstraße,osm_way/125812177
+DE,pechmann-turmuhren.de,https://www.pechmann-turmuhren.de,Pechmann Turmuhren,,clockmaker,,,,osm_way/201968313
+DE,steinbach-uhren.de,https://steinbach-uhren.de,Uhrenmanufaktur Steinbach,,clockmaker,Eberdingen,71735,13 Zeppelinring,osm_way/643195727
+DE,enjoyart.at,https://www.enjoyart.at,EnjoyArt,+436644216187,jewelry,St. Johann in Tirol,6380,7 Kaiserstraße,osm_node/1332130969
+DE,uhrenshop.at,https://www.uhrenshop.at,Uhren Schmuck Himsl,,clockmaker,Münzkirchen,4792,3 An der Kreuzstraße,osm_node/3715750284
+DE,atelier4salzburg.jimdo.com,https://atelier4salzburg.jimdo.com,Atelier 4,,jeweller,,,,osm_node/5434309265
+DE,goldschmiede-solundluna.de,https://www.goldschmiede-solundluna.de,Sol & Luna,,jeweller,,,,osm_node/6376148230
+DE,i-m-schmuckstueck.de,https://i-m-schmuckstueck.de,Goldschmiede Schmuckstück,+49 8061 9 39 90 74,jeweller,Bad Aibling,83043,30 Kirchzeile,osm_node/7224647550
+DE,zeitgeneration.at,https://www.zeitgeneration.at,Uhrmacher M.A. Meyer,,watchmaker,Weitra,3970,94 Kirchengasse,osm_node/8746563691
+DE,goldschmiede-krieger.de,https://www.goldschmiede-krieger.de,Goldschmiede Krieger,,goldsmith,Regensburg,93047,12 Wahlenstraße,osm_node/9033036189
+DE,feingold-regensburg.de,https://www.feingold-regensburg.de,FEIN.GOLD,+49 941 38225232,jewelry,Regensburg,93047,8 Kramgasse,osm_node/9565439253
+DE,horomat.de,https://www.horomat.de,Turmuhren Nidermayer GmbH & Co. KG,+49 941 7877915,clockmaker,Regensburg,93053,1 Asternweg,osm_node/11080545081
+DE,uhrdieter.de,https://www.uhrdieter.de,Harant Dieter Uhrmachermeister,+49991 98159467,watchmaker,,,5 Schlachthausgasse,osm_node/12288002060
+DE,guertelschnallen-herzog.de,https://guertelschnallen-herzog.de,Gürtelschnallen Herzog,,clothes,Rosenheim,83022,5 Am Esbaum,osm_node/12558463948
+DE,damasko-watches.com,https://www.damasko-watches.com,Damasko GmbH,+49 9401 80481,clockmaker,Barbing,93092,17 c Unterheising,osm_way/125491286
+DE,glocke.com,https://www.glocke.com,Glockengießerei Perner,,clockmaker,Passau,94034,20 Stephanstraße,osm_way/144595290
+DE,juwelier-bernhard-cham.de,https://www.juwelier-bernhard-cham.de,Bernhard,+49 9971 2298,jewelry,Cham,93413,2 Hafnerstraße,osm_way/272793008
+DE,edelundmehr.de,https://edelundmehr.de,Edel & Mehr,+49 211 30147090,jewelry,Düsseldorf,40625,20 Kölner Tor,osm_node/369377183
+DE,juwelier-am-markt.de,http://www.juwelier-am-markt.de,Juwelier am Markt,+49 2671 7370,jewelry,Cochem,56812,1 Oberbachstraße,osm_node/382968460
+DE,fischer-uhren-schmuck.net,https://www.fischer-uhren-schmuck.net,Fischer Uhren Schmuck,+49 211 332425,watches,Düsseldorf,40223,3 Aachener Straße,osm_node/531309162
+DE,trauringschmiede.de,https://www.trauringschmiede.de/trauringe-paderborn,Trauring Schmiede,,jewelry,Paderborn,33098,14 Kamp,osm_node/950299250
+DE,hp.koeln,https://hp.koeln,Goldschmiede-Atelier,,jeweller,,,,osm_node/990902461
+DE,uhrmacher-goldschmied-weber.de,https://uhrmacher-goldschmied-weber.de,Uhrmacher- und Goldschmiedemeister Weber,+49 2254 9650817,watchmaker,Swisttal,53913,4-6 Vorgebirgsstraße,osm_node/1198542573
+DE,goldschmiede-gockel.de,https://goldschmiede-gockel.de,Goldschmiede Gockel,,jewelry,Bad Wünnenberg,33181,10 Paderborner Straße,osm_node/1375242443
+DE,schmelzpunkt.de,https://www.schmelzpunkt.de,Goldschmiede Schmelzpunkt,+49 241 407582,jeweller,Aachen,52064,37 Jakobstraße,osm_node/1400711559
+DE,christianheyden.de,https://christianheyden.de,Christian Heyden Goldschmiede LITHARION,+49 221 2580137,jewelry,,,,osm_node/1600236600
+DE,atelier-oezkan.de,https://atelier-oezkan.de,Atelier Özkan,+49 221 16906825,jewelry,,,,osm_node/1861692948
+DE,uhren-esser.de,http://uhren-esser.de,Uhren Esser,+49 2235 5727,watches,,,16 Bonner Straße,osm_node/2098651611
+DE,uhren-roemer.de,https://www.uhren-roemer.de,Uhren Römer,+49 2407 4363,clockmaker,Herzogenrath,52134,147 Weststraße,osm_node/2214907745
+DE,nieuwstraat1.nl,https://nieuwstraat1.nl,Nieuwstraat1,+31 570 442 055,jeweller,Deventer,7411LE,1 Nieuwstraat,osm_node/2678756255
+DE,minkkootedelsmeden.nl,https://www.minkkootedelsmeden.nl,Minkkoot,+31 570 614 358,jeweller,Deventer,7411EX,35 Menstraat,osm_node/2678762979
+DE,edelsmederijfacet.nl,https://www.edelsmederijfacet.nl,Facet,+31 570 546 433,jeweller,Deventer,7411JJ,63 Kleine Overstraat,osm_node/2678766724
+DE,goudsmid-apeldoorn.nl,http://goudsmid-apeldoorn.nl,Goudsmid Walter van Beek,+31 55 576 1020,goldsmith,Apeldoorn,7311AA,1 Kerklaan,osm_node/2686308137
+DE,verzantvoort.com,https://www.verzantvoort.com,Verzantvoort Goudsmid Galerie,+31 6 24904634,goldsmith,Apeldoorn,7311MJ,148 Stationsstraat,osm_node/2687030468
+DE,idaundpaula.de,https://www.idaundpaula.de,Ida & Paula Goldschmiede,+49 202 57490953,goldsmith,Wuppertal,42349,2 Kemmannstraße,osm_node/2712133711
+DE,cckempen.de,http://www.cckempen.de,Der Uhrmacher,+49 2152 8974831,watches,,,,osm_node/2783939023
+DE,korfhage-turmuhren.de,http://www.korfhage-turmuhren.de,Ed. Korfhage & Söhne Turmuhrenbau,,clockmaker,,,,osm_node/3244876814
+DE,guske-uhren.de,https://www.guske-uhren.de,Zeit und Klang,+49 611 1840127,watches,,,,osm_node/3290575891
+DE,optik-cosack.de,https://optik-cosack.de,Optik Cosack,,optician,Schloß Holte-Stukenbrock,33758,38a Hauptstraße,osm_node/3405049293
+DE,juwelier-draheim.de,http://www.juwelier-draheim.de,Jürgen L. Draheim,+49 5741 4448,jewelry,Lübbecke,32312,15 Scharrnstraße,osm_node/3613145758
+DE,cassau.de,https://www.cassau.de,Cassau,,jeweller,Paderborn,33098,7 Grube,osm_node/3649140102
+DE,ichos.de,https://www.ichos.de,ichos,+49 228 6088580,goldsmith,Bonn,53111,50 Breite Straße,osm_node/3649250566
+DE,horlogerievaessen.be,http://horlogerievaessen.be,Horlogerie Bijouterie Jean Vaessen,+32 87 68 67 57,clockmaker,Aubel,4880,12 Rue de Battice,osm_node/3661213856
+DE,gold-schmiede.de,https://www.gold-schmiede.de,Goldschmiede Stefan Schwaderlapp,+49 221 22203300,jeweller,Köln,50733,95-97 Florastraße,osm_node/3731533758
+DE,leven-online.de,http://www.leven-online.de,Uhren-Augenoptik-Goldschmiede LEVEN,+49 2181 63888,optician,Grevenbroich,41515,32-36 Kölner Straße,osm_node/3753181894
+DE,thamm-lichtenau.de,http://www.thamm-lichtenau.de,Juwelier Thamm,,clockmaker,Lichtenau,33165,24 Lange Straße,osm_node/3767318317
+DE,schmuckundschmiede.de,https://www.schmuckundschmiede.de,Goldankauf,+49 1590 6313118,jeweller,,,,osm_node/3774213711
+DE,christ.de,https://www.christ.de/filiale/058/guetersloh-koenigstr-2,Christ,,jewelry,,,,osm_node/3881391339
+DE,kleineschmiede.eu,http://www.kleineschmiede.eu,Kleine Schmiede,,jeweller,,,,osm_node/4087232094
+DE,goldzick.de,http://goldzick.de,Goldzick,,goldsmith,,,,osm_node/4115206525
+DE,uhren-schmiemann.de,https://www.uhren-schmiemann.de,Uhren Schmiemann,+49 208 4124860,jewelry,,,,osm_node/4124082968
+DE,uhren-schmuckhaus-nrw.de,https://www.uhren-schmuckhaus-nrw.de,Uhren & Schmuckhaus NRW,+49 201 7265943,watches,Essen,45130,4 Witteringstraße,osm_node/4306569974
+DE,schmuck.re,https://www.schmuck.re/schmuck-peter-wernekenschnieder-in-wuerselen-14373,Goldschmiede,+49 2405 93232,jewelry,Würselen,52146,7 Markt,osm_node/4322033727
+DE,uhr-kraft.com,https://uhr-kraft.com,Uhr-Kraft,+49 2054 1240556,watches,Essen,45219,1 Ringstraße,osm_node/4328157195
+DE,juwelier-stoeveken.de,https://www.juwelier-stoeveken.de,Stöveken,+49 2534 2552,jewelry,Münster,48161,26 Havixbecker Straße,osm_node/4393479277
+DE,uhrenjupp.de,http://www.uhrenjupp.de,Uhrenjupp,+49 2251 73486,watches,Euskirchen,53879,17 Bendenstraße,osm_node/4504660850
+DE,die-uhrenwerkstatt.edan.io,https://die-uhrenwerkstatt.edan.io,die Uhrenwerkstatt,+49 6151 295565,watchmaker,Darmstadt,64293,25 Pallaswiesenstraße,osm_node/4566874104
+DE,jennabrommer.de,http://www.jennabrommer.de,Jenna Brommer,,jewelry,Düsseldorf,40217,81 Talstraße,osm_node/4640011692
+DE,dieschmuckwerkstatt.de,http://www.dieschmuckwerkstatt.de,Die Schmuckwerkstatt,+49 6131 9328573,jewelry,Mainz,55128,26a An der Schanze,osm_node/4653393050
+DE,goldschmiede-feld.de,https://goldschmiede-feld.de,Goldschmiede Klaus Feld,+49 211 371132,jewelry,Düsseldorf,40217,28a Friedrichstraße,osm_node/4767959763
+DE,goldschmiede-fliegenschmidt.de,https://www.goldschmiede-fliegenschmidt.de,Goldschmiede Fliegenschmidt,+49 6032 8040872,jewelry,Bad Nauheim,61231,5 Hauptstraße,osm_node/4896053092
+DE,kröberschmuck.de,http://kröberschmuck.de,Kröber Schmuck Design,+49 163 3550242,jeweller,,,,osm_node/4901998645
+DE,reinmetall.de,https://www.reinmetall.de,Reinmetall,+49 211 4846525,jewelry,Düsseldorf,40476,16 Roßstraße,osm_node/5032935894
+DE,ninamaintzer.de,https://www.ninamaintzer.de,Nina Maintzer,+49 221 8004661,goldsmith,Köln,50996,68 Wilhelmstraße,osm_node/5268887307
+DE,goldschmiedepurper.de,https://goldschmiedepurper.de,Goldschmiede Purper,+49 6032 3759,jewelry,Bad Nauheim,61231,16 Stresemannstraße,osm_node/5387515790
+DE,natuerlich-gold.de,https://natuerlich-gold.de,natürlich gold,+49 6434 933 4931,goldsmith,Bad Camberg,65520,14 Strackgasse,osm_node/5457568294
+DE,schmuck-bochum.de,https://www.schmuck-bochum.de,schmuck der klaren linie,+49 234 380785,jeweller,Bochum,44803,112 Wasserstraße,osm_node/5514919477
+DE,goldschmiede-reinhardt.de,http://www.goldschmiede-reinhardt.de,Goldschmiedemeisterin Christel Reinhardt,+49 6102 39825,jeweller,,,,osm_node/5726481599
+DE,quickels.eu,https://www.quickels.eu,Goldschmiede Quickels,,jewelry,Bochum,44787,2 Dr.-Ruer-Platz,osm_node/6373951998
+DE,tanjaroolfs.de,https://www.tanjaroolfs.de,Tanja Roolfs Goldschmiede,+49 6131 571175,goldsmith,Mainz,55116,52 Kapuzinerstraße,osm_node/6457395602
+DE,goldschmiede-alius.de,https://www.goldschmiede-alius.de,Alius Goldschmiede,,jewelry,Köln,50996,39 Hauptstraße,osm_node/6958122456
+DE,daswerkstattatelier.de,https://www.daswerkstattatelier.de,Das Werkstattatelier,+49 234 588 08 08,goldsmith,Bochum,44789,22 Düppelstraße,osm_node/6975970058
+DE,kulta-gold.eu,https://www.kulta-gold.eu,Kulta,,jeweller,Kerkrade,,64D Heyendallaan,osm_node/7252930765
+DE,schmiedetzusammen.de,https://www.schmiedetzusammen.de,schmiedet zusammen,,goldsmith,,,,osm_node/7609855867
+DE,strandperle-of.de,https://strandperle-of.de,strandperle,,jewelry,Offenbach am Main,63067,13 Taunusstraße,osm_node/8155079559
+DE,goldschmiede-rauberger.de,https://www.goldschmiede-rauberger.de,Goldschmiede Rauberger,+49 69 58092630,jewelry,Frankfurt am Main,60439,8 Nassauer Straße,osm_node/8266712858
+DE,jorisuurwerkreparatie.nl,https://www.jorisuurwerkreparatie.nl,Joris Uurwerkreparatie,+31 6 48618472,clockmaker,Stevensweert,6107BX,2 Contelmostraat,osm_node/8599243165
+DE,juwelier-mechernich.de,https://juwelier-mechernich.de,Juwelier Faßbender,+49 2443 5609,jewelry,Mechernich,53894,10 Mühlengasse,osm_node/9215155489
+DE,schmuckatelier-simon.de,https://www.schmuckatelier-simon.de,Goldschmiedeatelier Anja-Katharina Simon,+49 2389 924757,jewelry,,,,osm_node/9264705315
+DE,goldschmiede-neuhaus.de,https://www.goldschmiede-neuhaus.de,Goldschmiede Neuhaus,+49 211 661859,jewelry,Düsseldorf,40235,53 Hoffeldstraße,osm_node/9326820244
+DE,uhren-roth.de,http://www.uhren-roth.de,Uhrmachermeister Wolfram H. Roth,+49 6571 5264,watches,,,,osm_node/9360670437
+DE,juwelier-wahlen.de,https://www.juwelier-wahlen.de,Juwelier Wahlen,+49 2272 2532,jeweller,Bedburg,50181,30a Lindenstraße,osm_node/9418201490
+DE,uhrzeit-siegburg.de,https://www.uhrzeit-siegburg.de,UHRzeit,+49 2241 1488409,watchmaker,Siegburg,53721,1 Am Brauhof,osm_node/9442009425
+DE,vergolderatelier.de,http://www.vergolderatelier.de,Vergolder Atelier,+49 2504 9868985,goldsmith,Telgte,48291,23 Königstraße,osm_node/9856075207
+DE,goldschmiede-telgte.de,https://www.goldschmiede-telgte.de,Goldschmiedemeisterin Barbara Röttgermann,+49 2504 77413,goldsmith,,,,osm_node/10042812723
+DE,zeitschmiede-benrath.de,http://zeitschmiede-benrath.de,Zeitschmiede,+49 211 69545231,watchmaker,,,,osm_node/10697123138
+DE,uhrwerk-repariert.de,https://www.uhrwerk-repariert.de,Uhrwerk,+49 251 3969260,watchmaker,Münster,48155,46 Hafenweg,osm_node/10726653983
+DE,galileogold.de,https://www.galileogold.de,Juwelier Galileo,+49 2351 670750,jewelry,Lüdenscheid,58511,33 Wilhelmstraße,osm_node/10967460843
+DE,goldschmiede-kerkow.de,https://www.goldschmiede-kerkow.de,Goldschmiede Kerkow,+49 241 407276,jewelry,Aachen,52074,146 Vaalser Straße,osm_node/11085361816
+DE,1064grad.de,https://1064grad.de,1064° Schmuckwerkstatt,,goldsmith,,,,osm_node/11098865892
+DE,heavymetal-koeln.de,https://www.heavymetal-koeln.de/wo,Heavy Metal,,goldsmith,,,,osm_node/11098871168
+DE,trauringe-kreuzau.de,https://www.trauringe-kreuzau.de,Kawecki,,jewelry,,,,osm_node/11298093437
+DE,gold-platin-schmiede.de,https://gold-platin-schmiede.de,Gold- und Platinschmiede M. Gerhards,+49 2434 6034096,jewelry,Wegberg,41844,3 An der Gracht,osm_node/11364605560
+DE,feinwerk.koeln,https://feinwerk.koeln,FEINWERK STRADER Service GmbH,+49 160 95167898,watchmaker,,,,osm_node/11483622433
+DE,tandem-dortmund.de,https://www.tandem-dortmund.de,TANDEM Schmuck & Uhren,+49 231 424319,watchmaker,,44263,6 Alfred-Trappen-Straße,osm_node/12054146266
+DE,rrgoldschmiede.de,https://www.rrgoldschmiede.de,RR Goldschmiede,+49 2226 809584,jeweller,,,,osm_node/12362118635
+DE,jhinrichsmeyer.de,https://jhinrichsmeyer.de,Goldschmiede Hinrichsmeyer,,jewelry,Arsbeck,41844,3 Endstraße,osm_node/12395498748
+DE,lennartz-goldschmiede.de,https://www.lennartz-goldschmiede.de,Lennartz Goldschmiede,+49 2431 98900,jewelry,Erkelenz,41812,25 Ostpromenade,osm_node/12419173884
+DE,schubertuhren.de,https://schubertuhren.de,Uhren Schubert,,watchmaker,Darmstadt,64283,5 An der Stadtkirche,osm_node/12741647681
+DE,uhr-am-lippesee.de,https://www.uhr-am-lippesee.de,Uhr am Lippesee,+49 5254 9359634,clockmaker,Paderborn,33106,31 Sander-Bruch-Straße,osm_node/13596538090
+DE,zeitmanufaktuhr.de,https://www.zeitmanufaktuhr.de,Uhrenatelier Michael Nitsche,+49 541 67355509,watchmaker,Osnabrück,49074,19 Große Gildewart,osm_node/13627179954
+DE,juwelier-lessmann.de,https://juwelier-lessmann.de,Goldschmiede Lessmann,+49 2131 519810,jewelry,Kaarst,41564,12 Rathausplatz,osm_node/13630332021
+DE,diegoldschmiede-luebbecke.de,https://www.diegoldschmiede-luebbecke.de,Die Goldschmiede,+49 5741 7495,jewelry,,,,osm_node/13789492796
+DE,goldschmied-bielefeld.de,https://goldschmied-bielefeld.de,Goldschmiede Nina Lather,+49 163 2192942,jewelry,Bielefeld,33719,4 Rombergstraße,osm_node/13824687986
+DE,raphaelsteinbach.com,https://www.raphaelsteinbach.com,Steinbach Goldschmiede,+32 475 207276,goldsmith,Kelmis - Hergenrath,4728,1 Asteneter Straße,osm_node/14348644465
+DE,juwelier-bleckmann.de,https://juwelier-bleckmann.de,Bleckmann Uhren & Schmuck,+49 2389 3237,jewelry,Werne,59368,16 Steinstraße,osm_way/105527445
+DE,goldschmiede-gote.de,https://www.goldschmiede-gote.de,Goldschmiede Gote,+49 2543 8733,jewelry,Billerbeck,48727,8 Münsterstraße,osm_way/203386416
+DE,uhrenseminare-fluethe.de,https://www.uhrenseminare-fluethe.de,Flüthe,+49 2504 4631,clockmaker,Telgte,48291,18 Münsterstraße,osm_way/259608231
+DE,bestattungen-zintl.de,https://bestattungen-zintl.de,Zintl Bestattungen,+49 2776 9225044,clockmaker,Bad Endbach,35080,43 Landstraße,osm_way/278839570
+DE,goldschmiede-damm.de,http://www.goldschmiede-damm.de,Gold- und Platinschmiede Damm,+49 3621 854189,jewelry,Gotha,,3 Hünersdorfstraße,osm_node/390027810
+DE,perlhuhn.biz,https://www.perlhuhn.biz,Perlhuhn,,jewelry,,,,osm_node/1116629913
+DE,atelier-foerster-oetter.de,https://www.atelier-foerster-oetter.de,Atelier Förster-Oetter,,jewelry,,95448,9 Hinter der Kirche,osm_node/1332316496
+DE,design-goldschmiede.de,http://design-goldschmiede.de,Goldschmiede Hartung,,jewelry,,,,osm_node/1641319277
+DE,schmuck-hannover.de,https://www.schmuck-hannover.de,Galerie März,,jeweller,,,,osm_node/1873198102
+DE,juwelier-arnold.de,http://www.juwelier-arnold.de,Uhrmachermeister Andreas Arnold,,watchmaker,,,,osm_node/1930973067
+DE,schmuckdesign-erfurt.de,https://www.schmuckdesign-erfurt.de,Schmuckdesign dEtAiL,,fashion_accessories,Erfurt,99086,78 Magdeburger Allee,osm_node/2110597637
+DE,uhrmacher-gotha.de,http://www.uhrmacher-gotha.de,Hans-Jochen Barkowsky Uhrmachermeister,,clockmaker,,,,osm_node/3105680231
+DE,die-werkstatt-evessen.de,http://www.die-werkstatt-evessen.de,die werkstatt,,jeweller,Evessen,38173,3 Hauptstraße,osm_node/3150362923
+DE,kauf-park.de,https://kauf-park.de/gesch%C3%A4fte/watch-co,Watch & Co.,+49 551 9899585,watches,Göttingen,37079,2 Am Kauf Park,osm_node/3418565629
+DE,goldschmiede-piaggio.de,https://www.goldschmiede-piaggio.de,Goldschmiede-Atelier Piaggio,+49 551 541136,jewelry,Göttingen,37073,23 Theaterstraße,osm_node/3439991416
+DE,edelmetallstudio.de,http://www.edelmetallstudio.de,edelmetallstudio edgar spörlein,+49 951 202755,jewelry,,,,osm_node/3541127247
+DE,alexander-shorokhoff.de,https://www.alexander-shorokhoff.de,Alexander Shorokhoff Uhrenmanufaktur,,watchmaker,Alzenau,63755,25 Hanauer Straße,osm_node/3970606857
+DE,naneadam.de,http://naneadam.de,Nane Adam Schmuckdesign,+49 3643 805 962,jewelry,Weimar,99423,1 Rittergasse,osm_node/4734376625
+DE,aurum-die-goldschmiede.de,https://www.aurum-die-goldschmiede.de,Aurum Die Goldschmiede,+49 5722 6869,jewelry,Bückeburg,31675,21 Schulstraße,osm_node/4806194306
+DE,wolff-brinckmann.de,https://www.wolff-brinckmann.de,Schmuck und Objekt,+49 361 5610995,jewelry,Erfurt,99084,5 Krämerbrücke,osm_node/5255798855
+DE,claudiahill.de,https://www.claudiahill.de,Claudia Hill Goldschmiedegalerie,+49 561 771524,jewelry,,,19 Wilhelmsstraße,osm_node/5352538823
+DE,der-schmuckler.de,http://www.der-schmuckler.de,Der Schmuckler,+49 172 797 4710,clothes,,,8 Windischenstraße,osm_node/5569465208
+DE,uhren-schmuck-kuespert.de,https://www.uhren-schmuck-kuespert.de,Uhren-Reparatur-Service Küspert,+49 9221 8219193,watches,,,,osm_node/6018293954
+DE,uhren-schremmer.de,http://www.uhren-schremmer.de,Uhren Schremmer GmbH,+49 511 748340,watches,Hannover,30419,12 Alt-Vinnhorst,osm_node/6453298844
+DE,gaminek.de,http://www.gaminek.de,Jörg Gaminek,+49 5672 1360,jewelry,Bad Karlshafen,34385,18a Weserstraße,osm_node/6501997870
+DE,mein-uhrmacher.com,http://mein-uhrmacher.com,,+49 511 64208101;+49 172 4202622,watchmaker,Hannover,30451,13 Comeniusstraße,osm_node/6516545188
+DE,lindahuether.de,https://lindahuether.de,Linda Hüther,+49 361 64438394,jewelry,Erfurt,99084,8 Michaelisstraße,osm_node/6565741743
+DE,lucka-schmuck.de,https://www.lucka-schmuck.de,Goldschmiedin Annette Lucka,+49 6401 220790,jeweller,Grünberg,35305,17 Marktgasse,osm_node/7060529974
+DE,uhrendoktor-goslar.de,http://uhrendoktor-goslar.de,Uhrendoktor,+49 5321 381125,watches,,,,osm_node/8852726916
+DE,goldschmiede-engler.de,https://www.goldschmiede-engler.de,Goldschmiede Engler,+49 5723 7930930,jeweller,Bad Nenndorf,31542,7 Kurhausstraße,osm_node/9127703018
+DE,goldschmiede-richter.de,https://www.goldschmiede-richter.de,Goldschmiede Richter,,goldsmith,Bad Nenndorf,31542,18 Hauptstraße,osm_node/9203400336
+DE,hobbygoldschmiede.de,https://www.hobbygoldschmiede.de/de/standorte/hobbygoldschmiede-bamberg,Hobbygoldschmiede Oliver Kargus,+49 951 50990810,goldsmith,,,,osm_node/9458340946
+DE,goldschmiede-volk-bamberg.de,https://www.goldschmiede-volk-bamberg.de,Goldschmiede Rainer Volk,,goldsmith,,,,osm_node/9664432963
+DE,turmuhren-glocken.de,http://www.turmuhren-glocken.de/turmuhren_kontakt.htm,Turmuhren und Glocken Willing,+49 3624 313245,clockmaker,Ohrdruf,99885,16 Rinnweg,osm_node/10671170857
+DE,goldschmiede-kastner.de,http://www.goldschmiede-kastner.de,Goldschmiede Gerald Kastner,+49 951 202511,jewelry,,,,osm_node/11238353928
+DE,goldschmiede-hey.de,https://www.goldschmiede-hey.de,Goldchmiede Jutta Hey,,jewelry,Heilbad Heiligenstadt,37308,16 Neustädter Kirchgasse,osm_node/11259562530
+DE,uhren-siegmund.de,https://www.uhren-siegmund.de,Fachwerkstatt für historische Uhren Siegmund,+49 36738 74074,clockmaker,Großbreitenbach,98701,17 Schwarzatal-Straße,osm_node/11375281130
+DE,schmucksache-kronach.de,https://schmucksache-kronach.de,Schmucksache,+49151 16622332,jewelry,Kronach,96317,4 Lucas-Cranach-Straße,osm_node/11447310223
+DE,trauring.de,https://www.trauring.de/haendler/juwelier-annette-heuer-39517-tangerhuette,Uhren & Schmuck,+49 3935 2387,jewelry,Tangerhütte,39517,49 Bismarckstraße,osm_node/11637613856
+DE,toni-shop.de,http://www.toni-shop.de,Toni-Shop,,watches,,,,osm_node/12089283254
+DE,atelier-tobisch.de,https://www.atelier-tobisch.de,Atelier Tobisch,,goldsmith,,,,osm_node/12650617461
+DE,uhren-hoffmann.de,https://uhren-hoffmann.de,Uhrmachermeister Hoffmann,+49 6021 94206,watchmaker,Aschaffenburg,63743,10 Marienstraße,osm_node/13244601556
+DE,goldstudio60.com,https://www.goldstudio60.com,Goldstudio 60,+49 345 190652,jewelry,Halle (Saale),06108,60 Ludwig-Wucherer-Straße,osm_way/42793610
+DE,gennadoro.com,https://www.gennadoro.com,Genna d'Oro - das Goldschmiedecafé,+49 331 273 0061,jeweller,Potsdam,14467,8 Hermann-Elflein-Straße,osm_node/617422429
+DE,juwelierhoffmann.de,http://www.juwelierhoffmann.de,Juwelier Hoffmann,+49 351 8623050,jewelry,Dresden,01067,10d Altmarkt,osm_node/761364647
+DE,potsdam-schmuck.de,https://potsdam-schmuck.de,Goldschmiede im Holländischen Viertel,+49 331 273 37393,jewelry,Potsdam,14467,46 Hebbelstraße,osm_node/942930666
+DE,uhrmacher-paetz.de,https://www.uhrmacher-paetz.de,Uhren und Schmuck Henning Pätz,,clockmaker,Freiberg,09599,4 Heubnerstraße,osm_node/1323883660
+DE,mein-juwelier.com,https://www.mein-juwelier.com,Mücke Uhren und Schmuck GbR,+49 3493 9788004,clockmaker,,,,osm_node/1575942521
+DE,uhren-dresden.de,https://www.uhren-dresden.de,Uhren Atelier Daniel Gehm,+49 351 49776336,craft,,,,osm_node/2054474522
+DE,klassische-uhren.com,https://www.klassische-uhren.com,Klassische Uhren Kretzschmar,,watches,,,,osm_node/2516538835
+DE,juwelierhoeltge.de,https://www.juwelierhoeltge.de,Höltge,+49 30 7519085,jewelry,Berlin,12099,151 Tempelhofer Damm,osm_node/2841527491
+DE,atelier-fuer-schmuckgestaltung.de,http://www.atelier-fuer-schmuckgestaltung.de,Atelier für Schmuckgestaltung,,jewelry,Dresden,01099,12 Böhmische Straße,osm_node/3324023148
+DE,glücksgöre.de,https://www.glücksgöre.de,Glücksgöre - Die Schmiede,+49 30 43208803,goldsmith,Berlin,12209,57 Lorenzstraße,osm_node/3683879974
+DE,clock-art-gallery.de,https://www.clock-art-gallery.de,Clock Art Gallery,,clockmaker,Potsdam,14467,99 Charlottenstraße,osm_node/4355205234
+DE,goldschmiede-salomo.de,https://www.goldschmiede-salomo.de,Salomo,+49 351 8020466,jewelry,,,,osm_node/4381343298
+DE,uhren-walinski.de,https://uhren-walinski.de,Walinsky,+49 331 292 767,clockmaker,Potsdam,14467,24 Friedrich-Ebert-Straße,osm_node/4407800410
+DE,gw-goldwerk.de,https://gw-goldwerk.de,Goldwerk,+49 30 7744295,jewelry,Berlin,12247,87 Leonorenstraße,osm_node/4450654154
+DE,dergoldschmiedemeister.de,https://www.dergoldschmiedemeister.de,Der Goldschmiedemeister,+49 331 243 41004,jeweller,Potsdam,14467,11 Lindenstraße,osm_node/4460319410
+DE,opravystarozitnychhodin.cz,http://www.opravystarozitnychhodin.cz,V. Neureutter - A. Neureutterová,+420 233 355 620,watchmaker,Praha,16900,202/148 Bělohorská,osm_node/4487671238
+DE,sarah-boehme.de,http://www.sarah-boehme.de,Schmuckwerkstatt,+49 35056 21378,jewelry,Altenberg,01773,19 Rathausstraße,osm_node/5063534007
+DE,goldschmiede-potsdam.com,https://www.goldschmiede-potsdam.com,Goldschmiede im Hof,+49 331 273 82457,jewelry,,,,osm_node/5617249804
+DE,grossmann-uhren.com,https://www.grossmann-uhren.com,Grossmann,+49 35053 32000,clockmaker,Glashütte,01768,1 Uferstraße,osm_node/5972701159
+DE,schmuckschmiede-torgau.de,http://schmuckschmiede-torgau.de,SchmuckSchmiede,+49 3421 904726,jewelry,Torgau,04860,23 Schloßstraße,osm_node/6241135788
+DE,goldschmied-kretzschmar.de,https://www.goldschmied-kretzschmar.de,Goldschmiede Kretzschmar,+49 351 2516593,jeweller,Dresden,01277,84 Schandauer Straße,osm_node/7508486363
+DE,teuscher-schmuck.de,https://www.teuscher-schmuck.de/Home.html,Goldschmiede,,goldsmith,Berlin,12163,13 Feuerbachstraße,osm_node/7776221531
+DE,volavka.eu,https://volavka.eu,Hodinářství Volavka,+420 222 321 593,watchmaker,Praha 8,18600,72 Sokolovská,osm_node/7783746579
+DE,uhren-klinik.de,https://www.uhren-klinik.de,Uhren-klinik,+49 351 6586090,clockmaker,,,,osm_node/8507615777
+DE,goldschmiede-lotos.de,https://goldschmiede-lotos.de,Goldschmied Lotos,+49 30 339122167,jewelry,Berlin,12169,17 Steglitzer Damm,osm_node/8665662117
+DE,uhrenservice-ziller.de,https://uhrenservice-ziller.de,Uhrenservice Ziller,+4935165879431,watchmaker,,,,osm_node/8914932105
+DE,goldschmiede-giese.de,http://www.goldschmiede-giese.de,,,vacant,Berlin,12109,87 Mariendorfer Damm,osm_node/9180417988
+DE,robynchamberlain.com,https://www.robynchamberlain.com,Robyn Chamberlain Goldschmiede,,jeweller,,,61 Jahnallee,osm_node/9685486989
+DE,goldfisch-goldschmiede.de,http://www.goldfisch-goldschmiede.de,Goldfisch,,jeweller,Berlin,12169,41 Bismarckstraße,osm_node/9895406120
+DE,knapp-turmuhren.de,http://www.knapp-turmuhren.de,"Knapp Turmuhren-,Glocken und Läuteanlagen",+49 34493 71248,clockmaker,Gößnitz,04639,26 Mittelstraße,osm_node/9989999649
+DE,barbaraoehlke.de,https://barbaraoehlke.de,Goldschmiedewerkstatt Barbara Oehlke,,jeweller,Dresden,01097,15 Hauptstraße,osm_node/10152617432
+DE,hodinar-kalai.cz,https://www.hodinar-kalai.cz,Hodinářství Kalai,+420 724 184 615,watchmaker,Zápy,25061,63,osm_node/10846043872
+DE,atelier-dolphin.eu,https://www.atelier-dolphin.eu,Atelier DOLPHIN,+49 30 77059730,jewelry,Berlin,12103,54 Manteuffelstraße,osm_node/11529257987
+DE,uhrwerk-pohl.de,https://www.uhrwerk-pohl.de,Uhrwerk Pohl,+49 3588 203129,jewelry,Niesky,02906,12 Zinzendorfplatz,osm_node/13310830363
+DE,glashuette-original.com,https://www.glashuette-original.com,Glashütte Original,+49 35053 460,clockmaker,Glashütte,01768,1 Altenberger Straße,osm_way/286747127
+DE,winfried-wurlitzer.de,https://winfried-wurlitzer.de/index.html,Goldschmiede Winfried Wurlitzer,+49 3774 23901,jeweller,,,,osm_way/792490509
+DE,uhren-jakel.de,http://uhren-jakel.de,Uhren Jakel,+49 421 3330230,watchmaker,,,,osm_node/576476419
+DE,aurum-schmuck.de,http://www.aurum-schmuck.de,aurum Goldschmiedeatelier,+49 4921 586565,jewelry,Emden,26721,3 Zwischen Beiden Märkten,osm_node/1724514721
+DE,schmiede-sandstede.de,http://www.schmiede-sandstede.de,Alte Schmiede am Lappan,+49 441 15445,jewelry,Oldenburg,26122,4 Lappan,osm_node/2163199277
+DE,gabryklokken.nl,https://www.gabryklokken.nl,Gabry Klokken,,watchmaker,Groningen,9745CK,66 Kerkstraat,osm_node/2739240543
+DE,liatelier.nl,https://www.liatelier.nl,Liatelier,+31 50 3117567,jewelry,Groningen,9711KV,48 Vismarkt,osm_node/2752223766
+DE,sieraden-atelier.nl,https://sieraden-atelier.nl,Atelier Eveline,+31 595 431 351,jeweller,Uithuizen,9981GN,97b de Laan,osm_node/2826721853
+DE,goudsmederijdekruijf.nl,https://www.goudsmederijdekruijf.nl,De Kruijf,,jewelry,Zuidlaren,9471GG,7 Koningstraat,osm_node/2842146657
+DE,goudsmidmargriet.com,https://www.goudsmidmargriet.com,Goudsmid Margriet,+31 592 213025,jewelry,Annen,9468BN,12 Markeweg,osm_node/2843038373
+DE,goldschmiede-hoops.de,http://www.goldschmiede-hoops.de,Goldschmiede Hoops,+49 421 832727,goldsmith,,,,osm_node/2987867678
+DE,uniqueart.de,https://uniqueart.de,Uniquearat,+49 441 777225,jewelry,Oldenburg,26122,34 Haarenstraße,osm_node/3108033141
+DE,goldschmiede-speckmann.de,https://goldschmiede-speckmann.de,Goldschmiede Speckmann,+49 441 15153,jewelry,Oldenburg,26122,41 Achternstraße,osm_node/3126171486
+DE,unruhwelle.de,http://www.unruhwelle.de,Die Uhrenwerkstatt,+49 421 343939,watchmaker,Bremen,28215,52 Borgfelder Straße,osm_node/3213533289
+DE,l-dorado-goldschmiede.de,http://www.l-dorado-goldschmiede.de,L-Dorado-Goldschmiede,+49 4461 74063,jeweller,,,,osm_node/3679346583
+DE,goldamfluss.de,http://www.goldamfluss.de/index.php?article_id=11,Wolfgang Falz,+49 421 324544,jewelry,,,9-11 Am Landherrnamt,osm_node/4377092978
+DE,huismankromme.nl,https://www.huismankromme.nl,Huisman-Kromme Edelsmeden,+31 50 5010084,jewelry,Roden,9301AK,32 Wilhelminastraat,osm_node/5308254625
+DE,altstadt-uhrmacher.de,http://www.altstadt-uhrmacher.de,Altstadt-Uhrmacher,,clockmaker,Leer (Ostfriesland),26789,1 Wörde,osm_node/5517222274
+DE,uhren-steinborn.de,https://www.uhren-steinborn.de,Uhren Steinborn,+49 4209 1422,clockmaker,Schwanewede,28790,9 Hospitalstraße,osm_node/5677768451
+DE,schmuckwerk-bremen.com,https://www.schmuckwerk-bremen.com,Schmuckwerk,+49 421 7929352,jewelry,,,,osm_node/6610458909
+DE,mansholt.de,https://www.mansholt.de,Mansholt,+49 441 9608880,jewelry,,,,osm_node/6704077037
+DE,optitime.nl,https://www.optitime.nl,Optitime,,watches,,,,osm_node/6795661580
+DE,insel-goldschmiede.de,http://insel-goldschmiede.de,Inselgoldschmiede & Schmuggelkiste,+49 4972 895,gift,Langeoog,26465,3 Am Wasserturm,osm_node/6858163429
+DE,nielspdesign.dk,https://www.nielspdesign.dk,Niels P. Design,,jeweller,,,,osm_node/7840898505
+DE,goldschmiede-laudenbach.de,https://www.goldschmiede-laudenbach.de,Laudenbach Goldschmiede,+49 4471 8799 96,jewelry,Cloppenburg,49661,7 Carl-Zeiss-Straße,osm_node/8066419090
+DE,kamon-gold.de,https://www.kamon-gold.de,Kamon,+49 421 79087611,jeweller,,,,osm_node/9569559660
+DE,edelsmederij-verweij.nl,https://www.edelsmederij-verweij.nl,Edelsmederij Verweij,+31 592 388 506,jewelry,Veenhuizen,9341AV,2 Kerklaan,osm_node/11690203061
+DE,janneterink.nl,https://janneterink.nl,"Janne Terink, Edelsmid en Modelleur",+31 6 3613 5614,jewelry,Borger,9531CK,54 Molenstraat,osm_node/11690222428
+DE,uhrenhoeg.wixsite.com,https://uhrenhoeg.wixsite.com/uhrenhoeg,Uhren Hoeg,+49 4651 8263490,clockmaker,Sylt,25980,28 Alter Kirchenweg,osm_way/315927208
+DE,simone-lübbe.de,http://www.simone-lübbe.de,Simone Lübbe,+49 4471 7009 328,jeweller,Cloppenburg,49661,54 Bether Dorfstraße,osm_way/443263801
+DE,goldschmiede-funk.de,http://www.goldschmiede-funk.de,Funk,+49 4161 7045745,jewelry,,,,osm_node/394948124
+DE,juwelier-preuss.de,https://www.juwelier-preuss.de,Juwelier Preuß Orchidee,+49 3877 5673006,jeweller,,,,osm_node/734060082
+DE,klokkenmaker.de,https://www.klokkenmaker.de,Klokkenmaker Schmidt,+49 451 7020411,clockmaker,,,,osm_node/1880942983
+DE,goldschmiede-bergmann.de,https://www.goldschmiede-bergmann.de,Goldschmiede Bergmann,+49 40 342319,jewelry,,,,osm_node/1913235373
+DE,goedeke-goldschmiede.de,https://www.goedeke-goldschmiede.de,Goldschmied Gödeke,+49 4102 59858,jewelry,Ahrensburg,22926,2b Kaiser-Wilhelm-Allee,osm_node/2175223124
+DE,martinalam.de,https://martinalam.de,Goldschmiede Martina Lam,+49 162 219 94 92,jeweller,,,,osm_node/2584281280
+DE,mutabor-gold.de,http://www.mutabor-gold.de,Mutabor,,jewelry,Hamburg,,122A Eppendorfer Landstraße,osm_node/2906123530
+DE,gps-watch.de,https://www.gps-watch.de,GPS-WATCH,+49 4193 870900,jeweller,Kisdorf,24629,4 Bismarckplatz,osm_node/3314872293
+DE,goldschmiede-dallmann.de,https://www.goldschmiede-dallmann.de,Goldschmiede Dallmann,+49 4161 2448,jeweller,,,,osm_node/3576774522
+DE,schubertundhinkelmann.de,http://www.schubertundhinkelmann.de,Schubert & Hinkelmann,,watchmaker,,,,osm_node/3671923085
+DE,jannee.nu,https://www.jannee.nu,De Gyldne Gemakker,,jewelry,,,,osm_node/3696902841
+DE,uhren-schmuck-soekefeld.de,https://www.uhren-schmuck-soekefeld.de,Sökefeld,,jeweller,Meldorf,25704,10 Süderstraße,osm_node/3946173839
+DE,juwelier-voss.de,https://www.juwelier-voss.de,Voss,,jeweller,Meldorf,25704,5 Spreetstraße,osm_node/3946173841
+DE,juwelier-klingelhoefer.de,https://www.juwelier-klingelhoefer.de,Klingelhöfer,+49 5141 22754,jewelry,Celle,29221,37 Mauernstraße,osm_node/4434330689
+DE,goldschmiedehaus-zemke.de,http://www.goldschmiedehaus-zemke.de,Goldschmiede Zemke,,jewelry,,,,osm_node/4440571097
+DE,customringz.de,https://www.customringz.de,CustomRingz,+49 40 20226038,jewelry,,,,osm_node/5682885170
+DE,anglmayer.de,https://www.anglmayer.de,Uhrmachermeister Anglmayer,+49 3937 82975,jewelry,Osterburg (Altmark),39606,38 Breite Straße,osm_node/6260303825
+DE,kult-ur-sprung.de,https://kult-ur-sprung.de,Kult·Ur·Sprung - Klang Kunst Galerie,+49 4382 926 71 10,jeweller,Wangels,23758,7b,osm_node/7523517525
+DE,dieuhrenwerkstatt.de,https://www.dieuhrenwerkstatt.de,DIE UHRENWERKSTATT,+49 434 272 868 5,watchmaker,,,,osm_node/8071866552
+DE,time-art.net,https://www.time-art.net,Time Art oHG,+49 40 63664848,watchmaker,Hamburg,22179,72 Haldesdorfer Straße,osm_node/8404209464
+DE,zehnuhrzehn.de,https://zehnuhrzehn.de,zehnUHRzehn,+49 4322 8859394,jewelry,Bordesholm,24582,1 Eiderstede,osm_node/9034732936
+DE,mpueschel.de,https://www.mpueschel.de,Matthias Püschel,,goldsmith,Walsrode,29664,77 Lange Straße,osm_node/9160610629
+DE,valerie-schwarzkopf.de,https://www.valerie-schwarzkopf.de,"Valérie Schwarzkopf, die Goldschmiede",+49 40 463926,jeweller,,,,osm_node/9339261924
+DE,genesis-uhren.de,https://www.genesis-uhren.de,Christine Genesis - Uhrmachermeisterin,,watchmaker,Hamburg,22087,56 Papenhuder Straße,osm_node/11993442819
+DE,bad-bevensen.juwelier-busse.de,https://bad-bevensen.juwelier-busse.de,Busse,,jewelry,Bad Bevensen,29549,14 Lüneburger Straße,osm_node/12164477436
+DE,ninapelka.de,http://ninapelka.de,Nina Pelka - Artisan Jewellery,,goldsmith,Hamburg,22765,13 Holländische Reihe,osm_node/13310606964
+DE,wesemann-husum.de,https://www.wesemann-husum.de,Wesemann Uhren Optik Schmuck Goldschmiede,+49 4841 2944,jewelry;optician,Husum,25813,9 Norderstraße,osm_way/199483118
+DE,uhrenklinik-berlin.de,http://www.uhrenklinik-berlin.de,Uhrenklinik,+49 30 30112277,clockmaker,Berlin,14057,65 Wundtstraße,osm_node/1223775078
+DE,ulrike-peuker.de,https://ulrike-peuker.de,Goldschmiede Ulrike Peuker,,goldsmith,,,,osm_node/1256368316
+DE,uhrenwerkstatt-markus-maier.de,https://www.uhrenwerkstatt-markus-maier.de,Uhrenwerkstatt Markus Maier,+49 30 95620443,clockmaker,Berlin,10439,44 Paul-Robeson-Straße,osm_node/1731110428
+DE,ringe-undso.de,http://www.ringe-undso.de,Zugck&Oechtering,+49 30 8932027,jeweller,,,,osm_node/2391234939
+DE,uhrmachermeister-voss.de,https://www.uhrmachermeister-voss.de,Uhrmachermeister Voss,+49 3831 29 43 72,jewelry,Stralsund,18439,37 Ossenreyerstraße,osm_node/2396611535
+DE,geschmiedetes.com,https://www.geschmiedetes.com,Goldschmiede Anja Müller,+49 30 8533313,jewelry,Berlin,10715,17 Mainzer Straße,osm_node/4363560909
+DE,ww-schmiede.de,http://www.ww-schmiede.de,WW-Schmiede,,jewelry,Berlin,10967,75 Graefestraße,osm_node/5604912306
+DE,dieuhrenmacherei.de,http://dieuhrenmacherei.de,Die Uhrenmacherei,+49 30 6126385,watchmaker,Berlin,10999,15 Kottbusser Straße,osm_node/7172744920
+DE,smykkeriet.com,https://www.smykkeriet.com,Smykkeriet,,jeweller,,,,osm_node/8022706473
+DE,medstein.de,https://medstein.de,Medstein Schmuck-Werkstatt,,jeweller,Berlin,10827,121 Hauptstraße,osm_node/8066810065
+DE,scuderi-schmuck.de,https://www.scuderi-schmuck.de,Scuderi Werkstatt für Schmuck,,jeweller,Berlin,10405,32 Wörther Straße,osm_node/9992829260
+DE,ungattino.de,https://ungattino.de,ungattino,+49 30 44673430,jeweller,Berlin,10437,12a Stargarder Straße,osm_node/9994203408
+DE,fraukette.de,https://www.fraukette.de,Frau Kette Goldschmiede,,jewelry,Berlin,14057,14 Leonhardtstraße,osm_node/10648363517
+DE,grebe-goldschmuck.de,https://www.grebe-goldschmuck.de,Uwe Grebe,+49 30 25927192,goldsmith,,,2 Robinienweg,osm_node/11649282066
+DE,zwei-meistergoldschmiede.de,https://zwei-meistergoldschmiede.de,Cottmann & Ludwig Meistergoldschmiede,,goldsmith,,,,osm_node/13746669664
+DE,juwelier-steinfurth.de,http://www.juwelier-steinfurth.de,Uhrenwerkstatt Steinfurth,+493043604642,clockmaker,Berlin,13507,16,osm_node/13817894984
+DE,morkel.de,https://morkel.de,Morkel Werkstatt für Schmuck und Trauringe,+49 151 1783 5971,jeweller,,,,osm_node/14225418939

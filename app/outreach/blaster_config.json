@@ -1,8 +1,8 @@
 {
-  "_comment": "=== YOUR DETAILS â€” edit these before running ===",
+  "_comment": "=== YOUR DETAILS \u00e2\u20ac\u201d edit these before running ===",
   "name": "Bonnie Scarlett",
   "email": "info@easylistings.co.uk",
-  "phone": "+447399643492",
+  "phone": "+1 203 555 0142",
   "company": "Easy Listings",
   "website": "www.easylistings.co.uk",
   "subject": "Listing system for dealers",
@@ -64,5 +64,6 @@
   "_safety": "=== guardrails ===",
   "skip_newsletter_only": true,
   "max_form_fields": 12,
-  "dry_run": false
+  "dry_run": false,
+  "phone_alt": "+1 860 555 0173"
 }

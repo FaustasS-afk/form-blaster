@@ -1,0 +1,21 @@
+country,domain,site,name,phone,category,city,postcode,street,source
+ES,elcronometro.com,https://www.elcronometro.com,El Cronómetro,,watches,,,19 Calle Sierpes,osm_way/428874182
+ES,germangil.es,https://www.germangil.es,Germán Gil Relojeros,+34952253043,clockmaker,Málaga,29012,33 Calle Victoria,osm_node/4855451337
+ES,tecniwatch.es,https://tecniwatch.es,tecniWatch,,watchmaker,,,,osm_node/3357693420
+ES,plataforma.digital,https://plataforma.digital,Miguel Vaz,,jeweller,Porto,,Rua Santo Ildefonso,osm_node/4141999573
+ES,ourivesariaestefania.pt,https://www.ourivesariaestefania.pt,Ourivesaria da Estefânia,+351 21 354 7070,jewelry,Lisboa,,150-D/E Rua Pascoal de Melo,osm_node/4799997064
+ES,davidrosas.pt,https://davidrosas.pt,David Rosas,+351 227 662 740,jewelry,Porto,4000-407,237 Avenida dos Aliados,osm_node/11417636852
+ES,centrorelojero.es,https://www.centrorelojero.es,Centro Relojero,,watchmaker,,,,osm_node/10026695512
+ES,mariagoti.es,https://www.mariagoti.es,María Goti Joyas,,jewelry,,,,osm_node/7041884331
+ES,postventarelojeros.com,https://postventarelojeros.com,Post Venta Centro Relojero,+34 981 91 41 34,watchmaker,A Coruña,15003,155 Rúa San Andrés,osm_node/8320765214
+ES,estudiodeltiempo.net,https://estudiodeltiempo.net,ESTUDIO DEL TIEMPO,+34 630 54 89 90,watchmaker,Santiago de Compostela,15707,31 Rúa da S.D. Compostela,osm_node/12452365510
+ES,relojeriagerman.com,https://www.relojeriagerman.com,Relojería Germán,+34 980 53 37 57,watchmaker,Zamora,49014,17 Calle de San Torcuato,osm_node/13582221410
+ES,bijouteriecoscolla.fr,https://www.bijouteriecoscolla.fr,Coscolla,+33 5 59 27 55 75,jewelry,,,,osm_node/5475398274
+ES,bijouterie-osmin.fr,https://www.bijouterie-osmin.fr,Osmin,+33 5 59 27 88 31,jewelry,,,,osm_node/5475497963
+ES,bijouteriefretier.fr,https://bijouteriefretier.fr,Marc Frétier,,jewelry,,,,osm_node/5478821421
+ES,calamelesmontres.com,http://www.calamelesmontres.com,Calame les montres,+33 5 59 62 69 66,watchmaker,Lescar,64230,8 Rue Jean Jaurès,osm_node/6123840342
+ES,pilvite.net,https://www.pilvite.net/pilvite-anglet-c58x8149,Pil Vite,+33 5 59 58 20 91,watchmaker,Anglet,64600,77 Avenue de Bayonne,osm_node/11916104994
+ES,bijouterie-faivre.com,https://bijouterie-faivre.com,Bijouterie Faivre,+33 5 58 79 31 47,jewelry,Hagetmau,,18 Rue Gambetta,osm_node/13037307806
+ES,horloger-bayonne.com,https://horloger-bayonne.com,Darricarrère Jean,+33 5 59 59 52 08,watchmaker,,64100,3 Rue Lagréou,osm_node/13439180301
+ES,horlogeriegranier.com,https://www.horlogeriegranier.com,Horlogerie Granier,+33 5 61 55 25 06,watches,,,,osm_node/7383272447
+ES,montreservice.fr,https://www.montreservice.fr/fr/boutiques/montre-service-blagnac-leclerc,Montre Services,+33 5 61 15 65 64,watchmaker,,,,osm_way/754984101

@@ -138,6 +138,88 @@ def _detect_widget(page):
         return {"kind": "", "key": "", "field": "", "token": "", "hasWidget": False}
 
 
+def _field_errors(page):
+    """
+    Detect 'Please match the requested format' style validation errors.
+
+    THE BUG THE USER CAUGHT: a UK phone (+44...) was typed into US/CA forms,
+    the browser showed "Please match the requested format", and the bot logged
+    it as submitted anyway. Two screenshots proved it (vintagevibesva.com,
+    ocrugliquiators.com).
+
+    Returns a list of (field_label, message) for visible validation problems.
+    """
+    js = """() => {
+      const bad = [];
+      const rx = /match the requested format|invalid|incorrect|not valid|please enter a valid|does not match|must be a|enter a valid/i;
+      document.querySelectorAll('input,textarea,select').forEach(el => {
+        if (!el.validationMessage && !(el.getAttribute('aria-invalid')==='true')) {
+          // also catch pages that only paint a sibling error
+          const sib = el.parentElement ? el.parentElement.innerText : '';
+          if (!rx.test(sib)) return;
+        }
+        const msg = el.validationMessage || '';
+        if (msg || el.getAttribute('aria-invalid')==='true') {
+          bad.push({name: el.name||el.id||el.type, type: el.type||'', msg: msg});
+        } else {
+          bad.push({name: el.name||el.id||el.type, type: el.type||'', msg: 'format'});
+        }
+      });
+      return bad;
+    }"""
+    try:
+        out = page.evaluate(js) or []
+    except Exception:
+        return []
+    # dedupe by name
+    seen, res = set(), []
+    for d in out:
+        k = (d.get("name"), d.get("msg"))
+        if k in seen:
+            continue
+        seen.add(k)
+        res.append(d)
+    return res
+
+
+def _retry_phone(page, cfg, log):
+    """
+    A phone field was rejected. Swap to phone_alt (US format) and re-submit.
+    Returns True if a retry was made.
+    """
+    alt = cfg.get("phone_alt")
+    if not alt:
+        return False
+    js = """(val) => {
+      let n = 0;
+      document.querySelectorAll('input[type="tel"],input[name*="phone" i],input[id*="phone" i],input[name*="tel" i]').forEach(el => {
+        el.value = ''; el.focus();
+        el.value = val; n++;
+        el.dispatchEvent(new Event('input', {bubbles:true}));
+        el.dispatchEvent(new Event('change', {bubbles:true}));
+        el.dispatchEvent(new Event('blur', {bubbles:true}));
+      });
+      return n;
+    }"""
+    try:
+        n = page.evaluate(js, alt)
+    except Exception:
+        return False
+    if not n:
+        return False
+    log("  PHONE REJECTED -> swapped to %s in %d field(s), re-submitting" % (alt, n))
+    for sel in ("button[type='submit']", "input[type='submit']",
+                "button:has-text('Send')", "form button"):
+        try:
+            el = page.locator(sel).last
+            if el.count() and el.is_visible():
+                el.click(timeout=6000)
+                return True
+        except Exception:
+            continue
+    return False
+
+
 def _solve_via_api(page, kind, sitekey, cfg, log):
     """
     Solve with NoneCap and inject the token into the form field.
@@ -459,6 +541,24 @@ def _verdict(page, cand, inputs, mapping, cfg, _m, cap_seen):
     except Exception:
         pass
 
+    # 2b. FIELD VALIDATION CHECK. A rejected phone/format means the submit did
+    #     NOT go through, even though the page looks unchanged. The user caught
+    #     this twice on screen. Retry with the alternate phone once, then judge.
+    ferrs = _field_errors(page)
+    if ferrs:
+        _m("  FIELD ERRORS: %s" % [(f.get("name"), f.get("type"), f.get("msg")) for f in ferrs][:4])
+        phone_bad = any("tel" in (f.get("type") or "") or "phone" in (f.get("name") or "").lower()
+                        or "tel" in (f.get("name") or "").lower() for f in ferrs)
+        if phone_bad and _retry_phone(page, cfg, _m):
+            page.wait_for_timeout(int(cfg.get("post_submit_wait", 5000)))
+            try:
+                page.wait_for_load_state("networkidle", timeout=8000)
+            except Exception:
+                pass
+            ferrs = _field_errors(page)
+            _m("  after phone retry, field errors: %d" % len(ferrs))
+        still_bad = bool(ferrs)
+
     body = ""
     try:
         body = page.content()
@@ -481,12 +581,19 @@ def _verdict(page, cand, inputs, mapping, cfg, _m, cap_seen):
 
     # explicit failure signals
     err = bool(re.search(
-        r"(please (complete|tick|verify|check)|captcha (is )?(required|invalid|incorrect)|"
+        r"(please (complete|tick|verify|check|enter|match)|captcha (is )?(required|invalid|incorrect)|"
         r"not a robot|complete the captcha|verification failed|please try again|"
-        r"this field is required|must be filled)", body, re.I))
+        r"match the requested format|not valid|enter a valid|"
+        r"this field is required|must be filled|is required)", body, re.I))
 
     form_gone = not re.search(r"<form", body, re.I)
     success_text = bool(SUCCESS_WORDS.search(body))
+
+    # A still-invalid FIELD beats everything except a genuine success redirect.
+    if still_bad and not form_gone:
+        return dict(ok=False, status="needs_manual", tier="browser",
+                    detail=cap + "FIELD INVALID after retry (form rejected), form present",
+                    form_action=str(cand), fields_hit=link)
 
     if err and not form_gone:
         return dict(ok=False, status="needs_manual", tier="browser",
