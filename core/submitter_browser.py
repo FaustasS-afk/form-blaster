@@ -28,45 +28,94 @@ def _page_soup(page):
         return None
 
 
-def _extract_inputs(page, cfg):
-    """Pull fillable fields straight from the live DOM (handles JS-built forms)."""
+def _extract_inputs(page, cfg, prefer_contact=True):
+    """
+    Pull fillable fields from the BEST form on the page.
+
+    THE BUG THE USER CAUGHT: jewelryboxestatebuyers.com/contact/ has TWO Gravity
+    Forms -- gform_1 (name+email only, a subscribe/stub) and gform_2 (name,
+    email, PHONE). The old code used a flat
+    `querySelectorAll('input,textarea,select')` across the WHOLE page, so it
+    grabbed fields from both, mapped the first name/email it saw and submitted
+    whichever button came first -- the SUBSCRIBE form. The pitch textarea was
+    dropped because gform_1 has no message box.
+
+    Now we score each <form> and return ONLY that form's fields, ranked by
+    contact-form evidence:
+        + textarea            (message box -- the thing that carries the pitch)
+        + email field
+        + phone field
+        + more fillable fields
+        + submit control inside the form
+        - newsletter/subscribe wording (class, id, action, placeholder)
+    """
     js = """
-    () => {
-      const out = [];
-      const els = document.querySelectorAll('input, textarea, select');
-      els.forEach((el, idx) => {
-        const t = (el.type || '').toLowerCase();
-        if (['hidden','submit','button','image','reset','file','checkbox','radio','search'].includes(t)) return;
+    (prefer) => {
+      const SCORE_NEWS = /subscri|newsletter|signup|sign-up|mailing|mc4wp|klaviyo|kl_|mailchimp|footer|social|search/i;
+      const forms = [...document.querySelectorAll('form')];
+      const vis = el => {
         const st = window.getComputedStyle(el);
-        if (st.display === 'none' || st.visibility === 'hidden') return;
+        if (st.display === 'none' || st.visibility === 'hidden') return false;
         const r = el.getBoundingClientRect();
-        if (r.width < 5 || r.height < 5) return;
-        let label = '';
-        if (el.id) {
-          const l = document.querySelector(`label[for="${el.id}"]`);
-          if (l) label = l.innerText || '';
-        }
-        if (!label && el.closest('label')) label = el.closest('label').innerText || '';
-        const opts = [];
-        if (el.tagName === 'SELECT') {
-          el.querySelectorAll('option').forEach(o => opts.push((o.innerText||'').trim()));
-        }
-        out.push({
-          name: el.name || '', id: el.id || '',
-          placeholder: el.placeholder || '', aria: el.getAttribute('aria-label') || '',
-          label: label, type: t, tag: el.tagName.toLowerCase(),
-          required: el.required || el.getAttribute('aria-required') === 'true',
-          options: opts
+        return r.width >= 5 && r.height >= 5;
+      };
+      const fieldsOf = (root) => {
+        const out = [];
+        root.querySelectorAll('input, textarea, select').forEach(el => {
+          const t = (el.type || '').toLowerCase();
+          if (['hidden','submit','button','image','reset','file','checkbox','radio','search'].includes(t)) return;
+          if (!vis(el)) return;
+          let label = '';
+          if (el.id) { const l = document.querySelector(`label[for="${el.id}"]`); if (l) label = l.innerText || ''; }
+          if (!label && el.closest('label')) label = el.closest('label').innerText || '';
+          out.push({name: el.name||'', id: el.id||'', placeholder: el.placeholder||'',
+                    aria: el.getAttribute('aria-label')||'', label: label, type: t,
+                    tag: el.tagName.toLowerCase(),
+                    required: el.required || el.getAttribute('aria-required')==='true',
+                    options: []});
         });
+        return out;
+      };
+      const rank = (f, flds) => {
+        const sig = ((f.id||'')+' '+(f.className||'')+' '+(f.getAttribute('action')||'')).toLowerCase();
+        let s = 0;
+        if (flds.some(x => x.tag === 'textarea')) s += 6;
+        if (flds.some(x => x.type === 'email')) s += 3;
+        if (flds.some(x => x.type === 'tel')) s += 2;
+        s += Math.min(flds.length, 6);
+        if (f.querySelector('button[type=submit],input[type=submit],button')) s += 2;
+        if (SCORE_NEWS.test(sig)) s -= 5;
+        const blob = flds.map(x => x.name+' '+x.placeholder+' '+x.label).join(' ').toLowerCase();
+        if (/subscri|newsletter|sign ?up/.test(blob)) s -= 4;
+        return s;
+      };
+      let best = null, bestScore = -999, bestFields = [];
+      forms.forEach(f => {
+        if (!vis(f)) return;
+        const flds = fieldsOf(f);
+        if (flds.length < 2) return;
+        const sc = rank(f, flds);
+        if (sc > bestScore) { bestScore = sc; best = f; bestFields = flds; }
       });
-      return out;
+      if (best) return {fields: bestFields, formId: best.id||'', score: bestScore,
+                        formCount: forms.length};
+      const all = fieldsOf(document);
+      return {fields: all, formId: '', score: -1, formCount: forms.length};
     }
     """
     try:
-        data = page.evaluate(js)
+        d = page.evaluate(js, prefer_contact)
     except Exception:
         return []
-    return [dict(d, el=None, value="") for d in data]
+    d = d or {}
+    # stash the winning form id so the submit click can be scoped to it
+    try:
+        cfg["_chosen_form_id"] = d.get("formId") or ""
+        cfg["_form_count"] = d.get("formCount")
+        cfg["_form_score"] = d.get("score")
+    except Exception:
+        pass
+    return [dict(x, el=None, value="") for x in d.get("fields", [])]
 
 
 def _detect_widget(page):
@@ -345,25 +394,44 @@ def _fill_and_submit(page, inputs, mapping, cfg):
     # Turnstile (they require an interaction; only v3 is invisible).
     cap = _click_captcha_checkbox(page, page)
 
-    # Find a submit control
+    # Find a submit control INSIDE the chosen form first.
+    # Old code used page.locator(sel).last -- the last matching button anywhere
+    # on the page, which on a two-form page (jewelryboxestatebuyers.com) clicked
+    # the wrong form's button.
     clicked = False
-    for sel in ("button[type='submit']",
-                "input[type='submit']",
-                "button:has-text('Send')",
-                "button:has-text('Submit')",
-                "button:has-text('Get in touch')",
-                "button:has-text('Contact')",
-                "button:has-text('Enquire')",
-                "button:has-text('Enquiry')",
-                "form button"):
-        try:
-            btn = page.locator(sel).last
-            if btn.count() > 0 and btn.is_visible():
-                btn.click(timeout=6000)
-                clicked = True
-                break
-        except Exception:
-            continue
+    SELS = ("button[type='submit']",
+            "input[type='submit']",
+            "button:has-text('Send')",
+            "button:has-text('Submit')",
+            "button:has-text('Get in touch')",
+            "button:has-text('Contact')",
+            "button:has-text('Enquire')",
+            "button:has-text('Enquiry')",
+            "form button")
+
+    scopes = []
+    fid = cfg.get("_chosen_form_id") or ""
+    if fid:
+        scopes.append("#" + fid)
+    scopes.append("")           # page-wide fallback
+
+    for scope in scopes:
+        for sel in SELS:
+            full = (scope + " " + sel).strip()
+            try:
+                loc = page.locator(full)
+                n = loc.count()
+                if not n:
+                    continue
+                btn = loc.first if scope else loc.last
+                if btn.is_visible():
+                    btn.click(timeout=6000)
+                    clicked = True
+                    break
+            except Exception:
+                continue
+        if clicked:
+            break
 
     if not clicked:
         try:

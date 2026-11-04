@@ -1,0 +1,10 @@
+Batch file: _bigsend.txt  (1246 urls)
+  0 were new to the db, 1246 already known
+
+==========================================================
+  BATCH-ONLY RUN — 1226 site(s) from _bigsend.txt
+  concurrency=8   dry_run=False
+  from: Bonnie Scarlett <info@easylistings.co.uk>
+==========================================================
+
+[90m--- Tier 1: HTTP ---[0m
