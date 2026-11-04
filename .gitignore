@@ -75,3 +75,7 @@ app/data/*.db
 app/data/*.db-shm
 app/data/*.db-wal
 
+
+# playwright artifact temp (TEMP misresolves to CWD on some boxes)
+.pw-temp/
+

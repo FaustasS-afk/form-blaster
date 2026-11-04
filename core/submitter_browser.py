@@ -22,7 +22,8 @@ SUCCESS_WORDS = re.compile(
 
 def _page_soup(page):
     try:
-        return BeautifulSoup(page.content(), "lxml")
+        from core.soup import safe_parse
+        return safe_parse(page.content())
     except Exception:
         return None
 

@@ -40,11 +40,10 @@ PLUGIN_HINTS = re.compile(
 
 def iframe_srcs(html):
     """All candidate iframe form URLs found in a page."""
-    from bs4 import BeautifulSoup
+    from core.soup import safe_parse
     out = []
-    try:
-        s = BeautifulSoup(html, "lxml")
-    except Exception:
+    s = safe_parse(html)
+    if s is None:
         return out
     for f in s.find_all(["iframe", "embed", "object"]):
         src = (f.get("src") or f.get("data-src") or f.get("data-lazy-src")
