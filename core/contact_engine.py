@@ -335,7 +335,7 @@ def _verify(page, frame, before, posts, cfg, start_url):
     return "unconfirmed", "no confirmation and no network response"
 
 
-def contact_site(ctx, url, cfg, dry_run=False, shot_dir=None, log=lambda m: None):
+def contact_site(ctx, url, cfg, dry_run=False, shot_dir=None, log=lambda m: None, hold_ms=0):
     t0 = time.time()
     budget = cfg.get("site_budget_secs", 90)
     res = dict(url=url, outcome="no_form", detail="", form_page="", emails="", phones="", shot="")
@@ -471,6 +471,8 @@ def contact_site(ctx, url, cfg, dry_run=False, shot_dir=None, log=lambda m: None
     finally:
         res["secs"] = round(time.time() - t0, 1)
         try:
+            if hold_ms:                       # --show: leave the result on screen briefly
+                page.wait_for_timeout(hold_ms)
             page.close()
         except Exception:
             pass

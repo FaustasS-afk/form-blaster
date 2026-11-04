@@ -87,6 +87,7 @@ def main():
     ap.add_argument("--workers", type=int, default=4)
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--show", action="store_true", help="visible browser windows")
+    ap.add_argument("--slow", type=int, default=0, help="ms pause between browser actions (with --show)")
     ap.add_argument("--skip-db", default=str(BASE / "data" / "formblaster.db"),
                     help="old tool's database: its sent/maybe sites are skipped")
     args = ap.parse_args()
@@ -126,7 +127,7 @@ def main():
         pw = sync_playwright().start()
         try:
             try:
-                browser = pw.chromium.launch(channel="msedge", headless=not args.show)
+                browser = pw.chromium.launch(channel="msedge", headless=not args.show, slow_mo=args.slow)
             except Exception:
                 browser = pw.chromium.launch(headless=not args.show)
             ctx = browser.new_context(viewport={"width": 1366, "height": 900},
@@ -137,7 +138,8 @@ def main():
                         break
                     lead = queue.pop(0)
                 site_cfg = spin.spin_fields(cfg, values=lead)
-                res = contact_site(ctx, lead["url"], site_cfg, dry_run=args.dry_run, shot_dir=shot_dir)
+                res = contact_site(ctx, lead["url"], site_cfg, dry_run=args.dry_run, shot_dir=shot_dir,
+                                   hold_ms=4000 if args.show else 0)
                 res["time"] = time.strftime("%H:%M:%S")
                 with lock:
                     n[0] += 1
