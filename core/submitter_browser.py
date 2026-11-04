@@ -69,6 +69,162 @@ def _extract_inputs(page, cfg):
     return [dict(d, el=None, value="") for d in data]
 
 
+def _detect_widget(page):
+    """
+    Detect a captcha widget that REALLY renders, and read its sitekey.
+
+    CRITICAL FIX. The HTTP tier's detect_captcha() is a substring match on the
+    HTML, so it flagged 1,429 pages as captcha when the widget never loaded.
+    Here we require a real widget ELEMENT (or a live iframe) plus a sitekey.
+
+    Returns (kind, sitekey, response_field) or ("", "", "").
+    """
+    js = """() => {
+      const out = {kind:'', key:'', field:''};
+      const pick = (sel) => document.querySelector(sel);
+      let el = pick('.h-captcha,[data-hcaptcha-sitekey],div[class*=h-captcha]');
+      if (el) { out.kind='hcaptcha';
+                out.key = el.getAttribute('data-sitekey')||el.getAttribute('data-hcaptcha-sitekey')||'';
+                out.field='h-captcha-response'; }
+      if (!out.kind) {
+        el = pick('.g-recaptcha,[data-sitekey]');
+        if (el) { out.kind='recaptcha_v2';
+                  out.key = el.getAttribute('data-sitekey')||'';
+                  out.field='g-recaptcha-response'; }
+      }
+      if (!out.kind) {
+        el = pick('.cf-turnstile,[data-turnstile-sitekey]');
+        if (el) { out.kind='turnstile';
+                  out.key = el.getAttribute('data-sitekey')||'';
+                  out.field='cf-turnstile-response'; }
+      }
+      // fall back to reading the sitekey out of a live iframe src
+      if (!out.key) {
+        document.querySelectorAll('iframe').forEach(f => {
+          const s = f.src||'';
+          const m = s.match(/[?&](?:k|sitekey)=([^&]+)/);
+          if (m && !out.key) { out.key = decodeURIComponent(m[1]);
+            if (s.includes('hcaptcha')) out.kind='hcaptcha';
+            else if (s.includes('recaptcha')) { out.kind='recaptcha_v2'; out.field='g-recaptcha-response'; }
+            else if (s.includes('cloudflare')) out.kind='turnstile';
+          }
+        });
+      }
+      if (!out.field) {
+        if (out.kind==='hcaptcha') out.field='h-captcha-response';
+        else if (out.kind==='turnstile') out.field='cf-turnstile-response';
+        else out.field='g-recaptcha-response';
+      }
+      // ── KIND MUST FOLLOW THE KEY FORMAT, NOT A SELECTOR GUESS ─────────
+      // graff.com proved it: a widget was matched as hcaptcha, but the key
+      // "6LdNfLIZ..." is a GOOGLE key. hCaptcha keys are UUIDs
+      // (xxxxxxxx-xxxx-...). Sending a Google key as type=hcaptcha is a 422.
+      if (out.key) {
+        const isUUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(out.key);
+        const isGoogle = /^6[0-9A-Za-z_\\-]{38,}$/.test(out.key);
+        if (isGoogle) { out.kind='recaptcha_v2'; out.field='g-recaptcha-response'; }
+        else if (isUUID) { out.kind='hcaptcha'; out.field='h-captcha-response'; }
+        else if (/^0x[0-9A-Fa-f]+$/.test(out.key)) { out.kind='turnstile'; out.field='cf-turnstile-response'; }
+      }
+      // has the user token already landed?
+      out.token = '';
+      try { out.token = (document.querySelector('[name="'+out.field+'"]')||{}).value||''; } catch(e){}
+      out.hasWidget = !!(out.key || document.querySelector('iframe[src*="hcaptcha"],iframe[src*="recaptcha"],iframe[src*="cloudflare"]'));
+      return out;
+    }"""
+    try:
+        return page.evaluate(js)
+    except Exception:
+        return {"kind": "", "key": "", "field": "", "token": "", "hasWidget": False}
+
+
+def _solve_via_api(page, kind, sitekey, cfg, log):
+    """
+    Solve with NoneCap and inject the token into the form field.
+    Returns True if a token was injected.
+    """
+    try:
+        from core.solver import get_solver
+    except Exception as e:
+        log("solver import failed %s" % e)
+        return False
+    s = get_solver()
+    if not s.enabled:
+        log("solver DISABLED (no key)")
+        return False
+    log("calling NoneCap: %s sitekey=%s" % (kind, (sitekey or "")[:26]))
+    tok, note = s.solve(kind, sitekey, page.url,
+                        user_agent=(cfg.get("user_agent") or None))
+    if not tok:
+        log("  solve FAILED (%s) %s" % (note, s.last_error[:60]))
+        return False
+    log("  solved (%s) token len=%d" % (note, len(tok)))
+    field = {"hcaptcha": "h-captcha-response",
+             "turnstile": "cf-turnstile-response"}.get(kind, "g-recaptcha-response")
+    # inject into every matching element, incl. the textarea hCaptcha uses
+    js = """([field, tok]) => {
+      let n = 0;
+      document.querySelectorAll('[name="'+field+'"], #'+field).forEach(el => {
+        el.value = tok; n++;
+        el.dispatchEvent(new Event('input', {bubbles:true}));
+        el.dispatchEvent(new Event('change', {bubbles:true}));
+      });
+      // also set the hidden textarea hCaptcha/recaptcha expect
+      let t = document.querySelector('textarea[name="'+field+'"]');
+      if (!t) { t = document.createElement('textarea'); t.name = field; t.style.display='none';
+                document.body.appendChild(t); n++; }
+      t.value = tok;
+      return n;
+    }"""
+    try:
+        n = page.evaluate(js, [field, tok])
+        log("  injected token into %d field(s)" % n)
+        return True
+    except Exception as e:
+        log("  inject failed %s" % type(e).__name__)
+        return False
+
+
+def _click_captcha_checkbox(page, fr):
+    """
+    Click the 'I am not a robot' checkbox if it is present and unsolved.
+
+    The browser tier previously just clicked Submit and hoped the widget had
+    resolved on its own. That works for reCAPTCHA v3 (invisible) but is a coin
+    flip for hCaptcha / reCAPTCHA v2 / Turnstile, which need a real click.
+
+    Returns a short label if a widget was found, else "".
+    """
+    # reCAPTCHA v2, hCaptcha and Turnstile all ship the checkbox inside an
+    # iframe. Clicking the iframe's box position is more reliable than trying
+    # to pierce the cross-origin boundary.
+    CANDIDATES = [
+        ("recaptcha_v2", "iframe[src*='recaptcha/api2/anchor']"),
+        ("recaptcha_v2", "iframe[title*='reCAPTCHA']"),
+        ("hcaptcha", "iframe[src*='hcaptcha.com']"),
+        ("hcaptcha", "iframe[title*='hCaptcha']"),
+        ("turnstile", "iframe[src*='challenges.cloudflare.com']"),
+    ]
+    found = ""
+    for label, sel in CANDIDATES:
+        try:
+            frames = list(page.frames) if fr is page else [fr]
+            el = fr.locator(sel).first
+            if el.count() == 0:
+                continue
+            found = label
+            box = el.bounding_box()
+            if not box or box.get("width", 0) < 10:
+                continue
+            # Click into the widget. Small left offset lands on the checkbox,
+            # not the logo/text to the right.
+            fr.mouse.click(box["x"] + 18, box["y"] + box["height"] / 2)
+            page.wait_for_timeout(1200)
+        except Exception:
+            continue
+    return found
+
+
 def _fill_and_submit(page, inputs, mapping, cfg):
     """Fill by nth-of-type on the live DOM, then click the submit control."""
     filled = 0
@@ -100,7 +256,12 @@ def _fill_and_submit(page, inputs, mapping, cfg):
             continue
 
     if filled == 0:
-        return 0
+        return 0, ""
+
+    # Tick any captcha checkbox BEFORE submitting. Previously we clicked Submit
+    # blind, which silently under-delivers on hCaptcha / reCAPTCHA v2 /
+    # Turnstile (they require an interaction; only v3 is invisible).
+    cap = _click_captcha_checkbox(page, page)
 
     # Find a submit control
     clicked = False
@@ -129,15 +290,31 @@ def _fill_and_submit(page, inputs, mapping, cfg):
         except Exception:
             pass
 
-    return filled if clicked else 0
+    # Give the captcha/JS a moment to settle after submit
+    if clicked and cap:
+        page.wait_for_timeout(1500)
+
+    return (filled if clicked else 0), cap
 
 
 def attempt(url, cfg, ctx):
     """
     Browser attempt for one URL. Returns the same result dict shape as Tier 1.
+
+    WATCHDOG: rumanoffs.com wedged the whole run for 23 minutes because the
+    candidate list can hold up to 14 URLs and EVERY navigation silently ate the
+    default timeout when the page kept a connection open. With no outer bound,
+    one bad site blocked the loop forever (log frozen, CPU ~0, so it was
+    waiting not working).
+
+    Now the whole attempt is hard-bounded by `browser_site_budget` (default
+    90s). Past that we return a `timeout` verdict instead of hanging, and the
+    page is force-closed so the shared context stays sane for the next site.
     """
     import time as _t
     _T = _t.time()
+    budget = cfg.get("browser_site_budget", 90)
+    _timed_out = {"v": False}
 
     def _m(x):
         if cfg.get("_trace"):
@@ -146,6 +323,12 @@ def attempt(url, cfg, ctx):
     page = ctx.new_page()
     try:
         page.set_default_timeout(cfg.get("browser_timeout", 25000))
+        # Hard ceiling on any single navigation, so a dribbling server cannot
+        # burn the whole budget on one candidate.
+        try:
+            page.set_default_navigation_timeout(cfg.get("browser_nav_timeout", 30000))
+        except Exception:
+            pass
 
         # ── Phase 1: resolve the candidate list up front ────────────────────
         # candidate_urls() calls fetch() lazily while iterating, which used to
@@ -155,7 +338,7 @@ def attempt(url, cfg, ctx):
         try:
             for c in formdetect.candidate_urls(lambda u: _quick(u, page), url, cfg):
                 cand_list.append(c)
-                if len(cand_list) >= 14:
+                if len(cand_list) >= 14 or _t.time() - _T > budget:
                     break
         except Exception as e:
             _m("crawl error %s" % str(e)[:60])
@@ -172,9 +355,16 @@ def attempt(url, cfg, ctx):
 
         # ── Phase 2: try each candidate for real ────────────────────────────
         for hit, cand in enumerate(cand_list, 1):
+            # Budget check: stop burning wall-clock on one site. Return the
+            # best verdict we have rather than hanging the batch.
+            if _t.time() - _T > budget:
+                _m("  BUDGET EXCEEDED (%.0fs) after %d cands" % (_t.time() - _T, hit - 1))
+                _timed_out["v"] = True
+                break
+
             _m("cand %d %s" % (hit, cand))
             try:
-                page.goto(cand, timeout=cfg.get("browser_timeout", 25000),
+                page.goto(cand, timeout=cfg.get("browser_nav_timeout", 30000),
                           wait_until="domcontentloaded")
                 page.wait_for_timeout(600)
             except Exception as e:
@@ -203,27 +393,16 @@ def attempt(url, cfg, ctx):
                     continue
                 _m("  mapping: %s" % list(mapping.keys()))
 
-                n = _fill_and_submit(fr, inputs, mapping, cfg)
-                _m("  filled+submit -> %d" % n)
+                n, cap_seen = _fill_and_submit(fr, inputs, mapping, cfg)
+                _m("  filled+submit -> %d  captcha=%s" % (n, cap_seen or "-"))
                 if n:
-                    page.wait_for_timeout(2000)
-                    body = ""
-                    try:
-                        body = page.content()
-                    except Exception:
-                        pass
-                    ok = bool(SUCCESS_WORDS.search(body))
-                    return dict(
-                        ok=ok, status="submitted", tier="browser",
-                        detail="success wording found" if ok
-                               else "filled + submitted (no confirm text)",
-                        form_action=str(cand),
-                        fields_hit=",".join(
-                            str(fieldmap.classify(inputs[i].get("name", "") +
-                                                  inputs[i].get("id", "") +
-                                                  inputs[i].get("label", "")))
-                            for i in mapping),
-                    )
+                    return _verdict(page, cand, inputs, mapping, cfg, _m,
+                                    cap_seen)
+
+        if _timed_out["v"]:
+            return dict(ok=False, status="timeout", tier="browser",
+                        detail="site budget %.0fs exceeded" % budget,
+                        error="timeout")
         return dict(ok=False, status="no_form", tier="browser",
                     error="no fillable form found in browser")
     except Exception as e:
@@ -233,6 +412,100 @@ def attempt(url, cfg, ctx):
             page.close()
         except Exception:
             pass
+
+
+def _verdict(page, cand, inputs, mapping, cfg, _m, cap_seen):
+    """
+    Decide submitted vs failed with REAL evidence, after a submit click.
+
+    THE BUG: previously we waited 2.5s, grepped the page for
+    thank|success|sent|... and called it submitted. If a captcha puzzle
+    appeared and nobody solved it, the page still contained those words in its
+    static copy, so we reported a success that never happened.
+
+    Evidence hierarchy, strongest first:
+      1. success URL (thank-you / thanks / success path)
+      2. success wording AND the form is gone
+      3. an explicit ERROR / captcha-not-solved message  -> fail
+      4. success wording alone (weaker, but only if no error present)
+
+    Any captcha present is now SOLVED before we look.
+    """
+    # 1. give the captcha time to appear + solve it
+    wid = _detect_widget(page)
+    if wid.get("hasWidget") or wid.get("key"):
+        _m("  widget: kind=%s key=%s token=%s"
+           % (wid.get("kind"), (wid.get("key") or "")[:22], bool(wid.get("token"))))
+        if not wid.get("token") and wid.get("key"):
+            _solve_via_api(page, wid.get("kind") or "hcaptcha",
+                           wid.get("key"), cfg, _m)
+            page.wait_for_timeout(1500)
+            # re-submit so the site validates with the fresh token
+            try:
+                for sel in ("button[type='submit']", "input[type='submit']",
+                            "form button"):
+                    el = page.locator(sel).last
+                    if el.count() and el.is_visible():
+                        el.click(timeout=5000)
+                        _m("  re-submitted with token")
+                        break
+            except Exception:
+                pass
+
+    # 2. wait for a real post-submit state
+    page.wait_for_timeout(int(cfg.get("post_submit_wait", 5000)))
+    try:
+        page.wait_for_load_state("networkidle", timeout=8000)
+    except Exception:
+        pass
+
+    body = ""
+    try:
+        body = page.content()
+    except Exception:
+        pass
+    final_url = (page.url or "").lower()
+
+    link = ",".join(
+        str(fieldmap.classify(inputs[i].get("name", "") + inputs[i].get("id", "") +
+                              inputs[i].get("label", "")))
+        for i in mapping if i < len(inputs))
+
+    cap = ("captcha=%s; " % wid.get("kind")) if wid.get("kind") else ""
+
+    # strong: landed on a success URL
+    if re.search(r"thank|success|sent|received|confirm|merci|gracias|danke|bedankt", final_url):
+        return dict(ok=True, status="submitted", tier="browser",
+                    detail=cap + "redirected to success URL",
+                    form_action=str(cand), fields_hit=link)
+
+    # explicit failure signals
+    err = bool(re.search(
+        r"(please (complete|tick|verify|check)|captcha (is )?(required|invalid|incorrect)|"
+        r"not a robot|complete the captcha|verification failed|please try again|"
+        r"this field is required|must be filled)", body, re.I))
+
+    form_gone = not re.search(r"<form", body, re.I)
+    success_text = bool(SUCCESS_WORDS.search(body))
+
+    if err and not form_gone:
+        return dict(ok=False, status="needs_manual", tier="browser",
+                    detail=cap + "post-submit error/captcha notice, form still present",
+                    form_action=str(cand), fields_hit=link)
+
+    if success_text and form_gone:
+        return dict(ok=True, status="submitted", tier="browser",
+                    detail=cap + "success wording + form gone",
+                    form_action=str(cand), fields_hit=link)
+
+    if success_text:
+        return dict(ok=True, status="submitted", tier="browser",
+                    detail=cap + "success wording found",
+                    form_action=str(cand), fields_hit=link)
+
+    return dict(ok=False, status="needs_manual", tier="browser",
+                detail=cap + "submitted, no success/error signal",
+                form_action=str(cand), fields_hit=link)
 
 
 def _quick(u, page):
@@ -276,11 +549,12 @@ def run_batch(sites, cfg, on_result=None):
         _m("launching browser")
         browser = pw.chromium.launch(
             channel="msedge",
-            headless=True,
+            headless=not cfg.get("show_browser", False),
+            slow_mo=cfg.get("slow_mo", 0),
             args=["--disable-blink-features=AutomationControlled",
                   "--test-type", "--no-sandbox", "--disable-dev-shm-usage"],
         )
-        _m("browser launched")
+        _m("browser launched (headless=%s)" % (not cfg.get("show_browser", False)))
         ctx = browser.new_context(
             user_agent=cfg.get("user_agent"),
             viewport={"width": 1366, "height": 900},

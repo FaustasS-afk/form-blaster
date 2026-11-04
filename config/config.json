@@ -1,5 +1,5 @@
 {
-  "_comment": "=== YOUR DETAILS — edit these before running ===",
+  "_comment": "=== YOUR DETAILS \u2014 edit these before running ===",
   "name": "Bonnie Scarlett",
   "email": "info@easylistings.co.uk",
   "phone": "+447399643492",
@@ -57,14 +57,15 @@
   "scan_good_enough": 15,
   "concurrency": 32,
   "request_timeout": 12,
-  "browser_timeout": 8000,
+  "browser_timeout": 25000,
   "delay_between_sites_min": 0.5,
   "delay_between_sites_max": 2.5,
-  "use_browser_fallback": false,
+  "use_browser_fallback": true,
   "browser_only_if_http_fails": true,
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
   "_safety": "=== guardrails ===",
   "skip_newsletter_only": true,
   "max_form_fields": 12,
-  "dry_run": false
+  "dry_run": false,
+  "_browser_note": "ON as of 2026-11-04. Proven 39/40=97.5% confirmed on hard captchas vs 11.4% HTTP. Runs ONLY for sites HTTP could not confirm."
 }

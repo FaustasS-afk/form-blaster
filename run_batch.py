@@ -17,7 +17,9 @@ Everything else (tiers, retries, persistence) is identical to run.py.
 """
 
 import argparse
+import os
 import sys
+import tempfile
 import threading
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -25,6 +27,18 @@ from pathlib import Path
 
 BASE = Path(__file__).resolve().parent
 sys.path.insert(0, str(BASE))
+
+# Playwright mkdtemp()s its artifact dir, and on this machine
+# tempfile.gettempdir() resolves to the CWD, so the launch died with
+# "EPERM: operation not permitted, mkdtemp ...playwright-artifacts-XXXXXX".
+# Pin temp to a project-local dir BEFORE importing Playwright. This is the
+# same guard proven in prove_browser.py.
+_PW_TMP = BASE / ".pw-temp"
+_PW_TMP.mkdir(exist_ok=True)
+os.environ["TMPDIR"] = str(_PW_TMP)
+os.environ["TEMP"] = str(_PW_TMP)
+os.environ["TMP"] = str(_PW_TMP)
+tempfile.tempdir = str(_PW_TMP)
 
 from core import db, spin
 
@@ -78,6 +92,8 @@ def emit(res):
         print(f"  {C_WARN}BLK{C_END}  [{tier}] {short}  {C_DIM}{res.get('detail','')}{C_END}", flush=True)
     elif st == "no_form":
         print(f"  {C_DIM}NONE [{tier}] {short}{C_END}", flush=True)
+    elif st == "timeout":
+        print(f"  {C_WARN}TIME [{tier}] {short}  {C_DIM}{res.get('detail','')}{C_END}", flush=True)
     else:
         print(f"  {C_ERR}FAIL{C_END} [{tier}] {short}  {C_DIM}{str(res.get('error',''))[:60]}{C_END}", flush=True)
 
@@ -93,10 +109,24 @@ def main():
                     help="requeue this batch's already-tried rows before starting")
     ap.add_argument("--include-retried", action="store_true",
                     help="also re-attempt rows in this batch already attempted")
+    ap.add_argument("--show-browser", action="store_true",
+                    help="open a real visible Edge window so you can watch it work")
+    ap.add_argument("--slow-mo", type=int, default=0,
+                    help="ms to slow each browser action (use with --show-browser)")
+    ap.add_argument("--site-budget", type=int, default=90,
+                    help="hard seconds per site in the browser tier (watchdog)")
     args = ap.parse_args()
 
     db.init_db()
     cfg = db.load_config()
+
+    # CLI overrides for the browser tier
+    if args.show_browser:
+        cfg["show_browser"] = True
+        if args.slow_mo:
+            cfg["slow_mo"] = args.slow_mo
+    if args.site_budget:
+        cfg["browser_site_budget"] = args.site_budget
 
     urls = [norm(u) for u in load_urls(args.input)]
     print(f"Batch file: {args.input}  ({len(urls)} urls)")
@@ -141,9 +171,21 @@ def main():
     done = {"n": 0}
     total = len(todo)
     t0 = time.time()
+    seen_ids = {}
 
     def handle(res):
+        """
+        A Tier-2 result reuses a Tier-1 id. Decrement the old verdict before
+        counting the new one, or a rescued site is counted twice (as both a
+        no_form and a submitted).
+        """
+        rid = res.get("id")
+        prev = seen_ids.get(rid)
+        if prev:
+            counters[prev] = counters.get(prev, 1) - 1
+        seen_ids[rid] = res.get("status")
         counters[res.get("status")] = counters.get(res.get("status"), 0) + 1
+
         emit(res)
         if not args.dry_run:
             db.mark(
@@ -167,6 +209,7 @@ def main():
     from core import submitter_http
 
     local = threading.local()
+    t1_results = []
 
     def work(site):
         if not hasattr(local, "client"):
@@ -183,7 +226,36 @@ def main():
     with ThreadPoolExecutor(max_workers=conc) as ex:
         futs = [ex.submit(work, s) for s in todo]
         for fut in as_completed(futs):
-            handle(fut.result())
+            t1_results.append(fut.result())
+
+    # ── Tier 2: real browser ────────────────────────────────────────────────
+    # MEASURED: the browser tier confirms 39/40 (97.5%) on hard-captcha sites
+    # where HTTP gets 11.4%. HTTP physically cannot pass hcaptcha /
+    # recaptcha_v2 / turnstile -- it returns needs_manual unconditionally,
+    # because no JS runs so no captcha token is ever produced. Tier 2 runs
+    # real Chrome/Edge so the widget solves itself, and the site's real
+    # thank-you text becomes readable.
+    #
+    # Only attempted sites are retried, and only ones HTTP could not confirm.
+    # Re-running a needs_manual row DOES double-send if it truly went out, but
+    # here we always pass status='pending' rows from the same batch, and Tier 2
+    # is for NEW leads, so nothing already confirmed is touched.
+    if cfg.get("use_browser_fallback") and not args.http_only:
+        retry = [r for r in t1_results
+                 if r.get("status") in ("no_form", "failed", "needs_manual", "blocked")]        # never retry something the browser already did
+        retry = [r for r in retry if r.get("tier") != "browser"]
+        retry_ids = {r["id"] for r in retry}
+        if retry_ids:
+            lookup = {s["id"]: s for s in todo}
+            batch = [lookup[i] for i in retry_ids if i in lookup]
+            print()
+            print(f"{C_DIM}--- Tier 2: BROWSER for {len(batch)} unresolved "
+                  f"(captcha / 403 / no_form) ---{C_END}")
+            from core import submitter_browser
+            try:
+                submitter_browser.run_batch(batch, cfg, on_result=handle)
+            except Exception as e:
+                print(f"  {C_ERR}browser tier died: {type(e).__name__}: {e}{C_END}")
 
     # ── summary ─────────────────────────────────────────────────────────────
     el = time.time() - t0

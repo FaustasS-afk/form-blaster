@@ -21,8 +21,10 @@ BASE = HERE.parent                              # .../form-blaster
 sys.path.insert(0, str(BASE))
 
 DB = BASE / "data" / "formblaster.db"
-LOG_CANDIDATES = ["run_batch.log", "logs_run_new_forms.txt", "blast.log"]
-BATCH_CANDIDATES = ["_run_new_forms.txt", "leads_new_clean_forms.txt"]
+LOG_CANDIDATES = ["_send_apify.log", "run_batch.log", "_send.log",
+                  "leads_world/_send.log", "logs_run_new_forms.txt", "blast.log"]
+BATCH_CANDIDATES = ["_send_apify.txt", "leads_world/leads_world_all_forms.txt",
+                    "_run_new_forms.txt", "leads_new_clean_forms.txt"]
 
 from PyQt6.QtWidgets import (QApplication, QWidget, QVBoxLayout, QHBoxLayout,
                              QLabel, QTextEdit, QFrame, QProgressBar, QComboBox)

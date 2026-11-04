@@ -144,23 +144,53 @@ def detect_captcha(html):
 
     v3 scores the request invisibly and lets the POST through, so it should not
     block us. v2 / hCaptcha / Turnstile need a real human.
+
+    ── WHY THIS WAS REWRITTEN (2026-11-04) ─────────────────────────────────
+    The old version was a bare substring match: `if "hcaptcha" in html`.
+    Measured against a real browser, 1,429 pages were tagged as captcha when
+    NO WIDGET EVER LOADED -- "hcaptcha" appeared only inside a JS template
+    string / a lazy-loaded module name. Shopify contact pages are the worst
+    offenders: window.hcaptcha is undefined and there is no widget script.
+
+    Consequence: those pages were filed `needs_manual` UNCONDITIONALLY
+    (see the hard_captcha branch in attempt()), guaranteeing an unconfirmable
+    verdict on ~1,400 sites that had no captcha problem at all.
+
+    The fix requires actual EVIDENCE of a widget, not a word:
+      * a widget element WITH a sitekey, or
+      * a loader that will create one (the api.js script), AND
+      * for hCaptcha specifically, an element/attr, not just the noun.
+
+    Strongest-evidence first. Returns None when there is no real widget.
     """
     h = (html or "").lower()
 
-    if "hcaptcha" in h:
+    # ── ORDER MATTERS ───────────────────────────────────────────────────
+    # graff.com proved it: an hCaptcha mention plus a data-sitekey was labelled
+    # hcaptcha, while the browser showed a reCAPTCHA widget. reCAPTCHA is
+    # checked FIRST when its api.js is actually loaded, because a page can
+    # mention hcaptcha (analytics, abandoned config) without using it.
+    grec_api = ("recaptcha/api.js" in h or "gstatic.com/recaptcha" in h
+                or "google.com/recaptcha" in h)
+    if grec_api:
+        if (re.search(r'class="[^"]*g-recaptcha[^"]*"', h) and "sitekey" in h) \
+           or re.search(r'g-recaptcha["\'][^>]{0,200}data-sitekey', h) \
+           or re.search(r'data-sitekey', h):
+            return "recaptcha_v2"
+        return "recaptcha_v3"
+
+    # ── hCaptcha: needs its OWN loader or a real widget element ─────────
+    hcap_el = re.search(r'class="[^"]*h-captcha[^"]*"', h)
+    hcap_attr = re.search(r'data-hcaptcha-sitekey', h)
+    hcap_api = re.search(r'hcaptcha\.com/1/api\.js|js\.hcaptcha\.com', h)
+    if hcap_el or hcap_attr or hcap_api:
         return "hcaptcha"
-    if "turnstile" in h or "challenges.cloudflare.com" in h:
+
+    # ── Turnstile ───────────────────────────────────────────────────────
+    if "challenges.cloudflare.com" in h or "cf-turnstile" in h:
         return "turnstile"
 
-    if "g-recaptcha" in h or "grecaptcha" in h or "recaptcha/api.js" in h:
-        # Data-sitekey with a visible widget class = v2 (interactive)
-        if re.search(r'class="[^"]*g-recaptcha[^"]*"', h) or \
-           re.search(r'data-sitekey', h) and 'g-recaptcha' in h:
-            if re.search(r'g-recaptcha["\'][^>]{0,200}data-sitekey', h) or \
-               re.search(r'data-sitekey[^>]{0,200}g-recaptcha', h):
-                return "recaptcha_v2"
-            return "recaptcha_v2"
-        # bare grecaptcha badge / v3 invisible
+    if "g-recaptcha" in h or "grecaptcha" in h:
         return "recaptcha_v3"
     return None
 
@@ -475,9 +505,13 @@ def _submit_form(form, inputs, mapping, soup, final_url, html, cfg, client):
                 return dict(ok=True, status="submitted", tier="http", http_code=code,
                             detail=capt + "silent-captcha, 2xx accepted",
                             form_action=action, fields_hit=fields_hit)
+        # A REAL interactive captcha with no token: this is the one case where
+        # the HTTP tier genuinely cannot know. Report it distinctly so the
+        # browser tier is clearly the answer, instead of lumping it with every
+        # other ambiguous 2xx.
         return dict(ok=False, status="needs_manual", tier="http", http_code=code,
-                    detail=capt + "no success signal", form_action=action,
-                    fields_hit=fields_hit)
+                    detail=capt + "interactive captcha, no token (needs browser/solver)",
+                    form_action=action, fields_hit=fields_hit)
 
     if code >= 400:
         return dict(ok=False, status="failed", tier="http", http_code=code,
